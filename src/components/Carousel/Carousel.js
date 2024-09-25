@@ -51,13 +51,13 @@ const ImageCarousel = () => {
       {/* Left and Right Navigation Buttons */}
       <button
         onClick={prevImage}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg"
+        className="absolute text-2xl ml-2 left-0 top-1/2 transform -translate-y-1/2 bg-transparent text-white p-2 rounded-full shadow-lg z-2"
       >
-        ❮
+        ❮  
       </button>
       <button
         onClick={nextImage}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg"
+        className="absolute text-2xl mr-2 right-0 top-1/2 transform -translate-y-1/2 bg-transparent text-white p-2 rounded-full shadow-lg z-2"
       >
         ❯
       </button>

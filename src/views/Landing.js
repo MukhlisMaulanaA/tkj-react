@@ -1,23 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 // components
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
 
 export default function Landing() {
 	return (
 		<>
-			<Navbar transparent />
+			<Navbar />
 			<main>
-				<div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+				<div
+					className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
+					id="home"
+				>
 					<ImageCarousel />
 					<div className="container relative mx-auto">
 						<div className="items-center flex flex-wrap">
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-								<div className="pr-12">
+								<div className="">
 									<h1 className="text-white font-semibold text-5xl">
 										PT. Tanjung Karya Jaya
 									</h1>
@@ -58,12 +60,12 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-											<i className="fas fa-award"></i>
+											<i class="fas fa-lightbulb"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Awarded Agency</h6>
+										<h6 className="text-xl font-semibold">Inovation</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Divide details about your product or agency work into
-											parts. A paragraph describing a feature will be enough.
+											Kami selalu berada di garis depan perubahan, menciptakan
+											solusi baru yang mengubah tantangan menjadi peluang.
 										</p>
 									</div>
 								</div>
@@ -73,12 +75,13 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-											<i className="fas fa-retweet"></i>
+											<i class="fas fa-cogs"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Free Revisions</h6>
+										<h6 className="text-xl font-semibold">Optimization</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Keep you user engaged by providing meaningful information.
-											Remember that by this time, the user is curious.
+											Dengan keahlian dan dedikasi, kami menghadirkan solusi
+											terbaik dalam setiap tantangan, memastikan hasil yang
+											optimal bagi setiap proyek.
 										</p>
 									</div>
 								</div>
@@ -88,47 +91,57 @@ export default function Landing() {
 								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
 									<div className="px-4 py-5 flex-auto">
 										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-											<i className="fas fa-fingerprint"></i>
+											<i class="fas fa-magic"></i>
 										</div>
-										<h6 className="text-xl font-semibold">Verified Company</h6>
+										<h6 className="text-xl font-semibold">Efficiency</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Write a few lines about each one. A paragraph describing a
-											feature will be enough. Keep you user engaged!
+											Kami memaksimalkan hasil dengan mengelola sumber daya
+											secara cerdas, menghadirkan nilai tertinggi bagi klien
+											tanpa kompromi pada kualitas.
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+				</section>
 
-						<div className="flex flex-wrap items-center mt-32">
+				<section className="pb-20 bg-blueGray-200" id="about">
+					<div className="container mx-auto px-4">
+						<div className="flex flex-wrap items-center pt-32">
 							<div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
 								<div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-									<i className="fas fa-user-friends text-xl"></i>
+									<i class="fas fa-info"></i>
 								</div>
 								<h3 className="text-3xl mb-2 font-semibold leading-normal">
-									Working with us is a pleasure
+									About Us
 								</h3>
-								<p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-									Don't let your uses guess by attaching tooltips and popoves to
-									any element. Just make sure you enable them first via
-									JavaScript.
+								<p className="text-lg font-medium leading-relaxed mt-4 mb-4 text-blueGray-600">
+									PT. Tanjung Karya Jaya (TKJ) adalah perusahaan yang bergerak
+									di bidang jasa konstruksi, khususnya di bidang Mekanikal
+									Elektrikal Plumbing dan HVAC. Kami merupakan perusahaan jasa
+									swasta yang berdiri pada tahun 2019, PT. TKJ telah memiliki
+									banyak pengalaman dan pelajaran berharga sehingga tangguh dan
+									dipercaya.
 								</p>
-								<p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-									The kit comes with three pre-built pages to help you get
-									started faster. You can change the text and images and you're
-									good to go. Just make sure you enable them first via
-									JavaScript.
+								<p className="text-lg font-medium leading-relaxed mt-0 mb-4 text-blueGray-600">
+									Kepercayaan yang diberikan oleh customer kami telah
+									menghasilkan karya-karya konstruksi dan hasil yang memuaskan
+									diberbagai sektor seperti gedung perkantoran, gedung
+									komersial, dan pabrik di kawasan industri.
 								</p>
-								<Link to="/" className="font-bold text-blueGray-700 mt-8">
-									Check Notus React!
-								</Link>
+								<p className="text-lg font-medium leading-relaxed mt-0 mb-4 text-blueGray-600">
+									Berkembangnya perusahaan kami tidak luput juga dari kerja sama
+									dan baik dengan seluruh mitra kerja perusahaan mulai dari
+									vendor material, sub-kontraktor dan pihak lainnya.
+								</p>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+								<div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
 									<img
 										alt="..."
-										src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+										src={require("assets/img/about.jpg")}
 										className="w-full align-middle rounded-t-lg"
 									/>
 									<blockquote className="relative p-8 mb-4">
@@ -144,13 +157,18 @@ export default function Landing() {
 											></polygon>
 										</svg>
 										<h4 className="text-xl font-bold text-white">
-											Top Notch Services
+											PT. Tanjung Karya Jaya
 										</h4>
 										<p className="text-md font-light mt-2 text-white">
-											The Arctic Ocean freezes every winter and much of the
-											sea-ice then thaws every summer, and that process will
-											continue whatever happens.
+											Inovasi untuk Lingkungan Optimal. Solusi terdepan dalam
+											aliran udara dan teknologi listrik pintar untuk kenyamanan
+											dan efisiensi.
 										</p>
+                    <button
+                      className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mt-4 ease-linear transition-all duration-200"
+                      type="button">
+                      Read More..
+                    </button>
 									</blockquote>
 								</div>
 							</div>

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
+// import "assets/styles/index.css";
 
 // layouts
 
@@ -12,7 +13,7 @@ import "assets/styles/tailwind.css";
 
 // views without layouts
 
-import Landing from "views/Landing.js";
+import Landing from "views/Landing.js"; 
 // import Profile from "views/Profile.js";
 // import Index from "views/Index.js";
 
