@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
+import ProductCarousel from "components/Products/Products";
 
 export default function Landing() {
 	return (
@@ -194,7 +195,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="pb-20 bg-white" id="about">
+				<section className="pb-20 bg-white">
 					<div className="container mx-auto px-4">
 						<div className="flex justify-start items-center gap-5">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
@@ -217,7 +218,7 @@ export default function Landing() {
 								<div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4 pt-12 p-4">
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-                      <i class="fas fa-box text-xl"></i>
+											<i class="fas fa-box text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-2xl font-semibold lg:px-14 text-white">
 											Production
@@ -231,7 +232,7 @@ export default function Landing() {
 
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-                      <i class="fas fa-tools text-xl"></i>
+											<i class="fas fa-tools text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											Engineering
@@ -244,7 +245,7 @@ export default function Landing() {
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-                      <i class="fas fa-first-aid text-xl"></i>
+											<i class="fas fa-first-aid text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											HSE (Health, Safety, and Environment)
@@ -258,7 +259,7 @@ export default function Landing() {
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-                      <i class="fas fa-file-invoice-dollar text-xl"></i>
+											<i class="fas fa-file-invoice-dollar text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											Financial
@@ -276,6 +277,8 @@ export default function Landing() {
 						</div>
 					</div>
 				</section>
+
+        <ProductCarousel />
 
 				<section className="pt-20 pb-48">
 					<div className="container mx-auto px-4">

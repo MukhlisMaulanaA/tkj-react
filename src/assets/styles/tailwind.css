@@ -2283,6 +2283,14 @@ select {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.shadow-inner {
+  box-shadow: inset -2px 2px 20px rgba(0, 0, 0, 0.5)
+}
+
 
 * {
   --tw-shadow: 0 0 #0000;

@@ -83,7 +83,7 @@ const Navbar = () => {
 
 				{/* Burger Menu Button */}
 				<button
-					className={`md:hidden flex items-center p-2 ${
+					className={`md:hidden flex items-center p-2 focus:outline-none ${
 						colorTxt ? "text-blueGray-800" : "text-white"
 					}`}
 					onClick={() => setMenuOpen(!menuOpen)}
