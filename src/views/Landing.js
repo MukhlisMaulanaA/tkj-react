@@ -34,7 +34,8 @@ export default function Landing() {
 					</div>
 					<div
 						className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}>
+						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}
+					>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,8 @@ export default function Landing() {
 							version="1.1"
 							viewBox="0 0 2560 100"
 							x="0"
-							y="0">
+							y="0"
+						>
 							<polygon
 								className="text-blueGray-200 fill-current"
 								points="2560 0 2560 100 0 100"
@@ -128,11 +130,12 @@ export default function Landing() {
 									diberbagai sektor seperti gedung perkantoran, gedung
 									komersial, dan pabrik di kawasan industri.
 								</p>
-								<p className="text-lg font-medium leading-relaxed mt-0 mb-4 text-blueGray-600">
-									Berkembangnya perusahaan kami tidak luput juga dari kerja sama
-									dan baik dengan seluruh mitra kerja perusahaan mulai dari
-									vendor material, sub-kontraktor dan pihak lainnya.
-								</p>
+								<button
+									className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+									type="button"
+								>
+									Read More..
+								</button>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -162,11 +165,6 @@ export default function Landing() {
 											aliran udara dan teknologi listrik pintar untuk kenyamanan
 											dan efisiensi.
 										</p>
-                    <button
-                      className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mt-4 ease-linear transition-all duration-200"
-                      type="button">
-                      Read More..
-                    </button>
 									</blockquote>
 								</div>
 							</div>
@@ -194,76 +192,87 @@ export default function Landing() {
 							></polygon>
 						</svg>
 					</div>
+				</section>
 
+				<section className="pb-20 bg-white" id="about">
 					<div className="container mx-auto px-4">
-						<div className="items-center flex flex-wrap">
-							<div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-								<img
-									alt="..."
-									className="max-w-full rounded-lg shadow-lg"
-									src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-								/>
+						<div className="flex justify-end items-center gap-5">
+							<div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
+								<i className="fas fa-rocket text-xl"></i>
 							</div>
-							<div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-								<div className="md:pr-12">
-									<div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
-										<i className="fas fa-rocket text-xl"></i>
-									</div>
-									<h3 className="text-3xl font-semibold">A growing company</h3>
-									<p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-										The extension comes with three pre-built pages to help you
-										get started faster. You can change the text and images and
-										you're good to go.
-									</p>
-									<ul className="list-none mt-6">
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-														<i className="fas fa-fingerprint"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-blueGray-500">
-														Carefully crafted components
-													</h4>
-												</div>
-											</div>
-										</li>
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-														<i className="fab fa-html5"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-blueGray-500">
-														Amazing page examples
-													</h4>
-												</div>
-											</div>
-										</li>
-										<li className="py-2">
-											<div className="flex items-center">
-												<div>
-													<span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
-														<i className="far fa-paper-plane"></i>
-													</span>
-												</div>
-												<div>
-													<h4 className="text-blueGray-500">
-														Dynamic components
-													</h4>
-												</div>
-											</div>
-										</li>
-									</ul>
+							<h3 className="text-3xl font-semibold ml-2">Our Division</h3>
+						</div>
+					</div>
+					<div className="container mx-auto -px-4">
+						<div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4 pt-12 p-4">
+
+							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
+								<div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
+									<i className="fas fa-rocket text-xl"></i>
 								</div>
+								<h1 className="text-darken mb-3 text-2xl font-medium lg:px-14 text-white">
+									Production
+								</h1>
+								<p className="px-4 text-white">
+                Kami hanya menyediakan produk premium melalui proses penjaminan mutu, percepatan inovasi, teknologi modern dan sumber daya manusia yang unggul.
+								</p>
 							</div>
+
+							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
+								<div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
+									<i className="fas fa-rocket text-xl"></i>
+								</div>
+								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+									TREE AND SHRUB PRUNING
+								</h1>
+								<p className="px-4 text-white">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+									iure inventore amet modi accusantium vero perspiciatis,
+									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
+									consectetur adipisicing elit. Quo iure inventore amet modi
+									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+								</p>
+							</div>
+							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
+								<div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
+									<i className="fas fa-rocket text-xl"></i>
+								</div>
+								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+									TREE AND SHRUB PRUNING
+								</h1>
+								<p className="px-4 text-white">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+									iure inventore amet modi accusantium vero perspiciatis,
+									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
+									consectetur adipisicing elit. Quo iure inventore amet modi
+									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+								</p>
+							</div>
+							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
+								<div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
+									<i className="fas fa-rocket text-xl"></i>
+								</div>
+								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+									TREE AND SHRUB PRUNING
+								</h1>
+								<p className="px-4 text-white">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+									iure inventore amet modi accusantium vero perspiciatis,
+									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
+									consectetur adipisicing elit. Quo iure inventore amet modi
+									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+								</p>
+							</div>
+
 						</div>
 					</div>
 				</section>
+
+				{/* <section className="pb-20 -mt-24">
+					<div className="container mx-auto px-4">
+						
+					</div>
+				</section> */}
 
 				<section className="pt-20 pb-48">
 					<div className="container mx-auto px-4">
