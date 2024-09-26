@@ -1,6 +1,7 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
 
+
 module.exports = {
   purge: {
     enabled: true,
@@ -29,7 +30,6 @@ module.exports = {
       fontSize: {
         55: "55rem",
       },
-      
       opacity: {
         80: ".8",
       },
@@ -81,6 +81,7 @@ module.exports = {
         full: "100%",
       },
     },
+    fontFamily: ['Poppins', 'sans-serif'],
   },
   variants: [
     "responsive",
