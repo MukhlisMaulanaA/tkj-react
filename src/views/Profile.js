@@ -1,19 +1,21 @@
 import React from "react";
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import background from "assets/img/carousel2.jpg";
+
+
+import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Profile() {
   return (
     <>
-      <Navbar transparent />
+      <Navbar />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
+              backgroundImage: `url(${background})`,
             }}
           >
             <span
@@ -50,7 +52,7 @@ export default function Profile() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src={require("assets/img/team-2-800x800.jpg").default}
+                        src={require("assets/img/logo-tkj-circle.png")}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
@@ -96,19 +98,23 @@ export default function Profile() {
                 </div>
                 <div className="text-center mt-12">
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                    Jenna Stones
+                    PT. Tanjung Karya Jaya
                   </h3>
                   <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
-                    Los Angeles, California
+                    Kabupaten Bekasi, Jawa Barat
                   </div>
                   <div className="mb-2 text-blueGray-600 mt-10">
                     <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Solution Manager - Creative Tim Officer
+                    Kontraktor Mechanical - Electrical - Plumbing dan HVAC
                   </div>
                   <div className="mb-2 text-blueGray-600">
-                    <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
-                    University of Computer Science
+                    <i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
+                    <a href="mailto:Tanjungkaryajaya@yahoo.com">Tanjungkaryajaya@yahoo.com</a>
+                  </div>
+                  <div className="mb-2 text-blueGray-600">
+                    <i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
+                    <a href="mailto:Office.tkj@yahoo.com">Office.tkj@yahoo.com</a>
                   </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
