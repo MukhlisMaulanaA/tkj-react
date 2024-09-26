@@ -116,24 +116,23 @@ export default function Profile() {
                     <i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
                     <a href="mailto:Office.tkj@yahoo.com">Office.tkj@yahoo.com</a>
                   </div>
+                  <div className="mb-2 text-blueGray-600">
+                    <i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
+                    <a href="https://wa.me/628561539431">08561539431</a>
+                  </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An artist of considerable range, Jenna the name taken by
-                        Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                        performs and records all of his own music, giving it a
-                        warm, intimate feel with a solid groove structure. An
-                        artist of considerable range.
+                        PT. Tanjung Karya Jaya (TKJ) adalah perusahaan yang bergerak di bidang jasa konstruksi, khususnya di bidang Mekanikal Elektrikal  Plumbing dan HVAC. Kami merupakan perusahaan jasa swasta yang berdiri pada tahun 2019, PT. TKJ telah memiliki banyak pengalaman dan  pelajaran berharga sehingga tangguh dan dipercaya.
                       </p>
-                      <a
-                        href="#pablo"
-                        className="font-normal text-lightBlue-500"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Show more
-                      </a>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                        Kepercayaan yang diberikan oleh customer kami telah menghasilkan karya-karya konstruksi dan hasil yang memuaskan diberbagai sektor  seperti gedung perkantoran, gedung komersial, dan pabrik di kawasan industri.
+                      </p>
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                        Berkembangnya perusahaan kami tidak luput juga dari kerja sama dan baik dengan seluruh mitra kerja perusahaan mulai dari vendor   material, sub-kontraktor dan pihak lainnya.
+                      </p>
                     </div>
                   </div>
                 </div>
