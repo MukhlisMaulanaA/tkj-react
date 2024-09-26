@@ -219,10 +219,10 @@ export default function Landing() {
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
                       <i class="fas fa-box text-xl"></i>
 										</div>
-										<h1 className="text-darken mb-3 text-2xl font-medium lg:px-14 text-white">
+										<h1 className="text-darken mb-3 text-2xl font-semibold lg:px-14 text-white">
 											Production
 										</h1>
-										<p className="px-4 text-white">
+										<p className="px-4 text-white font-light">
 											Kami hanya menyediakan produk premium melalui proses
 											penjaminan mutu, percepatan inovasi, teknologi modern dan
 											sumber daya manusia yang unggul.
@@ -233,10 +233,10 @@ export default function Landing() {
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
                       <i class="fas fa-tools text-xl"></i>
 										</div>
-										<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											Engineering
 										</h1>
-										<p className="px-4 text-white">
+										<p className="px-4 text-white font-light">
 											Tim kreatif yang mengubah kebutuhan pelanggan kami menjadi
 											produk dengan spesifikasi sempurna, konstruksi presisi,
 											ekonomis, dan fungsi keselamatan.
@@ -246,10 +246,10 @@ export default function Landing() {
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
                       <i class="fas fa-first-aid text-xl"></i>
 										</div>
-										<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											HSE (Health, Safety, and Environment)
 										</h1>
-										<p className="px-4 text-white">
+										<p className="px-4 text-white font-light">
 											Komitmen untuk mencapai nol bahaya bagi karyawan,
 											lingkungan dan properti untuk praktik kesehatan,
 											keselamatan, dan lingkungan kerja yang efektif dan
@@ -260,10 +260,10 @@ export default function Landing() {
 										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
                       <i class="fas fa-file-invoice-dollar text-xl"></i>
 										</div>
-										<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
+										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
 											Financial
 										</h1>
-										<p className="px-4 text-white">
+										<p className="px-4 text-white font-light">
 											Menjalankan aktivitas keuangan Perusahaan dengan
 											integritas, akurasi dan keberlanjutan, menjaga aset
 											keuangan, menetapkan kebijakan dan prosedur akuntansi
