@@ -14,7 +14,7 @@ import "assets/styles/index.css";
 // views without layouts
 
 import Landing from "views/Landing.js"; 
-// import Profile from "views/Profile.js";
+import Profile from "views/Profile.js";
 // import Index from "views/Index.js";
 
 ReactDOM.render(
@@ -25,7 +25,7 @@ ReactDOM.render(
       {/* <Route path="/auth" component={Auth} /> */}
       {/* add routes without layouts */}
       <Route path="/" exact component={Landing} />
-      {/* <Route path="/profile" exact component={Profile} /> */}
+      <Route path="/profile" exact component={Profile} />
       {/* <Route path="/" exact component={Index} /> */}
       {/* add redirect for first page */}
       <Redirect from="*" to="/" exact component={Landing}/>

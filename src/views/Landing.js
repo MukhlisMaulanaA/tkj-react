@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+
 
 // components
 
@@ -131,12 +133,12 @@ export default function Landing() {
 									diberbagai sektor seperti gedung perkantoran, gedung
 									komersial, dan pabrik di kawasan industri.
 								</p>
-								<button
-									className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
-									type="button"
-								>
-									Read More..
-								</button>
+                <Link
+                  to="/profile"
+                  className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+                  type="button">
+                  Read More..
+                </Link>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
