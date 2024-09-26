@@ -223,14 +223,10 @@ export default function Landing() {
 									<i className="fas fa-rocket text-xl"></i>
 								</div>
 								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
-									TREE AND SHRUB PRUNING
+									Engineering
 								</h1>
 								<p className="px-4 text-white">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-									iure inventore amet modi accusantium vero perspiciatis,
-									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
-									consectetur adipisicing elit. Quo iure inventore amet modi
-									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+                  Tim kreatif yang mengubah kebutuhan pelanggan kami menjadi produk dengan spesifikasi sempurna, konstruksi presisi, ekonomis, dan fungsi   keselamatan.
 								</p>
 							</div>
 							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -238,14 +234,10 @@ export default function Landing() {
 									<i className="fas fa-rocket text-xl"></i>
 								</div>
 								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
-									TREE AND SHRUB PRUNING
+									HSE (Health, Safety, and Environment)
 								</h1>
 								<p className="px-4 text-white">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-									iure inventore amet modi accusantium vero perspiciatis,
-									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
-									consectetur adipisicing elit. Quo iure inventore amet modi
-									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+                  Komitmen untuk mencapai nol bahaya bagi karyawan, lingkungan dan properti untuk praktik kesehatan, keselamatan, dan lingkungan kerja yang   efektif dan ditingkatkan di setiap aktivitas.
 								</p>
 							</div>
 							<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -253,14 +245,10 @@ export default function Landing() {
 									<i className="fas fa-rocket text-xl"></i>
 								</div>
 								<h1 className="text-darken mb-3 text-xl font-medium lg:px-14 text-white">
-									TREE AND SHRUB PRUNING
+									Financial
 								</h1>
 								<p className="px-4 text-white">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-									iure inventore amet modi accusantium vero perspiciatis,
-									incidunt dicta sed aspernatur! Lorem ipsum dolor sit amet
-									consectetur adipisicing elit. Quo iure inventore amet modi
-									accusantium vero perspiciatis, incidunt dicta sed aspernatur!
+                  Menjalankan aktivitas keuangan Perusahaan dengan integritas, akurasi dan keberlanjutan, menjaga aset keuangan, menetapkan kebijakan dan   prosedur akuntansi serta memberikan layanan terbaik kepada perusahaan dan pelanggan.
 								</p>
 							</div>
 
