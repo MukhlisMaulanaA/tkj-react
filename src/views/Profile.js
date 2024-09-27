@@ -152,7 +152,7 @@ export default function Profile() {
 								</div>
 							</div>
 							<div className="px-6">
-								<div className="flex flex-wrap items-center">
+								<div className="flex flex-wrap items-center border-t">
 									<div className="w-full lg:w-4/12 px-4 flex justify-center">
 										<img
 											alt="..."
@@ -162,63 +162,30 @@ export default function Profile() {
 									</div>
 
 									<div className="w-full lg:w-8/12 px-4">
-										<div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4 pt-12 p-4">
-											<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
-												<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-													<i class="fas fa-box text-xl"></i>
-												</div>
-												<h1 className="text-darken mb-3 text-2xl font-semibold lg:px-14 text-white">
-													Production
+										<div className="grid md:grid-cols-1 pt-12 p-4">
+											<div className="rounded-lg p-2 mb-4">
+												<h1 className="text-darken mb-3 text-2xl font-semibold text-blueGray-800">
+													Vision
 												</h1>
-												<p className="px-4 text-white font-light">
-													Kami hanya menyediakan produk premium melalui proses
-													penjaminan mutu, percepatan inovasi, teknologi modern
-													dan sumber daya manusia yang unggul.
+												<p className="text-blueGray-800 text-lg font-regular">
+                          Menjadi perusahaan kontruksi terbaik di Indonesia yang  menekan pada perkembangan yang berkesinambungan, kepuasan  pelanggan dan kesejahteraan pada pemangku kepentingan  melalui penerapan tata kelola yang baik dan komitmen   terhadap tanggungjawab sosial.
 												</p>
 											</div>
 
-											<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
-												<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-													<i class="fas fa-tools text-xl"></i>
-												</div>
-												<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
-													Engineering
+											<div className="rounded-lg p-2 mb-4">
+												<h1 className="text-darken mb-3 text-2xl font-semibold text-blueGray-800">
+													Mission
 												</h1>
-												<p className="px-4 text-white font-light">
-													Tim kreatif yang mengubah kebutuhan pelanggan kami
-													menjadi produk dengan spesifikasi sempurna, konstruksi
-													presisi, ekonomis, dan fungsi keselamatan.
-												</p>
+                        <ul className="px-4 list-disc">
+                          <li className="text-blueGray-800 text-lg font-regular">
+                            Menyeragamkan pandangan antara pihak manajemen dan  karyawan dalam mempertahankan nilai perusahaan dan   mencapai tujuan bersama.
+                          </li>
+                          <li className="text-blueGray-800 text-lg font-regular">
+                            Memberikan pelatihan dan melaksanakan proses recruitment  sumber daya manusia yang tepat untuk menghasilkan tenaga   kerja yang kompeten dibidangnya, berdedikasi dan  bersemangat tinggi sesuai budaya perusahaan guna   mencapai tujuan bersama.
+                          </li>
+                        </ul>
 											</div>
-											<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
-												<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-													<i class="fas fa-first-aid text-xl"></i>
-												</div>
-												<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
-													HSE (Health, Safety, and Environment)
-												</h1>
-												<p className="px-4 text-white font-light">
-													Komitmen untuk mencapai nol bahaya bagi karyawan,
-													lingkungan dan properti untuk praktik kesehatan,
-													keselamatan, dan lingkungan kerja yang efektif dan
-													ditingkatkan di setiap aktivitas.
-												</p>
-											</div>
-											<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
-												<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
-													<i class="fas fa-file-invoice-dollar text-xl"></i>
-												</div>
-												<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
-													Financial
-												</h1>
-												<p className="px-4 text-white font-light">
-													Menjalankan aktivitas keuangan Perusahaan dengan
-													integritas, akurasi dan keberlanjutan, menjaga aset
-													keuangan, menetapkan kebijakan dan prosedur akuntansi
-													serta memberikan layanan terbaik kepada perusahaan dan
-													pelanggan.
-												</p>
-											</div>
+
 										</div>
 									</div>
 								</div>  

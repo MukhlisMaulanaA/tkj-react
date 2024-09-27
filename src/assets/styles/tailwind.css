@@ -2292,6 +2292,10 @@ select {
   box-shadow: inset -2px 2px 20px rgba(0, 0, 0, 0.5)
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 
 * {
   --tw-shadow: 0 0 #0000;
