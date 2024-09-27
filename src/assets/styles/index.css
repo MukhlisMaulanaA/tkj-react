@@ -4,8 +4,19 @@
 
 @tailwind utilities;
 
+@import url(tailwind.css);
+
 @layer base {
   html {
     font-family:'Poppins', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+  
+  .shadow-lightBlue-500\/50 {
+    --tw-shadow-color: #3b82f680;
+    --tw-shadow: var(--tw-shadow-colored);
+  }
+  
 }

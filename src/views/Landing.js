@@ -1,6 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 // components
 
@@ -8,6 +7,22 @@ import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
 import ProductCarousel from "components/Products/Products";
+import Accordion from "components/Accordion/Accordion";
+
+const accordionData = [
+	{
+		title: "Electrical",
+		content: ["Wiring", "Switches", "Lighting"],
+	},
+	{
+		title: "Mechanical",
+		content: ["HVAC", "Pipes", "Valves"],
+	},
+	{
+		title: "Plumbing",
+		content: ["Faucets", "Drains", "Pipes"],
+	},
+];
 
 export default function Landing() {
 	return (
@@ -37,7 +52,8 @@ export default function Landing() {
 					</div>
 					<div
 						className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}>
+						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}
+					>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -132,12 +148,13 @@ export default function Landing() {
 									diberbagai sektor seperti gedung perkantoran, gedung
 									komersial, dan pabrik di kawasan industri.
 								</p>
-                <Link
-                  to="/profile"
-                  className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
-                  type="button">
-                  Read More..
-                </Link>
+								<Link
+									to="/profile"
+									className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+									type="button"
+								>
+									Read More..
+								</Link>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -186,7 +203,8 @@ export default function Landing() {
 							version="1.1"
 							viewBox="0 0 2560 100"
 							x="0"
-							y="0">
+							y="0"
+						>
 							<polygon
 								className="text-white fill-current"
 								points="2560 0 2560 100 0 100"
@@ -277,7 +295,7 @@ export default function Landing() {
 						</div>
 					</div>
 				</section>
-        
+
 				<section className="pt-20 pb-48">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap justify-center text-center mb-24">
@@ -290,14 +308,13 @@ export default function Landing() {
 								</p>
 							</div>
 						</div>
-            <div class='flex items-center justify-center min-h-screen from-teal-100 via-teal-300 to-teal-500 bg-gradient-to-br' x-data="{ reportsOpen: false }">
-
-            </div>
+					</div>
+					<div className="container mx-auto px-4">
+						<Accordion data={accordionData} />
 					</div>
 				</section>
 
-        <ProductCarousel />
-
+				<ProductCarousel />
 
 				<section className="pb-20 relative block bg-blueGray-800">
 					<div
