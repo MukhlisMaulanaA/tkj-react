@@ -2296,6 +2296,11 @@ select {
   list-style-type: disc;
 }
 
+.shadow-lightBlue-500\/50 {
+  --tw-shadow-color: #3b82f680;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 
 * {
   --tw-shadow: 0 0 #0000;
@@ -2314,6 +2319,7 @@ select {
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);
 }
 
 .shadow-xl {

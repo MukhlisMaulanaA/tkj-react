@@ -1,43 +1,23 @@
 import React from "react";
-import {Link} from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 // components
 
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
-import ImageCarousel from "components/Carousel/Carousel.js";
 import ProductCarousel from "components/Products/Products";
+import ProductPage from "components/Products/ProductPage";
 
-export default function Landing() {
+export default function Product() {
 	return (
 		<>
 			<Navbar />
 			<main>
-				<div
-					className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
-					id="home"
-				>
-					<ImageCarousel />
-					<div className="container relative mx-auto">
-						<div className="items-center flex flex-wrap">
-							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-								<div className="">
-									<h1 className="text-white font-semibold text-5xl">
-										PT. Tanjung Karya Jaya
-									</h1>
-									<p className="mt-4 text-lg text-blueGray-200">
-										Konstruksi Berkualitas, Masa Depan Terpercaya: PT. Tanjung
-										Karya Jaya, Mitra Anda dalam Mekanikal, Elektrikal,
-										Plumbing, dan HVAC.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+				<section className="lg:pt-20 md:pt-32 pb-20 relative content-center items-center justify-center bg-blueGray-800">
 					<div
-						className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}>
+						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+						style={{ transform: "translateZ(0)" }}
+					>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -48,66 +28,26 @@ export default function Landing() {
 							y="0"
 						>
 							<polygon
-								className="text-blueGray-200 fill-current"
+								className="text-blueGray-800 fill-current"
 								points="2560 0 2560 100 0 100"
 							></polygon>
 						</svg>
 					</div>
-				</div>
 
-				<section className="pb-20 bg-blueGray-200 -mt-24">
-					<div className="container mx-auto px-4">
-						<div className="flex flex-wrap">
-							<div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-									<div className="px-4 py-5 flex-auto">
-										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-											<i class="fas fa-lightbulb"></i>
-										</div>
-										<h6 className="text-xl font-semibold">Inovation</h6>
-										<p className="mt-2 mb-4 text-blueGray-500">
-											Kami selalu berada di garis depan perubahan, menciptakan
-											solusi baru yang mengubah tantangan menjadi peluang.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div className="w-full md:w-4/12 px-4 text-center">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-									<div className="px-4 py-5 flex-auto">
-										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-											<i class="fas fa-cogs"></i>
-										</div>
-										<h6 className="text-xl font-semibold">Optimization</h6>
-										<p className="mt-2 mb-4 text-blueGray-500">
-											Dengan keahlian dan dedikasi, kami menghadirkan solusi
-											terbaik dalam setiap tantangan, memastikan hasil yang
-											optimal bagi setiap proyek.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div className="pt-6 w-full md:w-4/12 px-4 text-center">
-								<div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-									<div className="px-4 py-5 flex-auto">
-										<div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-											<i class="fas fa-magic"></i>
-										</div>
-										<h6 className="text-xl font-semibold">Efficiency</h6>
-										<p className="mt-2 mb-4 text-blueGray-500">
-											Kami memaksimalkan hasil dengan mengelola sumber daya
-											secara cerdas, menghadirkan nilai tertinggi bagi klien
-											tanpa kompromi pada kualitas.
-										</p>
-									</div>
-								</div>
+					<div className="container mx-auto px-4 lg:pt-24">
+						<div className="flex flex-wrap text-center justify-center">
+							<div className="w-full lg:w-6/12 px-4">
+								<h2 className="text-4xl font-semibold text-white">
+									Our Products
+								</h2>
+								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
+									Build with better quality.
+								</p>
 							</div>
 						</div>
 					</div>
 				</section>
-
+        <ProductPage />
 				<section className="pb-20 bg-blueGray-200" id="about">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap items-center pt-32">
@@ -132,12 +72,13 @@ export default function Landing() {
 									diberbagai sektor seperti gedung perkantoran, gedung
 									komersial, dan pabrik di kawasan industri.
 								</p>
-                <Link
-                  to="/profile"
-                  className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
-                  type="button">
-                  Read More..
-                </Link>
+								<Link
+									to="/profile"
+									className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+									type="button"
+								>
+									Read More..
+								</Link>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -186,7 +127,8 @@ export default function Landing() {
 							version="1.1"
 							viewBox="0 0 2560 100"
 							x="0"
-							y="0">
+							y="0"
+						>
 							<polygon
 								className="text-white fill-current"
 								points="2560 0 2560 100 0 100"
@@ -231,7 +173,7 @@ export default function Landing() {
 									</div>
 
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
-										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/50">
+										<div className="absolute mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-lightBlue-400 shadow-lg shadow-lightBlue-500/40">
 											<i class="fas fa-tools text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
@@ -278,7 +220,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-        <ProductCarousel />
+				<ProductCarousel />
 
 				<section className="pt-20 pb-48">
 					<div className="container mx-auto px-4">

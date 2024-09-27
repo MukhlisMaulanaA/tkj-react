@@ -1,7 +1,6 @@
 // src/components/ProductGrid.js
 import React from "react";
-import {Link} from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 const products = [
 	{
@@ -22,21 +21,31 @@ const products = [
 		description: "This is a brief description of Product 3.",
 		image: "https://via.placeholder.com/400x300",
 	},
+	{
+		id: 4,
+		name: "Product 4",
+		description: "This is a brief description of Product 4.",
+		image: "https://via.placeholder.com/400x300",
+	},
+	{
+		id: 5,
+		name: "Product 5",
+		description: "This is a brief description of Product 5.",
+		image: "https://via.placeholder.com/400x300",
+	},
+	{
+		id: 6,
+		name: "Product 6",
+		description: "This is a brief description of Product 6.",
+		image: "https://via.placeholder.com/400x300",
+	},
 	// Tambahkan produk lebih lanjut sesuai kebutuhan
 ];
 
-const ProductGrid = () => {
+const ProductPage = () => {
 	return (
-		<section className="pb-20 bg-white">
+		<section className="py-20 bg-white">
 			<div className="container mx-auto px-4">
-				{/* Section Header */}
-				<div className="flex justify-end items-center gap-5 mb-12">
-					<h3 className="text-3xl font-semibold ml-2">Products</h3>
-					<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
-						<i className="fas fa-shopping-cart text-xl"></i>
-					</div>
-				</div>
-
 				{/* Grid Layout */}
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
 					{products.map((product) => (
@@ -58,17 +67,9 @@ const ProductGrid = () => {
 						</div>
 					))}
 				</div>
-				<div className="flex justify-center">
-					<Link
-            to="/product"
-						className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
-						type="button">
-						Show More..
-					</Link>
-				</div>
 			</div>
 		</section>
 	);
 };
 
-export default ProductGrid;
+export default ProductPage;
