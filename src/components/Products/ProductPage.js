@@ -38,6 +38,12 @@ const products = [
 		description: "This is a brief description of Product 6.",
 		image: "https://via.placeholder.com/400x300",
 	},
+	{
+		id: 7,
+		name: "Product 7",
+		description: "This is a brief description of Product 7.",
+		image: "https://via.placeholder.com/400x300",
+	},
 	// Tambahkan produk lebih lanjut sesuai kebutuhan
 ];
 

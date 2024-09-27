@@ -35,6 +35,40 @@ const NavLink = withRouter(({ history, location, to, children, className }) => {
   );
 });
 
+const NavLinkAbout = withRouter(({ history, location, to, children, className }) => {
+  const handleClick = (event) => {
+    event.preventDefault();
+    
+    if (location.pathname !== '/') {
+      // Jika tidak di halaman utama, navigasi ke halaman utama
+      history.push('/');
+      // Setelah navigasi, scroll ke elemen dengan id 'about'
+      setTimeout(() => {
+        const element = document.getElementById('about');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // Jika sudah di halaman utama, langsung scroll ke elemen dengan id 'about'
+      const element = document.getElementById('about');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
+  return (
+    <Link
+      to={to}
+      className={className}
+      onClick={handleClick}
+    >
+      {children}
+    </Link>
+  );
+});
+
 const Navbar = () => {
 	const [navbarSolid, setNavbarSolid] = useState(false);
 	const [colorTxt, setColorTxt] = useState(false);
@@ -97,17 +131,23 @@ const Navbar = () => {
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200">
 						Home
 					</NavLink>
-					<a
-						href="#about"
+					<NavLinkAbout
+						to="/profile"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						About
-					</a>
+					</NavLinkAbout>
 					<a
 						href="#services"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						Services
+					</a>
+					<a
+						href="#services"
+						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
+					>
+						Products
 					</a>
 					<a
 						href="#contact"
