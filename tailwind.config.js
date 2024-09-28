@@ -81,7 +81,6 @@ module.exports = {
         full: "100%",
       },
     },
-    fontFamily: ['Poppins', 'sans-serif'],
   },
   variants: [
     "responsive",

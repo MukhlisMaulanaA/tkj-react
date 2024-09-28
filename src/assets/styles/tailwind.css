@@ -2296,12 +2296,6 @@ select {
   list-style-type: disc;
 }
 
-.shadow-lightBlue-500\/50 {
-  --tw-shadow-color: #3b82f680;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-
 * {
   --tw-shadow: 0 0 #0000;
 }

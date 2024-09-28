@@ -41,8 +41,7 @@ const ProductGrid = () => {
 					{products.map((product) => (
 						<div
 							key={product.id}
-							className="bg-white shadow-lg rounded-lg overflow-hidden"
-						>
+							className="bg-white shadow-lg rounded-lg overflow-hidden">
 							<img
 								src={product.image}
 								alt={product.name}
@@ -59,7 +58,7 @@ const ProductGrid = () => {
 				</div>
 				<div className="flex justify-center">
 					<Link
-            to="/product"
+            to="/products"
 						className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
 						type="button">
 						Show More..
