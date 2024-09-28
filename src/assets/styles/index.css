@@ -18,5 +18,13 @@
     --tw-shadow-color: #3b82f680;
     --tw-shadow: var(--tw-shadow-colored);
   }
+
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .border-l-4 {
+    border-left-width: 4px;
+  }
   
 }

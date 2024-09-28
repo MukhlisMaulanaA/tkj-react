@@ -5,24 +5,23 @@ const AccordionMenu = ({ menuItems }) => {
 
 	return (
 		<div className="flex flex-col md:flex-row items-start">
-			<div className="w-full lg:w-4/12 p-6 flex">
-				<ul className="flex md:block space-x-4 md:space-x-0 overflow-x-auto md:overflow-visible">
+			<div className="w-full lg:w-4/12 md:w-6/12 p-6">
+				<ul className="flex xl:flex-col md:flex-col sm:flex-row gap-4 space-x-4 md:space-x-0 overflow-x-auto md:overflow-visible">
 					{menuItems.map((item) => (
 						<li
 							key={item.id}
-							className={`cursor-pointer ${
+							className={`cursor-pointer text-left ${
 								selectedMenu.id === item.id
-									? "font-bold text-lightBlue-500 border-b-2 md:border-l-4 md:border-b-0 border-blue-600 pl-2"
+									? "font-bold text-blueGray-700 border-b-2 md:border-l-4 md:border-b-0 border-lightBlue-600 pl-2"
 									: "text-gray-600"
 							}`}
-							onClick={() => setSelectedMenu(item)}
-						>
+							onClick={() => setSelectedMenu(item)}>
 							{item.title}
 						</li>
 					))}
 				</ul>
 			</div>
-			<div className="w-full lg:w-10/12 px-4">
+			<div className="w-full lg:w-10/12 md:w-12/12 px-4">
 				<h1 className="text-2xl font-bold text-gray-800">
 					{selectedMenu.title}
 				</h1>
@@ -49,37 +48,46 @@ const App = () => {
 		},
 		{
 			id: 2,
-			title: "Privacy Policy",
+			title: "Electrical",
 			content: [
-        'Lorem 1', 'Lorem 2', 'Lorem 3'
+        'Supplay dan Pemasangan Lampu', 
+        'Supplay dan Pemasangan Tiang PJU', 
+        'Supplay Kabel dan Penarikan Kabel',
+        'Supplay Panel dan Setting',
+        'Supplay Trafo dan Setting',
+        'Supplay dan Pemasangan Penangkal Petir'
       ]
 		},
 		{
 			id: 3,
-			title: "Orders",
+			title: "Plumbing",
 			content: [
-        'Lorem 1', 'Lorem 2', 'Lorem 3'
+        'Pekerjaan Pipa Hidrant, Sprinkle (Fire Fighter)',
+        'Pekerjaan Pipa Air Bersih dan Air Kotor', 
+        'Pekerjaan Pipa Gas'
       ]
 		},
 		{
 			id: 4,
-			title: "Product & Stock",
+			title: "Pekerjaan HVAC",
 			content: [
-        'Lorem 1', 'Lorem 2', 'Lorem 3'
+        'Pekerjaan Ducting BJLS', 
+        'Pekerjaan Ducting V.U', 
+        'Supplay dan Install AC',
+        'Supplay dan Install AHU',
+        'Supplay dan Install Cooling Tower',
+        'Supplay dan Install Fan'
       ]
 		},
 		{
 			id: 5,
-			title: "My Account",
+			title: "Electronics Work",
 			content: [
-        'Lorem 1', 'Lorem 2', 'Lorem 3'
-      ]
-		},
-		{
-			id: 6,
-			title: "Refund Policy",
-			content: [
-        'Lorem 1', 'Lorem 2', 'Lorem 3'
+        'Supplay dan Install CCTV', 
+        'Supplay dan Install Audio System', 
+        'Supplay dan Install System BMS',
+        'Pekerjaan Telephone dan Kabel Data',
+        'Supplay dan Install Fire Alarm'
       ]
 		},
 	];

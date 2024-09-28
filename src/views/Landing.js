@@ -251,7 +251,7 @@ export default function Landing() {
 											<i class="fas fa-first-aid text-xl"></i>
 										</div>
 										<h1 className="text-darken mb-3 text-xl font-semibold lg:px-14 text-white">
-											HSE (Health, Safety, and Environment)
+											HSE <br /> (Health, Safety, and Environment)
 										</h1>
 										<p className="px-4 text-white font-light">
 											Komitmen untuk mencapai nol bahaya bagi karyawan,
@@ -285,17 +285,12 @@ export default function Landing() {
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap justify-center text-center mb-24">
 							<div className="w-full lg:w-6/12 px-4">
-								<h2 className="text-4xl font-semibold">Here are our heroes</h2>
-								<p className="text-lg leading-relaxed m-4 text-blueGray-500">
-									According to the National Oceanic and Atmospheric
-									Administration, Ted, Scambos, NSIDClead scentist, puts the
-									potentially record maximum.
-								</p>
+								<h2 className="text-4xl font-semibold">Our Services</h2>
 							</div>
 						</div>
+						<AccordionMenu />
 					</div>
 					<div className="container mx-auto px-4">
-						<AccordionMenu />
 					</div>
 				</section>
 
