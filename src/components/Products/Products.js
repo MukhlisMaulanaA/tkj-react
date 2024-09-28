@@ -26,7 +26,7 @@ const products = [
 
 const ProductGrid = () => {
 	return (
-		<section className="pb-20 bg-white">
+		<section className="py-40 bg-white" id="products">
 			<div className="container mx-auto px-4">
 				{/* Section Header */}
 				<div className="flex justify-end items-center gap-5 mb-12">

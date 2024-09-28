@@ -5,15 +5,15 @@ const AccordionMenu = ({ menuItems }) => {
 
 	return (
 		<div className="flex flex-col md:flex-row items-start">
-			<div className="w-full lg:w-4/12 md:w-6/12 p-6">
+			<div className="w-full lg:w-4/12 md:w-6/12 p-6 bg-blueGray-700 rounded-lg">
 				<ul className="flex xl:flex-col md:flex-col sm:flex-row gap-4 space-x-4 md:space-x-0 overflow-x-auto md:overflow-visible">
 					{menuItems.map((item) => (
 						<li
 							key={item.id}
 							className={`cursor-pointer text-left ${
 								selectedMenu.id === item.id
-									? "font-bold text-blueGray-700 border-b-2 md:border-l-4 md:border-b-0 border-lightBlue-600 pl-2"
-									: "text-gray-600"
+									? "font-bold text-blueGray-200 border-b-2 md:border-l-4 md:border-b-0 border-lightBlue-200 pl-2"
+									: "text-blueGray-100"
 							}`}
 							onClick={() => setSelectedMenu(item)}>
 							{item.title}
@@ -21,8 +21,8 @@ const AccordionMenu = ({ menuItems }) => {
 					))}
 				</ul>
 			</div>
-			<div className="w-full lg:w-10/12 md:w-12/12 px-4">
-				<h1 className="text-2xl font-bold text-gray-800">
+			<div className="w-full lg:w-10/12 md:w-12/12 px-4 mt-4">
+				<h1 className="text-2xl font-bold text-gray-700">
 					{selectedMenu.title}
 				</h1>
 				<ul className="list-disc pl-10 mt-4">

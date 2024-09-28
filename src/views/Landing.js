@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
-import ProductCarousel from "components/Products/Products";
+import Products from "components/Products/Products";
 import AccordionMenu from "components/Accordion/Accordion";
 
 export default function Landing() {
@@ -281,9 +281,9 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="pt-20 pb-48">
+				<section className="py-40 min-h-screen-75" id="services">
 					<div className="container mx-auto px-4">
-						<div className="flex flex-wrap justify-center text-center mb-24">
+						<div className="flex flex-wrap justify-center text-center mb-6">
 							<div className="w-full lg:w-6/12 px-4">
 								<h2 className="text-4xl font-semibold">Our Services</h2>
 							</div>
@@ -294,9 +294,9 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<ProductCarousel />
+				<Products />
 
-				<section className="pb-20 relative block bg-blueGray-800">
+				<section className="py-20 relative block bg-blueGray-800">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
 						style={{ transform: "translateZ(0)" }}
