@@ -288,9 +288,18 @@ export default function Landing() {
 								<h2 className="text-4xl font-semibold">Our Services</h2>
 							</div>
 						</div>
-						<AccordionMenu />
 					</div>
 					<div className="container mx-auto px-4">
+						<div className="flex flex-wrap items-start">
+							<div className="w-full lg:w-4/12 px-4 flex justify-center">
+								<img
+									alt="..."
+									src={require("assets/img/division.png")}
+									className="max-w-full rounded-lg shadow-lg bg-cover"
+								/>
+							</div>
+							<AccordionMenu />
+						</div>
 					</div>
 				</section>
 

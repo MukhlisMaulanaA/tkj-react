@@ -4,8 +4,8 @@ const AccordionMenu = ({ menuItems }) => {
 	const [selectedMenu, setSelectedMenu] = useState(menuItems[0]);
 
 	return (
-		<div className="flex flex-col md:flex-row items-start">
-			<div className="w-full lg:w-4/12 md:w-6/12 p-6 bg-blueGray-700 rounded-lg shadow-lg">
+		<div className="flex flex-col md:flex-row items-start mt-4 lg:w-8/12 w-full">
+			<div className="w-full lg:w-4/12 md:w-4/12 p-6 bg-blueGray-700 rounded-lg shadow-lg">
 				<ul className="flex xl:flex-col md:flex-col sm:flex-row gap-4 space-x-4 md:space-x-0 overflow-x-auto md:overflow-visible">
 					{menuItems.map((item) => (
 						<li
