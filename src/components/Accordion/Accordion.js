@@ -1,68 +1,90 @@
 import React, { useState } from "react";
 
-const AccordionItem = ({ title, content }) => {
-	const [isOpen, setIsOpen] = useState(false);
+const AccordionMenu = ({ menuItems }) => {
+	const [selectedMenu, setSelectedMenu] = useState(menuItems[0]);
 
 	return (
-		<div className="w-full max-w-lg px-10 py-8 mx-auto bg-white rounded-lg shadow-xl">
-			<div className="max-w-md mx-auto px-6 pt-2">
-				{/* Accordion Header */}
-				<div
-					onClick={() => setIsOpen(!isOpen)}
-					className="flex items-center text-gray-600 w-full border-b overflow-hidden mb-5 mx-auto cursor-pointer"
-				>
-					<div
-						className={`w-10 border-r px-2 transform transition duration-300 ease-in-out ${
-							isOpen ? "rotate-90" : "-translate-y-0.0"
-						}`}
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							strokeWidth="1.5"
-							stroke="currentColor"
-							className="w-6 h-6"
+		<div className="flex flex-col md:flex-row items-start">
+			<div className="w-full lg:w-4/12 p-6 flex">
+				<ul className="flex md:block space-x-4 md:space-x-0 overflow-x-auto md:overflow-visible">
+					{menuItems.map((item) => (
+						<li
+							key={item.id}
+							className={`cursor-pointer ${
+								selectedMenu.id === item.id
+									? "font-bold text-lightBlue-500 border-b-2 md:border-l-4 md:border-b-0 border-blue-600 pl-2"
+									: "text-gray-600"
+							}`}
+							onClick={() => setSelectedMenu(item)}
 						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-							/>
-						</svg>
-					</div>
-					<div className="flex items-center px-2 py-3">
-						<div className="mx-3">
-							<button className="hover:text-underline">
-								<span className="text-xl font-semibold">{title}</span>
-							</button>
-						</div>
-					</div>
-				</div>
-
-				{/* Accordion Content */}
-				{isOpen && (
-					<div className="flex px-6 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-6">
-						<ul className="list-disc">
-							{content.map((item, index) => (
-								<li key={index}>{item}</li>
-							))}
-						</ul>
-					</div>
-				)}
+							{item.title}
+						</li>
+					))}
+				</ul>
+			</div>
+			<div className="w-full lg:w-10/12 px-4">
+				<h1 className="text-2xl font-bold text-gray-800">
+					{selectedMenu.title}
+				</h1>
+				<ul className="list-disc pl-10 mt-4">
+          {selectedMenu.content.map((item, index) => (
+            <li key={index} className="text-gray-600 mb-2">{item}</li>
+          ))}
+        </ul>           
 			</div>
 		</div>
 	);
 };
 
-const Accordion = ({ data }) => {
-	return (
-		<div className="grid lg:grid-cols-3 md:grid-cols-1 gap-2">
-			{data.map((item, index) => (
-				<AccordionItem key={index} title={item.title} content={item.content} />
-			))}
-		</div>
-	);
+// Example usage
+const App = () => {
+	const menuItems = [
+		{
+			id: 1,
+			title: "Mechanical Work",
+			content: [
+        'Pekerjaan Pemasangan Lift', 
+        'Supplay dan Pemasangan Pompa'
+      ]
+		},
+		{
+			id: 2,
+			title: "Privacy Policy",
+			content: [
+        'Lorem 1', 'Lorem 2', 'Lorem 3'
+      ]
+		},
+		{
+			id: 3,
+			title: "Orders",
+			content: [
+        'Lorem 1', 'Lorem 2', 'Lorem 3'
+      ]
+		},
+		{
+			id: 4,
+			title: "Product & Stock",
+			content: [
+        'Lorem 1', 'Lorem 2', 'Lorem 3'
+      ]
+		},
+		{
+			id: 5,
+			title: "My Account",
+			content: [
+        'Lorem 1', 'Lorem 2', 'Lorem 3'
+      ]
+		},
+		{
+			id: 6,
+			title: "Refund Policy",
+			content: [
+        'Lorem 1', 'Lorem 2', 'Lorem 3'
+      ]
+		},
+	];
+
+	return <AccordionMenu menuItems={menuItems} />;
 };
 
-export default Accordion;
+export default App;

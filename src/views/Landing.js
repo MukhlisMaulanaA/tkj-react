@@ -7,22 +7,7 @@ import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
 import ProductCarousel from "components/Products/Products";
-import Accordion from "components/Accordion/Accordion";
-
-const accordionData = [
-	{
-		title: "Electrical",
-		content: ["Wiring", "Switches", "Lighting"],
-	},
-	{
-		title: "Mechanical",
-		content: ["HVAC", "Pipes", "Valves"],
-	},
-	{
-		title: "Plumbing",
-		content: ["Faucets", "Drains", "Pipes"],
-	},
-];
+import AccordionMenu from "components/Accordion/Accordion";
 
 export default function Landing() {
 	return (
@@ -310,7 +295,7 @@ export default function Landing() {
 						</div>
 					</div>
 					<div className="container mx-auto px-4">
-						<Accordion data={accordionData} />
+						<AccordionMenu />
 					</div>
 				</section>
 
