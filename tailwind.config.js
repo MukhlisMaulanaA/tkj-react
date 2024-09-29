@@ -11,7 +11,7 @@ module.exports = withMT ({
       "./public/**/*.html",
       "./public/*.html",
       "./src/**/*.js",
-      "./src/*.js",
+      "./src/*.js", 
       "./src/**/*.html",
       "./src/*.html",
       "./public/**/*.js",

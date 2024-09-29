@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
-import Products from "components/Products/Products";
-import AccordionMenu from "components/Accordion/Accordion";
+import Products from "components/Products/Products.js";
+import AccordionMenu from "components/Accordion/Accordion.js";
+import Gallery from "components/Gallery/Gallery.js";
 
 export default function Landing() {
 	return (
@@ -304,6 +305,18 @@ export default function Landing() {
 				</section>
 
 				<Products />
+
+				<section className="py-20 bg-white">
+					<div className="container mx-auto px-4">
+						<div className="flex justify-start items-center gap-5">
+							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
+								<i class="fas fa-users-cog text-xl"></i>
+							</div>
+							<h3 className="text-3xl font-semibold ml-2">Our Division</h3>
+						</div>
+						<Gallery />
+					</div>
+				</section>
 
 				<section className="py-20 relative block bg-blueGray-800">
 					<div
