@@ -1,11 +1,13 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
+const withMT = require("@material-tailwind/react/utils/withMT");
 
 
-module.exports = {
+module.exports = withMT ({
   purge: {
     enabled: true,
     content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
       "./public/**/*.html",
       "./public/*.html",
       "./src/**/*.js",
@@ -142,4 +144,4 @@ module.exports = {
       ]);
     }),
   ],
-};
+});
