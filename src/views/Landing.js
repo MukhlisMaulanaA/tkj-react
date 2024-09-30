@@ -25,12 +25,10 @@ export default function Landing() {
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 								<div className="">
 									<h1 className="text-white font-semibold text-5xl">
-										PT. Tanjung Karya Jaya
+                    Building Credibility
 									</h1>
 									<p className="mt-4 text-lg text-blueGray-200">
-										Konstruksi Berkualitas, Masa Depan Terpercaya: PT. Tanjung
-										Karya Jaya, Mitra Anda dalam Mekanikal, Elektrikal,
-										Plumbing, dan HVAC.
+										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal, Elektrikal, Plumbing, dan HVAC.
 									</p>
 								</div>
 							</div>
@@ -282,7 +280,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="py-30 min-h-screen-75" id="services">
+				<section className="py-30 mt-20" id="services">
 					<div className="container mx-auto px-4">
 						<div className="flex justify-start items-center gap-5 my-6">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
@@ -309,7 +307,7 @@ export default function Landing() {
 
 				<section className="py-20 bg-white">
 					<div className="container mx-auto px-4">
-						<div className="flex justify-start items-center gap-5 mb-4">
+						<div className="flex justify-start items-center gap-5 mb-8">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
 								<i class="fas fa-images text-xl"></i>
 							</div>

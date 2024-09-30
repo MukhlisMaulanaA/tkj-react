@@ -56,7 +56,7 @@ const ProductGrid = () => {
 						</div>
 					))}
 				</div>
-				<div className="flex justify-center">
+				<div className="flex justify-center mt-4">
 					<Link
             to="/products"
 						className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
