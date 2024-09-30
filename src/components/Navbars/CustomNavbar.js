@@ -238,12 +238,12 @@ const Navbar = () => {
 			{/* Dropdown menu for mobile */}
 			{menuOpen && (
 				<div className="md:hidden flex flex-col items-center bg-white text-blueGray-800 shadow-lg">
-					<a
+					<NavLink
 						href="#home"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						Home
-					</a>
+					</NavLink>
 					<a
 						href="#about"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
