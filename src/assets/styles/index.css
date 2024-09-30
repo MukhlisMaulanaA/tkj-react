@@ -27,5 +27,13 @@
   .border-l-4 {
     border-left-width: 4px;
   }
+
+  .gap-8 {
+    gap: 2rem;
+  }
+
+  .gap-12 {
+    gap: 3rem;
+  }
   
 }

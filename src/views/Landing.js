@@ -313,7 +313,7 @@ export default function Landing() {
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
 								<i class="fas fa-images text-xl"></i>
 							</div>
-							<h3 className="text-3xl font-semibold ml-2">Our Division</h3>
+							<h3 className="text-3xl font-semibold ml-2">Gallery</h3>
 						</div>
 						<Gallery />
 					</div>
