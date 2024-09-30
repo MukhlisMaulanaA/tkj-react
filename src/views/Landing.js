@@ -282,12 +282,13 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="py-40 min-h-screen-75" id="services">
+				<section className="py-30 min-h-screen-75" id="services">
 					<div className="container mx-auto px-4">
-						<div className="flex flex-wrap justify-center text-center mb-6">
-							<div className="w-full lg:w-6/12 px-4">
-								<h2 className="text-4xl font-semibold">Our Services</h2>
+						<div className="flex justify-start items-center gap-5 my-6">
+							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
+                <i class="fas fa-wrench text-xl"></i>
 							</div>
+							<h3 className="text-3xl font-semibold ml-2">Our Services</h3>
 						</div>
 					</div>
 					<div className="container mx-auto px-4">
@@ -310,7 +311,7 @@ export default function Landing() {
 					<div className="container mx-auto px-4">
 						<div className="flex justify-start items-center gap-5">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
-								<i class="fas fa-users-cog text-xl"></i>
+								<i class="fas fa-images text-xl"></i>
 							</div>
 							<h3 className="text-3xl font-semibold ml-2">Our Division</h3>
 						</div>

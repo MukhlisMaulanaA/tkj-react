@@ -2036,6 +2036,11 @@ select {
   padding-bottom: 6rem;
 }
 
+.py-30 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .py-40 {
   padding-top: 10rem;
   padding-bottom: 10rem;
