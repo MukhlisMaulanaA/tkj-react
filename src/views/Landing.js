@@ -309,7 +309,7 @@ export default function Landing() {
 
 				<section className="py-20 bg-white">
 					<div className="container mx-auto px-4">
-						<div className="flex justify-start items-center gap-5">
+						<div className="flex justify-start items-center gap-5 mb-4">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
 								<i class="fas fa-images text-xl"></i>
 							</div>
