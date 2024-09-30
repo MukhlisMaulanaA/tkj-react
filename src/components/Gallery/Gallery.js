@@ -6,17 +6,24 @@ import image3 from "assets/img/gallery3.png";
 import image4 from "assets/img/gallery4.png";
 import image5 from "assets/img/gallery5-resize.png";
 
-
 const MasonryGridGallery = () => {
 	return (
 		<div className="grid grid-cols-2 gap-4 md:grid-cols-4">
 			<div className="flex flex-col justify-between">
-				<div>
-					<img
-						className="h-auto max-w-full rounded-lg object-cover object-center"
-						src={image1}
-						alt="gallery-photo"
-					/>
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image1}
+							alt="gallery-photo"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="w-full text-sm absolute text-white bottom-0 p-4">
+							<h3 className="font-bold bottom-0 text-left">PT. Honda Precision Parts Manufacturing</h3>
+              <p>Pembuatan Akrilik</p>
+            </div>
+						</div>
+					</div>
 				</div>
 				<div>
 					<img

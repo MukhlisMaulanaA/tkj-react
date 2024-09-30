@@ -35,5 +35,24 @@
   .gap-12 {
     gap: 3rem;
   }
+
+  .bg-gradient-to-t-black {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.702), transparent, transparent);
+  }
+
+  .inset-0 {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .isolate {
+    isolation: isolate;
+  }
+
+  .bg-black\/50 {
+    background-color: rgba(0,0,0, 0.5)
+  }
   
 }
