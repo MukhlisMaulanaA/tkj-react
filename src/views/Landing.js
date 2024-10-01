@@ -9,6 +9,7 @@ import ImageCarousel from "components/Carousel/Carousel.js";
 import Products from "components/Products/Products.js";
 import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
+import Customer from "components/Customers/Customer.js";
 
 export default function Landing() {
 	return (
@@ -25,10 +26,11 @@ export default function Landing() {
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 								<div className="">
 									<h1 className="text-white font-semibold text-5xl">
-                    Building Credibility
+										Building Credibility
 									</h1>
 									<p className="mt-4 text-lg text-blueGray-200">
-										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal, Elektrikal, Plumbing, dan HVAC.
+										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal,
+										Elektrikal, Plumbing, dan HVAC.
 									</p>
 								</div>
 							</div>
@@ -115,7 +117,7 @@ export default function Landing() {
 								<div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
 									<i class="fas fa-info"></i>
 								</div>
-								<h3 className="text-3xl mb-2 font-semibold leading-normal">
+								<h3 className="text-4xl mb-2 font-semibold leading-normal">
 									About Us
 								</h3>
 								<p className="text-lg font-medium leading-relaxed mt-4 mb-4 text-blueGray-600">
@@ -203,7 +205,7 @@ export default function Landing() {
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
 								<i class="fas fa-users-cog text-xl"></i>
 							</div>
-							<h3 className="text-3xl font-semibold ml-2">Our Division</h3>
+							<h3 className="text-4xl font-semibold ml-2">Our Division</h3>
 						</div>
 					</div>
 					<div className="container mx-auto -px-4">
@@ -284,9 +286,9 @@ export default function Landing() {
 					<div className="container mx-auto px-4">
 						<div className="flex justify-start items-center gap-5 my-6">
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
-                <i class="fas fa-wrench text-xl"></i>
+								<i class="fas fa-wrench text-xl"></i>
 							</div>
-							<h3 className="text-3xl font-semibold ml-2">Our Services</h3>
+							<h3 className="text-4xl font-semibold ml-2">Our Services</h3>
 						</div>
 					</div>
 					<div className="container mx-auto px-4">
@@ -311,7 +313,7 @@ export default function Landing() {
 							<div className="text-blueGray-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 shadow-lg rounded-full bg-lightBlue-300">
 								<i class="fas fa-images text-xl"></i>
 							</div>
-							<h3 className="text-3xl font-semibold ml-2">Gallery</h3>
+							<h3 className="text-4xl font-semibold ml-2">Gallery</h3>
 						</div>
 						<Gallery />
 					</div>
@@ -320,7 +322,8 @@ export default function Landing() {
 				<section className="py-16 relative block bg-blueGray-800">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}>
+						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}
+					>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -328,26 +331,28 @@ export default function Landing() {
 							version="1.1"
 							viewBox="0 0 2560 100"
 							x="0"
-							y="0">
+							y="0"
+						>
 							<polygon
 								className="text-blueGray-800 fill-current"
-								points="2560 0 2560 100 0 100">
-              </polygon>
+								points="2560 0 2560 100 0 100"
+							></polygon>
 						</svg>
 					</div>
 
-					<div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap text-center justify-center">
 							<div className="w-full lg:w-6/12 px-4">
 								<h2 className="text-4xl font-semibold text-white">
 									Our Customers
 								</h2>
 								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Has completed projects in several companies including large companies and various industries.
+									Has completed projects in several companies including large
+									companies and various industries.
 								</p>
 							</div>
+							<Customer />
 						</div>
-            
 						{/* <div className="flex flex-wrap mt-12 justify-center">
 							<div className="w-full lg:w-3/12 px-4 text-center">
 								<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
@@ -389,7 +394,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+				{/* <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
 							<div className="w-full lg:w-6/12 px-4">
@@ -457,7 +462,7 @@ export default function Landing() {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</main>
 			<Footer />
 		</>
