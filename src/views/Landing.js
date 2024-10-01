@@ -351,8 +351,10 @@ export default function Landing() {
 									companies and various industries.
 								</p>
 							</div>
-							<Customer />
 						</div>
+					</div>
+					<div className="container mx-auto px-4">
+						<Customer />
 					</div>
 				</section>
 
@@ -368,7 +370,7 @@ export default function Landing() {
 									companies and various industries.
 								</p>
 							</div>
-							<div className="w-full flex flex-wrap lg:flex-col gap-4 justify-center">
+							<div className="w-full flex flex-wrap lg:flex-row gap-4 justify-center">
 								<div className="bg-white p-2 rounded-lg shadow-lg h-150-px w-200 flex justify-center items-center">
 									<div>
 										<div className="flex flex-row items-center gap-2 text-4xl md:text-2xl">
@@ -410,75 +412,143 @@ export default function Landing() {
 					</div>
 				</section>
 
-				{/* <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
+				<section class="bg-blueGray-800" id="contact">
 					<div className="container mx-auto px-4">
-						<div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-							<div className="w-full lg:w-6/12 px-4">
-								<div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
-									<div className="flex-auto p-5 lg:p-10">
-										<h4 className="text-2xl font-semibold">
-											Want to work with us?
-										</h4>
-										<p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-											Complete this form and we will get back to you in 24
-											hours.
+						<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+							<div class="mb-4">
+								<div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+									<h2 class="font-heading mb-4 font-bold tracking-tight text-white dark:text-white text-4xl sm:text-5xl">
+										Contact
+									</h2>
+									<p class="mx-auto mt-4 max-w-3xl text-xl text-white">
+										We're Here to Help
+									</p>
+								</div>
+							</div>
+							<div class="flex items-stretch justify-center">
+								<div class="grid md:grid-cols-2">
+									<div class="h-full pr-6">
+										<p class="mt-3 mb-12 text-lg text-white">
+											Class aptent taciti sociosqu ad litora torquent per
+											conubia nostra, per inceptos himenaeos. Duis nec ipsum
+											orci. Ut scelerisque sagittis ante, ac tincidunt sem
+											venenatis ut.
 										</p>
-										<div className="relative w-full mb-3 mt-8">
-											<label
-												className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-												htmlFor="full-name"
-											>
-												Full Name
-											</label>
-											<input
-												type="text"
-												className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-												placeholder="Full Name"
-											/>
-										</div>
-
-										<div className="relative w-full mb-3">
-											<label
-												className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-												htmlFor="email"
-											>
-												Email
-											</label>
-											<input
-												type="email"
-												className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-												placeholder="Email"
-											/>
-										</div>
-
-										<div className="relative w-full mb-3">
-											<label
-												className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-												htmlFor="message"
-											>
-												Message
-											</label>
-											<textarea
-												rows="4"
-												cols="80"
-												className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-												placeholder="Type a message..."
-											/>
-										</div>
-										<div className="text-center mt-6">
-											<button
-												className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-												type="button"
-											>
-												Send Message
-											</button>
-										</div>
+										<ul class="mb-6 md:mb-0">
+											<li class="flex ">
+												<div class="flex h-10 w-10 items-center justify-center rounded text-blueGray-50">
+													<i class="fas fa-map-marker-alt text-white text-2xl"></i>
+												</div>
+												<div class="ml-4 mb-4">
+													<h3 class="mb-2 text-lg font-medium leading-6 text-white">
+														Our Address
+													</h3>
+													<p class="text-white">
+														1230 Maecenas Street Donec Road
+													</p>
+													<p class="text-white">New York, EEUU</p>
+												</div>
+											</li>
+											<li class="flex">
+												<div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+													<i class="fas fa-phone-alt text-2xl text-white"></i>
+												</div>
+												<div class="ml-4 mb-4">
+													<h3 class="mb-2 text-lg font-medium leading-6 text-white">
+														Contact
+													</h3>
+													<p class="text-white dark:text-slate-400">
+														Mobile: +1 (123) 456-7890
+													</p>
+													<p class="text-white dark:text-slate-400">
+														Mail: tailnext@gmail.com
+													</p>
+												</div>
+											</li>
+											<li class="flex">
+												<div class="flex h-10 w-10 items-center justify-center rounded">
+													<i class="fas fa-clock text-2xl text-white"></i>
+												</div>
+												<div class="ml-4 mb-4">
+													<h3 class="mb-2 text-lg font-medium leading-6 text-white">
+														Working hours
+													</h3>
+													<p class="text-white dark:text-slate-400">
+														Monday - Friday: 08:00 - 17:00
+													</p>
+													<p class="text-white dark:text-slate-400">
+														Saturday &amp; Sunday: 08:00 - 12:00
+													</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
+										<h2 class="mb-4 text-2xl font-bold text-white">
+											Ready to Get Started?
+										</h2>
+										<form>
+											<div class="mb-6">
+												<div class="mx-0 mb-1 sm:mb-4">
+													<label
+														for="name"
+														class="pb-1 text-xs uppercase tracking-wider"
+													></label>
+													<input
+														type="text"
+														id="name"
+														autocomplete="given-name"
+														placeholder="Your name"
+														class="mb-2 w-full rounded border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+														name="name"
+													></input>
+												</div>
+											</div>
+											<div class="mx-0 mb-1 sm:mb-4">
+												<label
+													for="email"
+													class="pb-1 text-xs uppercase tracking-wider"
+												></label>
+												<input
+													type="email"
+													id="email"
+													autocomplete="email"
+													placeholder="Your email address"
+													class="mb-2 w-full rounded border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+													name="email"
+												></input>
+											</div>
+											<div class="mx-0 mb-1 sm:mb-4">
+												<label
+													for="textarea"
+													class="pb-1 text-xs uppercase tracking-wider"
+												></label>
+												<textarea
+													id="textarea"
+													name="textarea"
+													cols="30"
+													rows="5"
+													placeholder="Write your message..."
+													class="mb-2 w-full rounded border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+												></textarea>
+											</div>
+											<div class="text-center">
+												<Link>
+													<button
+														type="submit"
+														class="w-full bg-white text-blueGray-800 px-6 py-3 font-xl rounded sm:mb-0"
+													>
+														Send Message
+													</button>
+												</Link>
+											</div>
+										</form>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section> */}
+				</section>
 			</main>
 			<Footer />
 		</>

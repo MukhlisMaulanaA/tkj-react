@@ -86,5 +86,9 @@
   .w-200 {
     width: 200px;
   }
+
+  .place-items-center {
+    place-items: center;
+  }
   
 }

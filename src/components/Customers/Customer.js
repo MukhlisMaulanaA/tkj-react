@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import image1 from "assets/img/google.png";
 import image2 from "assets/img/tensorflow.png";
 import image3 from "assets/img/asus.png";
@@ -8,7 +9,7 @@ import image5 from "assets/img/google-ai.png";
 
 const Customers = () => {
 	return (
-		<div className="grid grid-cols-5 grid-rows-2 items-center gap-2">
+		<div className="grid grid-cols-3 grid-rows-2 lg:grid-cols-5 justify-center items-center gap-2 justify-items-center	">
 			<div>
 				<img
 					alt="Reform"
