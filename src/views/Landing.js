@@ -9,6 +9,7 @@ import ImageCarousel from "components/Carousel/Carousel.js";
 import Products from "components/Products/Products.js";
 import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
+import Logo from "components/Logos/Logo.js";
 
 export default function Landing() {
 	return (
@@ -317,11 +318,10 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section className="py-20 relative block bg-blueGray-800">
+				<section className="py-16 relative block bg-blueGray-800">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-						style={{ transform: "translateZ(0)" }}
-					>
+						style={{ transform: "translateZ(0)", marginBottom: "-1px" }}>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -329,12 +329,11 @@ export default function Landing() {
 							version="1.1"
 							viewBox="0 0 2560 100"
 							x="0"
-							y="0"
-						>
+							y="0">
 							<polygon
 								className="text-blueGray-800 fill-current"
-								points="2560 0 2560 100 0 100"
-							></polygon>
+								points="2560 0 2560 100 0 100">
+              </polygon>
 						</svg>
 					</div>
 
@@ -342,16 +341,17 @@ export default function Landing() {
 						<div className="flex flex-wrap text-center justify-center">
 							<div className="w-full lg:w-6/12 px-4">
 								<h2 className="text-4xl font-semibold text-white">
-									Build something
+									Our Customers
 								</h2>
 								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-									Put the potentially record low maximum sea ice extent tihs
-									year down to low ice. According to the National Oceanic and
-									Atmospheric Administration, Ted, Scambos.
+                Has completed projects in several companies including large companies and various industries.
 								</p>
 							</div>
 						</div>
-						<div className="flex flex-wrap mt-12 justify-center">
+            
+            <Logo />
+
+						{/* <div className="flex flex-wrap mt-12 justify-center">
 							<div className="w-full lg:w-3/12 px-4 text-center">
 								<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
 									<i className="fas fa-medal text-xl"></i>
@@ -388,9 +388,10 @@ export default function Landing() {
 									the bulk of the card's content.
 								</p>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</section>
+
 				<section className="relative block py-24 lg:pt-0 bg-blueGray-800">
 					<div className="container mx-auto px-4">
 						<div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
