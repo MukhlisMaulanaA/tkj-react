@@ -353,44 +353,60 @@ export default function Landing() {
 							</div>
 							<Customer />
 						</div>
-						{/* <div className="flex flex-wrap mt-12 justify-center">
-							<div className="w-full lg:w-3/12 px-4 text-center">
-								<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-									<i className="fas fa-medal text-xl"></i>
-								</div>
-								<h6 className="text-xl mt-5 font-semibold text-white">
-									Excelent Services
-								</h6>
-								<p className="mt-2 mb-4 text-blueGray-400">
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
+					</div>
+				</section>
+
+				<section className="py-6 bg-blueGray-800 pb-48">
+					<div className="container mx-auto px-4">
+						<div className="flex flex-wrap text-center justify-center">
+							<div className="w-full lg:w-6/12 px-4">
+								<h2 className="text-4xl font-semibold text-white">
+									Performance Index
+								</h2>
+								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
+									Has completed projects in several companies including large
+									companies and various industries.
 								</p>
 							</div>
-							<div className="w-full lg:w-3/12 px-4 text-center">
-								<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-									<i className="fas fa-poll text-xl"></i>
+							<div className="w-full flex flex-wrap lg:flex-col gap-4 justify-center">
+								<div className="bg-white p-2 rounded-lg shadow-lg h-150-px w-200 flex justify-center items-center">
+									<div>
+										<div className="flex flex-row items-center gap-2 text-4xl md:text-2xl">
+											<i class="fas fa-check-circle text-blueGray-800"></i>
+											<h3 className="font-semibold">123+</h3>
+										</div>
+										<p className="font-regular mt-2">Total Projects</p>
+									</div>
 								</div>
-								<h5 className="text-xl mt-5 font-semibold text-white">
-									Grow your market
-								</h5>
-								<p className="mt-2 mb-4 text-blueGray-400">
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</p>
-							</div>
-							<div className="w-full lg:w-3/12 px-4 text-center">
-								<div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-									<i className="fas fa-lightbulb text-xl"></i>
+								<div className="bg-white p-2 rounded-lg shadow-lg h-150-px w-200 flex justify-center items-center">
+									<div>
+										<div className="flex flex-row items-center gap-2 text-4xl md:text-2xl">
+											<i class="fas fa-map-marker-alt text-blueGray-800"></i>
+											<h3 className="font-semibold">30+</h3>
+										</div>
+										<p className="font-regular mt-2">Location Coverage</p>
+									</div>
 								</div>
-								<h5 className="text-xl mt-5 font-semibold text-white">
-									Launch time
-								</h5>
-								<p className="mt-2 mb-4 text-blueGray-400">
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
-								</p>
+								<div className="bg-white p-2 rounded-lg shadow-lg h-150-px w-200 flex justify-center items-center">
+									<div>
+										<div className="flex flex-row items-center gap-2 text-4xl md:text-2xl">
+											<i class="fas fa-handshake text-blueGray-800"></i>
+											<h3 className="font-semibold">43+ </h3>
+										</div>
+										<p className="font-regular mt-2">Total Clients</p>
+									</div>
+								</div>
+								<div className="bg-white p-2 rounded-lg shadow-lg h-150-px w-200 flex justify-center items-center">
+									<div>
+										<div className="flex flex-row items-center gap-2 text-4xl md:text-2xl">
+											<i class="fas fa-dolly-flatbed text-blueGray-800"></i>
+											<h3 className="font-semibold">34+</h3>
+										</div>
+										<p className="font-regular mt-2">Products Sold</p>
+									</div>
+								</div>
 							</div>
-						</div> */}
+						</div>
 					</div>
 				</section>
 
