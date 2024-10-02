@@ -413,7 +413,7 @@ export default function Landing() {
 					</div>
 				</section>
 
-				<section class="bg-blueGray-800" id="contact">
+				<section class="bg-blueGray-800 py-16" id="contact">
 					<div className="container mx-auto px-4">
 						<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
 							<div class="mb-4">
@@ -430,10 +430,7 @@ export default function Landing() {
 								<div class="grid md:grid-cols-2">
 									<div class="h-full pr-6">
 										<p class="mt-3 mb-12 text-lg text-white">
-											Class aptent taciti sociosqu ad litora torquent per
-											conubia nostra, per inceptos himenaeos. Duis nec ipsum
-											orci. Ut scelerisque sagittis ante, ac tincidunt sem
-											venenatis ut.
+                      Thank you for visiting our website! We value your feedback and are here to assist you. Whether you have questions, need support, or wish to share your thoughts, please don’t hesitate to reach out.
 										</p>
 										<ul class="mb-6 md:mb-0">
 											<li class="flex ">
@@ -445,13 +442,17 @@ export default function Landing() {
 														Our Address
 													</h3>
 													<p class="text-white">
-														1230 Maecenas Street Donec Road
+														Perumahan Bumi Anugrah Sejahtera Blok B4 No.3, RT:
+														09 RW: 013
 													</p>
-													<p class="text-white">New York, EEUU</p>
+													<p class="text-white">
+														Kelurahan Kebalen, Kecamatan Babelan, Kabupaten
+														Bekasi, Jawa Barat
+													</p>
 												</div>
 											</li>
 											<li class="flex">
-												<div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+												<div class="flex h-10 w-10 items-center justify-center rounded  text-blueGray-50">
 													<i class="fas fa-phone-alt text-2xl text-white"></i>
 												</div>
 												<div class="ml-4 mb-4">
@@ -459,10 +460,17 @@ export default function Landing() {
 														Contact
 													</h3>
 													<p class="text-white dark:text-slate-400">
-														Mobile: +1 (123) 456-7890
+														Mobile:{" "}
+														<a href="https://wa.me/628561539431">
+															{" "}
+															+6285 6153 9431
+														</a>
 													</p>
 													<p class="text-white dark:text-slate-400">
-														Mail: tailnext@gmail.com
+														Mail:
+														<a href="mailto:Office.tkj@yahoo.com">
+															Office.tkj@yahoo.com
+														</a>
 													</p>
 												</div>
 											</li>
