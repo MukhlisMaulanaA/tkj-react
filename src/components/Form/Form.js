@@ -51,16 +51,11 @@ const Form = () => {
 						class="mb-2 w-full rounded border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
 					></textarea>
 				</div>
-				<div class="text-center">
-					<Link>
-						<button
-							type="submit"
-							class="w-full bg-white text-blueGray-800 px-6 py-3 font-xl rounded sm:mb-0"
-						>
-							Send Message
-						</button>
-					</Link>
-				</div>
+        <button
+          type="submit"
+          class="w-full bg-white text-blueGray-800 font-semibold px-6 py-3 font-xl rounded sm:mb-0">
+          Send Message
+        </button>
 			</form>
 		</div>
 	);
