@@ -115,13 +115,13 @@ export default function Profile() {
 									</div>
 									<div className="mb-2 text-blueGray-600">
 										<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-										<a href="mailto:Office.tkj@yahoo.com">
+										<a href="mailto:Office.tkj@yahoo.com" target="_blank">
 											Office.tkj@yahoo.com
 										</a>
 									</div>
 									<div className="mb-2 text-blueGray-600">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-										<a href="https://wa.me/628561539431">08561539431</a>
+										<a href="https://wa.me/628561539431" target="_blank">08561539431</a>
 									</div>
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
