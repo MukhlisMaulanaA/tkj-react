@@ -273,29 +273,35 @@ const Navbar = () => {
 			{menuOpen && (
 				<div className="md:hidden flex flex-col items-center bg-white text-blueGray-800 shadow-lg">
 					<NavLink
-						href="#home"
+						to="/"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						Home
 					</NavLink>
-					<a
-						href="#about"
+					<NavLinkAbout
+						to="/profile"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						About
-					</a>
-					<a
-						href="#services"
+					</NavLinkAbout>
+					<NavLinkService
+						to="#services"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						Services
-					</a>
-					<a
-						href="#contact"
+					</NavLinkService>
+					<NavLinkProduct
+						to="/products"
+						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
+					>
+						Services
+					</NavLinkProduct>
+					<NavLinkContact
+						to="#contact"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
 						Contact
-					</a>
+					</NavLinkContact>
 				</div>
 			)}
 		</nav>
