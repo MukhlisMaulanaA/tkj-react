@@ -209,7 +209,7 @@ const Navbar = () => {
 			>
 				{/* Logo */}
 				<div className="text-2xl font-bold">
-					<a href="#home" className="flex items-center">
+					<a href="/" className="flex items-center">
 						<img
 							src={require("assets/img/logo-tkj.png")}
 							height={55}
