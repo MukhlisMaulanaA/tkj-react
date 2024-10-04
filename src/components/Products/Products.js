@@ -2,12 +2,14 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 
+import product1 from "assets/img/product-bjls.jpg";
+
 const products = [
 	{
 		id: 1,
-		name: "Product 1",
-		description: "This is a brief description of Product 1.",
-		image: "https://via.placeholder.com/400x300",
+		name: "BJLS DUCT",
+		description: "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool.Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan.Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24Kg/m3 dengan ketebalan 25 mm.",
+		image: product1,
 	},
 	{
 		id: 2,
