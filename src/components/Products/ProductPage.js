@@ -1,30 +1,36 @@
 // src/components/ProductGrid.js
 import React from "react";
 
+import product1 from "assets/img/product-bjls.jpg";
+import product2 from "assets/img/square-duct.jpg";
+import product3 from "assets/img/air-grillie.jpg";
+import product4 from "assets/img/airdamper.jpg";
+
+
 const products = [
 	{
 		id: 1,
-		name: "Product 1",
-		description: "This is a brief description of Product 1.",
-		image: "https://via.placeholder.com/400x300",
+		name: "BJLS DUCT",
+		description: "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool.Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan.Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24Kg/m3 dengan ketebalan 25 mm.",
+		image: product1,
 	},
 	{
 		id: 2,
-		name: "Product 2",
-		description: "This is a brief description of Product 2.",
-		image: "https://via.placeholder.com/400x300",
+		name: "SQUARE GALVANIZED IRON DUCT",
+		description: "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, galvalum, dan poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
+		image: product2,
 	},
 	{
 		id: 3,
-		name: "Product 3",
-		description: "This is a brief description of Product 3.",
-		image: "https://via.placeholder.com/400x300",
+		name: "AIR GRILLIE",
+		description: "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasi ulang atau dibuang ke luar, dengan filter untuk menjaga kebersihan udara.",
+		image: product3,
 	},
 	{
 		id: 4,
-		name: "Product 4",
-		description: "This is a brief description of Product 4.",
-		image: "https://via.placeholder.com/400x300",
+		name: "Air Damper",
+		description: "Air damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelembaban, dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
+		image: product4,
 	},
 	{
 		id: 5,
