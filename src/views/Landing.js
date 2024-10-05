@@ -461,15 +461,16 @@ export default function Landing() {
 													</h3>
 													<p class="text-white dark:text-slate-400">
 														Mobile:{" "}
-														<a href="https://wa.me/628561539431" target="_blank">
+														<a href="https://wa.me/6282146279008" target="_blank">
 															{" "}
-															+6285 6153 9431
+															+62 821-4627-9008
 														</a>
 													</p>
 													<p class="text-white dark:text-slate-400">
 														Mail:
-														<a href="mailto:Office.tkj@yahoo.com" target="_blank">
-															Office.tkj@yahoo.com
+														<a href="mailto:Tanjungkaryajaya@yahoo.com" target="_blank">
+                              {" "}
+															Tanjungkaryajaya@yahoo.com
 														</a>
 													</p>
 												</div>
