@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 import product1 from "assets/img/product-bjls.jpg";
 import product2 from "assets/img/square-duct.jpg";
+import product3 from "assets/img/air-grillie.jpg";
 
 const products = [
 	{
@@ -20,9 +21,9 @@ const products = [
 	},
 	{
 		id: 3,
-		name: "Product 3",
-		description: "This is a brief description of Product 3.",
-		image: "https://via.placeholder.com/400x300",
+		name: "AIR GRILLIE",
+		description: "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasi ulang atau dibuang ke luar, dengan filter untuk menjaga kebersihan udara.",
+		image: product3,
 	},
 	// Tambahkan produk lebih lanjut sesuai kebutuhan
 ];
