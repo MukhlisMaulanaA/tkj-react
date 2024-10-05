@@ -107,21 +107,31 @@ export default function Profile() {
 										<i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
 										Kontraktor Mechanical - Electrical - Plumbing dan HVAC
 									</div>
-									<div className="mb-2 text-blueGray-600">
-										<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-										<a href="mailto:Tanjungkaryajaya@yahoo.com">
-											Tanjungkaryajaya@yahoo.com
-										</a>
+									<div className="flex flex-row flex-wrap justify-center gap-4">
+										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
+											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
+											<a href="mailto:Tanjungkaryajaya@yahoo.com" target="_blank">
+												Tanjungkaryajaya@yahoo.com
+											</a>
+										</div>
+										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
+											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
+											<a href="mailto:tkjilhamjawaz@gmail.com" target="_blank">
+												tkjilhamjawaz@gmail.com
+											</a>
+										</div>
+										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
+											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
+											<a href="mailto:bagioh88@gmail.com" target="_blank">
+												bagioh88@gmail.com
+											</a>
+										</div>
 									</div>
-									<div className="mb-2 text-blueGray-600">
-										<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-										<a href="mailto:Office.tkj@yahoo.com" target="_blank">
-											Office.tkj@yahoo.com
-										</a>
-									</div>
-									<div className="mb-2 text-blueGray-600">
+									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-										<a href="https://wa.me/628561539431" target="_blank">08561539431</a>
+										<a href="https://wa.me/6282146279008" target="_blank">
+                      +62 821-4627-9008
+										</a>
 									</div>
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
@@ -168,7 +178,11 @@ export default function Profile() {
 													Vision
 												</h1>
 												<p className="text-blueGray-800 text-lg font-regular">
-                          Menjadi perusahaan kontruksi terbaik di Indonesia yang  menekan pada perkembangan yang berkesinambungan, kepuasan  pelanggan dan kesejahteraan pada pemangku kepentingan  melalui penerapan tata kelola yang baik dan komitmen   terhadap tanggungjawab sosial.
+													Menjadi perusahaan kontruksi terbaik di Indonesia yang
+													menekan pada perkembangan yang berkesinambungan,
+													kepuasan pelanggan dan kesejahteraan pada pemangku
+													kepentingan melalui penerapan tata kelola yang baik
+													dan komitmen terhadap tanggungjawab sosial.
 												</p>
 											</div>
 
@@ -176,19 +190,24 @@ export default function Profile() {
 												<h1 className="text-darken mb-3 text-2xl font-semibold text-blueGray-800">
 													Mission
 												</h1>
-                        <ul className="px-4 list-disc">
-                          <li className="text-blueGray-800 text-lg font-regular">
-                            Menyeragamkan pandangan antara pihak manajemen dan  karyawan dalam mempertahankan nilai perusahaan dan   mencapai tujuan bersama.
-                          </li>
-                          <li className="text-blueGray-800 text-lg font-regular">
-                            Memberikan pelatihan dan melaksanakan proses recruitment  sumber daya manusia yang tepat untuk menghasilkan tenaga   kerja yang kompeten dibidangnya, berdedikasi dan  bersemangat tinggi sesuai budaya perusahaan guna   mencapai tujuan bersama.
-                          </li>
-                        </ul>
+												<ul className="px-4 list-disc">
+													<li className="text-blueGray-800 text-lg font-regular">
+														Menyeragamkan pandangan antara pihak manajemen dan
+														karyawan dalam mempertahankan nilai perusahaan dan
+														mencapai tujuan bersama.
+													</li>
+													<li className="text-blueGray-800 text-lg font-regular">
+														Memberikan pelatihan dan melaksanakan proses
+														recruitment sumber daya manusia yang tepat untuk
+														menghasilkan tenaga kerja yang kompeten dibidangnya,
+														berdedikasi dan bersemangat tinggi sesuai budaya
+														perusahaan guna mencapai tujuan bersama.
+													</li>
+												</ul>
 											</div>
-
 										</div>
 									</div>
-								</div>  
+								</div>
 							</div>
 						</div>
 					</div>
