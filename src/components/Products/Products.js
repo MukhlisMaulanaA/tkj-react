@@ -3,6 +3,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 
 import product1 from "assets/img/product-bjls.jpg";
+import product2 from "assets/img/square-duct.jpg";
 
 const products = [
 	{
@@ -13,9 +14,9 @@ const products = [
 	},
 	{
 		id: 2,
-		name: "Product 2",
-		description: "This is a brief description of Product 2.",
-		image: "https://via.placeholder.com/400x300",
+		name: "SQUARE GALVANIZED IRON DUCT",
+		description: "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, galvalum, dan poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
+		image: product2,
 	},
 	{
 		id: 3,
