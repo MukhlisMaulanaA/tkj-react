@@ -294,7 +294,7 @@ const Navbar = () => {
 						to="/products"
 						className="m-2 font-semibold hover:text-lightBlue-500 transition-colors duration-200"
 					>
-						Services
+						Products
 					</NavLinkProduct>
 					<NavLinkContact
 						to="#contact"
