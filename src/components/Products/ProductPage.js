@@ -28,27 +28,9 @@ const products = [
 	},
 	{
 		id: 4,
-		name: "Air Damper",
+		name: "AIR DAMPER",
 		description: "Air damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelembaban, dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
 		image: product4,
-	},
-	{
-		id: 5,
-		name: "Product 5",
-		description: "This is a brief description of Product 5.",
-		image: "https://via.placeholder.com/400x300",
-	},
-	{
-		id: 6,
-		name: "Product 6",
-		description: "This is a brief description of Product 6.",
-		image: "https://via.placeholder.com/400x300",
-	},
-	{
-		id: 7,
-		name: "Product 7",
-		description: "This is a brief description of Product 7.",
-		image: "https://via.placeholder.com/400x300",
 	},
 	// Tambahkan produk lebih lanjut sesuai kebutuhan
 ];
