@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "assets/styles/tailwind.css";
@@ -21,6 +22,7 @@ import Product from "views/Product.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+      <Analytics />
       {/* add routes with layouts */}
       {/* <Route path="/admin" component={Admin} /> */}
       {/* <Route path="/auth" component={Auth} /> */}
