@@ -10,7 +10,7 @@ import Products from "components/Products/Products.js";
 import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
 import Customer from "components/Customers/Customer.js";
-import Form from "components/Form/Form.js";
+import ContactForm from "components/ContactForm/ContactForm.js";
 
 export default function Landing() {
 	return (
@@ -493,7 +493,7 @@ export default function Landing() {
 											</li>
 										</ul>
 									</div>
-									<Form />
+									<ContactForm />
 								</div>
 							</div>
 						</div>
