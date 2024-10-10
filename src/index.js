@@ -19,7 +19,6 @@ import Profile from "views/Profile.js";
 import Product from "views/Product.js";
 // import Index from "views/Index.js";
 
-<Analytics />
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -34,6 +33,7 @@ ReactDOM.render(
       {/* add redirect for first page */}
       <Redirect from="*" to="/" exact component={Landing}/>
     </Switch>
+    <Analytics />,
   </BrowserRouter>,
   document.getElementById("root")
 );
