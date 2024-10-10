@@ -34,7 +34,7 @@ export default function Product() {
 						</svg>
 					</div>
 
-					<div className="container mx-auto px-4 lg:pt-24">
+					<div className="container mx-auto px-4 lg:pt-24 pt-32">
 						<div className="flex flex-wrap text-center justify-center">
 							<div className="w-full lg:w-6/12 px-4">
 								<h2 className="text-4xl font-semibold text-white">
