@@ -19,10 +19,10 @@ import Profile from "views/Profile.js";
 import Product from "views/Product.js";
 // import Index from "views/Index.js";
 
+<Analytics />
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Analytics />
       {/* add routes with layouts */}
       {/* <Route path="/admin" component={Admin} /> */}
       {/* <Route path="/auth" component={Auth} /> */}
