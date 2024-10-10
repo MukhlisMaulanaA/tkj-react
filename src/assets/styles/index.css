@@ -90,5 +90,9 @@
   .place-items-center {
     place-items: center;
   }
+
+  .italic {
+    font-style: italic;
+  }
   
 }

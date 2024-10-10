@@ -11,6 +11,7 @@ import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
 import Customer from "components/Customers/Customer.js";
 import ContactForm from "components/ContactForm/ContactForm.js";
+import Video from "components/Video/Video.js";
 
 export default function Landing() {
 	return (
@@ -317,6 +318,7 @@ export default function Landing() {
 							<h3 className="text-4xl font-semibold ml-2">Gallery</h3>
 						</div>
 						<Gallery />
+            <Video />
 					</div>
 				</section>
 
