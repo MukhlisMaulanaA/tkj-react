@@ -28,7 +28,7 @@ const products = [
     shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
     fullDescription:
       "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting. Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan. Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24kg/m3 dengan ketebalan 25mm.",
-    images: [product1a, product1b], // Hanya satu gambar untuk produk ini
+    images: [product1a, product1b], 
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const products = [
     shortDescription: "Square ducting digunakan untuk memindahkan material...",
     fullDescription:
       "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
-    images: [product2a, product2b, product2c], // Dua gambar untuk produk ini
+    images: [product2a, product2b, product2c],
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const products = [
     shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
       "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
-    images: [product3a, product3b, product3c, product3d, product3e, product3f], // Dua gambar untuk produk ini
+    images: [product3a, product3b, product3c, product3d, product3e, product3f], 
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const products = [
     shortDescription: "Air Damper adalah komponen dalam sistem ventilasi...",
     fullDescription:
       "Air Damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelambaban dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
-    images: [product4a, product4b, product4c, product4d], // Dua gambar untuk produk ini
+    images: [product4a, product4b, product4c, product4d],
   },
 ];
 
