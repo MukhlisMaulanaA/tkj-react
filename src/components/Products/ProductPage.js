@@ -1,11 +1,19 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import product1a from "assets/img/product-bjls.jpg";
-import product1b from "assets/img/product-bjls2.jpg";
-import product2a from "assets/img/square-duct.jpg";
-import product2b from "assets/img/square-duct2.jpg";
-import product3a from "assets/img/air-grillie.jpg";
-import product3b from "assets/img/air-grillie2.jpg";
+
+import product1a from "assets/img/products/product-bjls.jpg";
+import product1b from "assets/img/products/product-bjls2.jpg";
+
+import product2a from "assets/img/products/square-duct.jpg";
+import product2b from "assets/img/products/square-duct2.jpg";
+
+import product3a from "assets/img/products/air-grillie.jpg";
+import product3b from "assets/img/products/air-grillie2.jpg";
+
+import product4a from "assets/img/products/airdamper.jpg";
+import product4b from "assets/img/products/airdamper2.jpg";
+import product4c from "assets/img/products/airdamper-kotak.jpg";
+import product4d from "assets/img/products/airdamper-tertutup.jpg";
+
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -39,7 +47,7 @@ const products = [
     shortDescription: "Air Damper adalah komponen dalam sistem ventilasi...",
     fullDescription:
       "Air Damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelambaban dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
-    images: [product3a, product3b], // Dua gambar untuk produk ini
+    images: [product4a, product4b, product4c, product4d], // Dua gambar untuk produk ini
   },
 ];
 

@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import product1a from "assets/img/product-bjls.jpg";
-import product1b from "assets/img/product-bjls2.jpg";
-import product2a from "assets/img/square-duct.jpg";
-import product2b from "assets/img/square-duct2.jpg";
-import product3a from "assets/img/air-grillie.jpg";
-import product3b from "assets/img/air-grillie2.jpg";
+
+import product1a from "assets/img/products/product-bjls.jpg";
+import product1b from "assets/img/products/product-bjls2.jpg";
+
+import product2a from "assets/img/products/square-duct.jpg";
+import product2b from "assets/img/products/square-duct2.jpg";
+
+import product3a from "assets/img/products/air-grillie.jpg";
+import product3b from "assets/img/products/air-grillie2.jpg";
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -14,24 +17,24 @@ const products = [
     name: "BJLS DUCT",
     shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
     fullDescription:
-      "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting...",
-    images: [product1a, product1b], // Hanya satu gambar untuk produk ini
+      "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting. Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan. Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24kg/m3 dengan ketebalan 25mm.",
+    images: [product1a, product1b],
   },
   {
     id: 2,
     name: "SQUARE GALVANIZED IRON DUCT",
     shortDescription: "Square ducting digunakan untuk memindahkan material...",
     fullDescription:
-      "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya...",
-    images: [product2a, product2b], // Dua gambar untuk produk ini
+      "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
+    images: [product2a, product2b],
   },
   {
     id: 3,
     name: "AIR GRILLIE",
     shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
-      "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas...",
-    images: [product3a, product3b], // Dua gambar untuk produk ini
+      "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
+    images: [product3a, product3b],
   },
 ];
 
