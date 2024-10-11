@@ -33,7 +33,7 @@ ReactDOM.render(
       {/* add redirect for first page */}
       <Redirect from="*" to="/" exact component={Landing}/>
     </Switch>
-    <Analytics />,
+    <Analytics />
   </BrowserRouter>,
   document.getElementById("root")
 );
