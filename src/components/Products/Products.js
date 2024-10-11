@@ -9,6 +9,10 @@ import product2b from "assets/img/products/square-duct2.jpg";
 
 import product3a from "assets/img/products/air-grillie.jpg";
 import product3b from "assets/img/products/air-grillie2.jpg";
+import product3c from "assets/img/products/air-grillie3.jpg";
+import product3d from "assets/img/products/air-grillie4.jpg";
+import product3e from "assets/img/products/air-grillie-fancape.jpg";
+import product3f from "assets/img/products/air-grillie-jetdufsser-transformed.jpg";
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -34,8 +38,8 @@ const products = [
     shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
       "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
-    images: [product3a, product3b],
-  },
+      images: [product3a, product3b, product3c, product3d, product3e, product3f],
+    },
 ];
 
 const ProductGrid = () => {

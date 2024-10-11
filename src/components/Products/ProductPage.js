@@ -5,9 +5,14 @@ import product1b from "assets/img/products/product-bjls2.jpg";
 
 import product2a from "assets/img/products/square-duct.jpg";
 import product2b from "assets/img/products/square-duct2.jpg";
+import product2c from "assets/img/products/square-duct3.jpg";
 
 import product3a from "assets/img/products/air-grillie.jpg";
 import product3b from "assets/img/products/air-grillie2.jpg";
+import product3c from "assets/img/products/air-grillie3.jpg";
+import product3d from "assets/img/products/air-grillie4.jpg";
+import product3e from "assets/img/products/air-grillie-fancape.jpg";
+import product3f from "assets/img/products/air-grillie-jetdufsser-transformed.jpg";
 
 import product4a from "assets/img/products/airdamper.jpg";
 import product4b from "assets/img/products/airdamper2.jpg";
@@ -31,7 +36,7 @@ const products = [
     shortDescription: "Square ducting digunakan untuk memindahkan material...",
     fullDescription:
       "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
-    images: [product2a, product2b], // Dua gambar untuk produk ini
+    images: [product2a, product2b, product2c], // Dua gambar untuk produk ini
   },
   {
     id: 3,
@@ -39,7 +44,7 @@ const products = [
     shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
       "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
-    images: [product3a, product3b], // Dua gambar untuk produk ini
+    images: [product3a, product3b, product3c, product3d, product3e, product3f], // Dua gambar untuk produk ini
   },
   {
     id: 4,
