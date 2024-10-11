@@ -98,5 +98,13 @@
   .italic {
     font-style: italic;
   }
+
+  .h-64 {
+    height: 16rem /* 256px */;
+  }
+
+  .w-32 {
+    width: 8rem /* 128px */;
+  }
   
 }

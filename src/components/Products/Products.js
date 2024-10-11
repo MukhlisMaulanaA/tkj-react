@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import product1 from "assets/img/product-bjls.jpg";
+import product1a from "assets/img/product-bjls.jpg";
+import product1b from "assets/img/product-bjls2.jpg";
 import product2a from "assets/img/square-duct.jpg";
 import product2b from "assets/img/square-duct2.jpg";
 import product3a from "assets/img/air-grillie.jpg";
@@ -14,7 +15,7 @@ const products = [
     shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
     fullDescription:
       "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting...",
-    images: [product1], // Hanya satu gambar untuk produk ini
+    images: [product1a, product1b], // Hanya satu gambar untuk produk ini
   },
   {
     id: 2,
@@ -116,7 +117,7 @@ const ProductGrid = () => {
 
       {/* Modal untuk menampilkan gambar carousel */}
       {selectedProduct && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+        <div className="fixed inset-0 bg-black-opacity flex justify-center items-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto relative">
             <h2 className="text-2xl font-bold mb-4">{selectedProduct.name}</h2>
 
