@@ -19,6 +19,11 @@ import product4b from "assets/img/products/airdamper2.jpg";
 import product4c from "assets/img/products/airdamper-kotak.jpg";
 import product4d from "assets/img/products/airdamper-tertutup.jpg";
 
+import product5a from "assets/img/products/product-bjls-duct-insulation.jpg";
+import product5b from "assets/img/products/product-bjls-duct-insulation2.jpg";
+import product5c from "assets/img/products/product-bjls-duct-insulation3.jpg";
+import product5d from "assets/img/products/product-bjls-duct-insulation4.jpg";
+
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -53,6 +58,14 @@ const products = [
     fullDescription:
       "Air Damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelambaban dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
     images: [product4a, product4b, product4c, product4d],
+  },
+  {
+    id: 5,
+    name: "BJLS DUCT INSULATION",
+    shortDescription: "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi..",
+    fullDescription:
+      "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi yang dirancang khusus untuk sistem saluran udara (ducting) dalam berbagai aplikasi HVAC. Produk ini menawarkan performa termal yang unggul, membantu mencegah kondensasi, dan mengurangi kehilangan energi secara signifikan. Dengan kemampuan meredam suara yang efektif, BJLS DUCT INSULATION juga berkontribusi pada pengurangan kebisingan sistem. Terbuat dari bahan yang tahan api dan mudah dipasang, produk ini menjadi pilihan ideal untuk proyek-proyek komersial, industri, maupun residensial yang mengedepankan efisiensi energi dan kenyamanan.",
+    images: [product5a, product5b, product5c, product5d],
   },
 ];
 

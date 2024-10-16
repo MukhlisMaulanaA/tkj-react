@@ -17,7 +17,6 @@ import "assets/styles/index.css";
 import Landing from "views/Landing.js"; 
 import Profile from "views/Profile.js";
 import Product from "views/Product.js";
-// import Index from "views/Index.js";
 
 ReactDOM.render(
   <BrowserRouter>
