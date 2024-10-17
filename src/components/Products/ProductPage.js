@@ -37,6 +37,13 @@ import product8b from "assets/img/products/product-spiral-duct2.jpg";
 import product8c from "assets/img/products/product-spiral-duct3.jpg";
 import product8d from "assets/img/products/product-spiral-duct4.jpg";
 
+import product9a from "assets/img/products/product-rpund-duct.jpg";
+import product9b from "assets/img/products/product-rpund-duct2.jpg";
+import product9c from "assets/img/products/product-rpund-duct3.jpg";
+import product9d from "assets/img/products/product-rpund-duct4.jpg";
+import product9e from "assets/img/products/product-rpund-duct5.jpg";
+import product9f from "assets/img/products/product-rpund-duct6.jpg";
+
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -103,6 +110,14 @@ const products = [
     fullDescription:
       "Spiral Duct adalah sistem saluran udara yang dirancang dengan bentuk spiral atau heliks, terbuat dari logam berkualitas tinggi seperti baja galvanis atau aluminium. Konstruksi uniknya memberikan kekuatan struktural yang superior dengan bobot yang relatif ringan, memungkinkan penggunaan material yang lebih tipis tanpa mengorbankan kinerja. Desain spiral ini menciptakan aliran udara yang lebih efisien dan mengurangi turbulensi, menghasilkan operasi yang lebih senyap dan hemat energi dibandingkan dengan saluran udara konvensional.",
     images: [product8a, product8b, product8c, product8d],
+  },
+  {
+    id: 9,
+    name: "RPUND Duct",
+    shortDescription: "RPUND Duct adalah komponen penting dalam sistem HVAC yang dirancang dengan...",
+    fullDescription:
+      "RPUND Duct, atau saluran udara berbentuk bulat, adalah komponen penting dalam sistem HVAC yang dirancang dengan penampang melintang berbentuk lingkaran. Desain ini menawarkan efisiensi aliran udara yang optimal, memungkinkan distribusi udara yang merata dengan resistensi minimal. RPUND Duct umumnya terbuat dari baja galvanis, aluminium, atau bahan tahan karat lainnya, menjamin ketahanan dan umur pakai yang panjang. Bentuknya yang aerodinamis tidak hanya mengurangi kebisingan aliran udara tetapi juga memudahkan perawatan dan pembersihan.",
+    images: [product9a, product9b, product9c, product9d, product9e, product9f],
   },
 ];
 
