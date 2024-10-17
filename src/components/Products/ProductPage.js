@@ -24,6 +24,10 @@ import product5b from "assets/img/products/product-bjls-duct-insulation2.jpg";
 import product5c from "assets/img/products/product-bjls-duct-insulation3.jpg";
 import product5d from "assets/img/products/product-bjls-duct-insulation4.jpg";
 
+import product6a from "assets/img/products/product-equipment-hvac.jpg";
+import product6b from "assets/img/products/product-equipment-hvac2.jpg";
+import product6c from "assets/img/products/product-equipment-hvac3.jpg";
+
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -62,10 +66,18 @@ const products = [
   {
     id: 5,
     name: "BJLS DUCT INSULATION",
-    shortDescription: "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi..",
+    shortDescription: "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi...",
     fullDescription:
       "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi yang dirancang khusus untuk sistem saluran udara (ducting) dalam berbagai aplikasi HVAC. Produk ini menawarkan performa termal yang unggul, membantu mencegah kondensasi, dan mengurangi kehilangan energi secara signifikan. Dengan kemampuan meredam suara yang efektif, BJLS DUCT INSULATION juga berkontribusi pada pengurangan kebisingan sistem. Terbuat dari bahan yang tahan api dan mudah dipasang, produk ini menjadi pilihan ideal untuk proyek-proyek komersial, industri, maupun residensial yang mengedepankan efisiensi energi dan kenyamanan.",
     images: [product5a, product5b, product5c, product5d],
+  },
+  {
+    id: 6,
+    name: "Equipment HVAC",
+    shortDescription: "Equipment HVAC merupakan serangkaian peralatan dan sistem yang...",
+    fullDescription:
+      "Equipment HVAC (Heating, Ventilation, and Air Conditioning) merupakan serangkaian peralatan dan sistem yang dirancang untuk mengatur suhu, kelembaban, dan kualitas udara di dalam ruangan atau bangunan. Sistem ini mencakup berbagai komponen seperti unit pengkondisi udara, pemanas, ventilasi, filter udara, dan kontrol otomatis yang bekerja bersama untuk menciptakan lingkungan dalam ruangan yang nyaman dan sehat.",
+    images: [product6a, product6b, product6c],
   },
 ];
 
