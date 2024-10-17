@@ -32,7 +32,10 @@ import product7a from "assets/img/products/product-pu-duct.jpg";
 import product7b from "assets/img/products/product-pu-duct2.jpg";
 import product7c from "assets/img/products/product-pu-duct3.jpg";
 
-
+import product8a from "assets/img/products/product-spiral-duct.jpg";
+import product8b from "assets/img/products/product-spiral-duct2.jpg";
+import product8c from "assets/img/products/product-spiral-duct3.jpg";
+import product8d from "assets/img/products/product-spiral-duct4.jpg";
 
 
 // Data produk dengan beberapa gambar
@@ -92,6 +95,14 @@ const products = [
     fullDescription:
       "PU Duct, atau Polyurethane Duct, adalah sistem saluran udara inovatif yang terbuat dari bahan polyurethane berkualitas tinggi. Produk ini menawarkan kombinasi unik antara bobot ringan dan kekuatan struktural yang luar biasa, menjadikannya pilihan ideal untuk berbagai aplikasi HVAC modern. PU Duct memiliki sifat isolasi termal yang sangat baik, membantu meminimalkan kehilangan energi dan meningkatkan efisiensi sistem secara keseluruhan.",
     images: [product7a, product7b, product7c],
+  },
+  {
+    id: 8,
+    name: "Spiral Duct",
+    shortDescription: "Spiral Duct adalah siste msaluran udara yang dirancang dengan bentuk..",
+    fullDescription:
+      "Spiral Duct adalah sistem saluran udara yang dirancang dengan bentuk spiral atau heliks, terbuat dari logam berkualitas tinggi seperti baja galvanis atau aluminium. Konstruksi uniknya memberikan kekuatan struktural yang superior dengan bobot yang relatif ringan, memungkinkan penggunaan material yang lebih tipis tanpa mengorbankan kinerja. Desain spiral ini menciptakan aliran udara yang lebih efisien dan mengurangi turbulensi, menghasilkan operasi yang lebih senyap dan hemat energi dibandingkan dengan saluran udara konvensional.",
+    images: [product8a, product8b, product8c, product8d],
   },
 ];
 
