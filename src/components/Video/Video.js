@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 
-import urlVideo from "assets/video/company-profile-tkj.mp4";
+import urlVideo from "assets/video/company-profile-tkj-compressed.mp4";
 import thumbnail from "assets/img/thumbnail-video.png";
 
 const Video = () => {
