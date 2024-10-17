@@ -28,6 +28,12 @@ import product6a from "assets/img/products/product-equipment-hvac.jpg";
 import product6b from "assets/img/products/product-equipment-hvac2.jpg";
 import product6c from "assets/img/products/product-equipment-hvac3.jpg";
 
+import product7a from "assets/img/products/product-pu-duct.jpg";
+import product7b from "assets/img/products/product-pu-duct2.jpg";
+import product7c from "assets/img/products/product-pu-duct3.jpg";
+
+
+
 
 // Data produk dengan beberapa gambar
 const products = [
@@ -78,6 +84,14 @@ const products = [
     fullDescription:
       "Equipment HVAC (Heating, Ventilation, and Air Conditioning) merupakan serangkaian peralatan dan sistem yang dirancang untuk mengatur suhu, kelembaban, dan kualitas udara di dalam ruangan atau bangunan. Sistem ini mencakup berbagai komponen seperti unit pengkondisi udara, pemanas, ventilasi, filter udara, dan kontrol otomatis yang bekerja bersama untuk menciptakan lingkungan dalam ruangan yang nyaman dan sehat.",
     images: [product6a, product6b, product6c],
+  },
+  {
+    id: 7,
+    name: "PU Duct",
+    shortDescription: "PU Duct adalah sistem saluran udara inovatif yang terbuat dari bahan...",
+    fullDescription:
+      "PU Duct, atau Polyurethane Duct, adalah sistem saluran udara inovatif yang terbuat dari bahan polyurethane berkualitas tinggi. Produk ini menawarkan kombinasi unik antara bobot ringan dan kekuatan struktural yang luar biasa, menjadikannya pilihan ideal untuk berbagai aplikasi HVAC modern. PU Duct memiliki sifat isolasi termal yang sangat baik, membantu meminimalkan kehilangan energi dan meningkatkan efisiensi sistem secara keseluruhan.",
+    images: [product7a, product7b, product7c],
   },
 ];
 
