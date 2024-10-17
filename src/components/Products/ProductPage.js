@@ -33,7 +33,7 @@ import product6c from "assets/img/products/product-equipment-hvac3.jpg";
 const products = [
   {
     id: 1,
-    name: "BJLS DUCT",
+    name: "BJLS Duct",
     shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
     fullDescription:
       "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting. Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan. Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24kg/m3 dengan ketebalan 25mm.",
@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: 2,
-    name: "SQUARE GALVANIZED IRON DUCT",
+    name: "Square Galvanized Iron Duct",
     shortDescription: "Square ducting digunakan untuk memindahkan material...",
     fullDescription:
       "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 3,
-    name: "AIR GRILLIE",
+    name: "Air Grille",
     shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
       "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
@@ -57,7 +57,7 @@ const products = [
   },
   {
     id: 4,
-    name: "AIR DAMPER",
+    name: "Air Damper",
     shortDescription: "Air Damper adalah komponen dalam sistem ventilasi...",
     fullDescription:
       "Air Damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelambaban dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
@@ -65,7 +65,7 @@ const products = [
   },
   {
     id: 5,
-    name: "BJLS DUCT INSULATION",
+    name: "BJLS Duct Insulation",
     shortDescription: "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi...",
     fullDescription:
       "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi yang dirancang khusus untuk sistem saluran udara (ducting) dalam berbagai aplikasi HVAC. Produk ini menawarkan performa termal yang unggul, membantu mencegah kondensasi, dan mengurangi kehilangan energi secara signifikan. Dengan kemampuan meredam suara yang efektif, BJLS DUCT INSULATION juga berkontribusi pada pengurangan kebisingan sistem. Terbuat dari bahan yang tahan api dan mudah dipasang, produk ini menjadi pilihan ideal untuk proyek-proyek komersial, industri, maupun residensial yang mengedepankan efisiensi energi dan kenyamanan.",
