@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // components
-
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
@@ -20,8 +19,7 @@ export default function Landing() {
 			<main>
 				<div
 					className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
-					id="home"
-				>
+					id="home">
 					<ImageCarousel />
 					<div className="container relative mx-auto">
 						<div className="items-center flex flex-wrap">
@@ -182,8 +180,7 @@ export default function Landing() {
 				<section className="relative py-20">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-						style={{ transform: "translateZ(0)" }}
-					>
+						style={{ transform: "translateZ(0)" }}>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
