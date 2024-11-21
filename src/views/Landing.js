@@ -116,18 +116,10 @@ export default function Landing() {
 									About Us
 								</h3>
 								<p className="text-lg font-medium leading-relaxed mt-4 mb-4 text-blueGray-600">
-									PT. Tanjung Karya Jaya (TKJ) adalah perusahaan yang bergerak
-									di bidang jasa konstruksi, khususnya di bidang Mekanikal
-									Elektrikal Plumbing dan HVAC. Kami merupakan perusahaan jasa
-									swasta yang berdiri pada tahun 2019, PT. TKJ telah memiliki
-									banyak pengalaman dan pelajaran berharga sehingga tangguh dan
-									dipercaya.
+                  PT. Tanjung Karya Jaya (TKJ) is a leading provider of Mechanical, Electrical, Plumbing, and HVAC (MEP) construction services. Since our establishment in 2019, we have consistently delivered exceptional projects, built on a foundation of quality, reliability, and customer satisfaction.
 								</p>
 								<p className="text-lg font-medium leading-relaxed mt-0 mb-4 text-blueGray-600">
-									Kepercayaan yang diberikan oleh customer kami telah
-									menghasilkan karya-karya konstruksi dan hasil yang memuaskan
-									diberbagai sektor seperti gedung perkantoran, gedung
-									komersial, dan pabrik di kawasan industri.
+                  Thanks to the trust of our clients, we have consistently delivered exceptional results in a variety of construction projects, spanning office buildings, commercial properties, and industrial facilities.
 								</p>
 								<Link
 									to="/profile"
@@ -161,9 +153,7 @@ export default function Landing() {
 											PT. Tanjung Karya Jaya
 										</h4>
 										<p className="text-md font-light mt-2 text-white">
-											Inovasi untuk Lingkungan Optimal. Solusi terdepan dalam
-											aliran udara dan teknologi listrik pintar untuk kenyamanan
-											dan efisiensi.
+                      Innovation for Optimal Environments. Leading solutions in smart airflow and electrical technology for comfort and efficiency.
 										</p>
 									</blockquote>
 								</div>
@@ -222,9 +212,7 @@ export default function Landing() {
 											Production
 										</h1>
 										<p className="px-4 text-white font-light">
-											Kami hanya menyediakan produk premium melalui proses
-											penjaminan mutu, percepatan inovasi, teknologi modern dan
-											sumber daya manusia yang unggul.
+                      Our commitment to quality is reflected in our premium products, which are the result of rigorous quality assurance, rapid innovation, advanced technology, and a highly skilled team.
 										</p>
 									</div>
 
@@ -236,9 +224,7 @@ export default function Landing() {
 											Engineering
 										</h1>
 										<p className="px-4 text-white font-light">
-											Tim kreatif yang mengubah kebutuhan pelanggan kami menjadi
-											produk dengan spesifikasi sempurna, konstruksi presisi,
-											ekonomis, dan fungsi keselamatan.
+                      Our creative team is skilled at turning our customers' unique requirements into products that meet exact specifications, are precisely constructed, cost-effective, and prioritize safety.
 										</p>
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -249,10 +235,7 @@ export default function Landing() {
 											HSE <br /> (Health, Safety, and Environment)
 										</h1>
 										<p className="px-4 text-white font-light">
-											Komitmen untuk mencapai nol bahaya bagi karyawan,
-											lingkungan dan properti untuk praktik kesehatan,
-											keselamatan, dan lingkungan kerja yang efektif dan
-											ditingkatkan di setiap aktivitas.
+                      We are dedicated to implementing best practices in health, safety, and environmental management to ensure zero harm to our employees, the environment, and assets.
 										</p>
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -263,11 +246,7 @@ export default function Landing() {
 											Financial
 										</h1>
 										<p className="px-4 text-white font-light">
-											Menjalankan aktivitas keuangan Perusahaan dengan
-											integritas, akurasi dan keberlanjutan, menjaga aset
-											keuangan, menetapkan kebijakan dan prosedur akuntansi
-											serta memberikan layanan terbaik kepada perusahaan dan
-											pelanggan.
+                      Providing exceptional financial services to the company and its customers by conducting business with integrity, accuracy, and sustainability, safeguarding assets, and establishing robust accounting policies and procedures.
 										</p>
 									</div>
 								</div>

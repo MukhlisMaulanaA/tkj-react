@@ -34,10 +34,9 @@ const Customer = () => {
       {logos.map((logo) => (
         <div
           key={logo.id}
-          className={`flex items-center justify-center p-4 bg-white rounded-lg shadow-md ${
+          className={` hover:scale-125 flex items-center justify-center p-4 bg-white rounded-lg shadow-md ${
             logo.type === 'landscape' ? 'aspect-landscape' : 'aspect-square'
-          } hover:scale-125`}
-        >
+          }`}>
           <img
             src={logo.src}
             alt={`Logo ${logo.id}`}

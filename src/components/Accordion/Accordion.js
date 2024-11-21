@@ -42,7 +42,7 @@ const App = () => {
 			id: 1,
 			title: "Mechanical Work",
 			content: [
-        'Pekerjaan Pemasangan Lift', 
+        'Elevator Installation Work', 
         'Supplay dan Pemasangan Pompa'
       ]
 		},
