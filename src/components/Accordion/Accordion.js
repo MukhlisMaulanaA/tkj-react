@@ -69,7 +69,7 @@ const App = () => {
 		},
 		{
 			id: 4,
-			title: "Pekerjaan HVAC",
+			title: "HVAC Work",
 			content: [
         'BJLS Ducting Work', 
         'V.U Ducting Work', 
