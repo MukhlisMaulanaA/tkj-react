@@ -29,8 +29,7 @@ export default function Landing() {
 										Building Credibility
 									</h1>
 									<p className="mt-4 text-lg text-blueGray-200">
-										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal,
-										Elektrikal, Plumbing, dan HVAC.
+                    PT. Tanjung Karya Jaya, Your Partner in Mechanical, Electrical, Plumbing, and HVAC.
 									</p>
 								</div>
 							</div>
