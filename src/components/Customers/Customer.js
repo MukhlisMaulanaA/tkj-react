@@ -14,29 +14,28 @@ import image11 from "assets/img/client/dci-indo.png";
 import image12 from "assets/img/client/haier.png";
 
 const logos = [
-  { id: 1, src: image1, type: 'landscape', alt: 'Daewoong Indonesia'},
-  { id: 2, src: image2, type: 'landscape', alt: 'District8'},
-  { id: 3, src: image3, type: 'landscape', alt: 'PT. YPTT Solutions Indonesia'},
-  { id: 4, src: image4, type: 'landscape', alt: 'Trimitra Jaya Persada'},
-  { id: 5, src: image5, type: 'landscape', alt: 'Pakuwon Group'},
-  { id: 6, src: image6, type: 'landscape', alt: 'RSPI'},
-  { id: 7, src: image7, type: 'landscape', alt: 'Koyorad'},
-  { id: 8, src: image8, type: 'landscape', alt: 'Siloam Hospital'},
-  { id: 9, src: image9, type: 'landscape', alt: 'Maison Dekorindo'},
-  { id: 10, src: image10, type: 'landscape', alt: 'SY Technology'},
-  { id: 11, src: image11, type: 'landscape', alt: 'DCI Indonesia'},
-  { id: 12, src: image12, type: 'landscape', alt: 'HAIER'},
+  { id: 1, src: image1, alt: 'Daewoong Indonesia'},
+  { id: 2, src: image2, alt: 'District8'},
+  { id: 3, src: image3, alt: 'PT. YPTT Solutions Indonesia'},
+  { id: 4, src: image4, alt: 'Trimitra Jaya Persada'},
+  { id: 5, src: image5, alt: 'Pakuwon Group'},
+  { id: 6, src: image6, alt: 'RSPI'},
+  { id: 7, src: image7, alt: 'Koyorad'},
+  { id: 8, src: image8, alt: 'Siloam Hospital'},
+  { id: 9, src: image9, alt: 'Maison Dekorindo'},
+  { id: 10, src: image10, alt: 'SY Technology'},
+  { id: 11, src: image11, alt: 'DCI Indonesia'},
+  { id: 12, src: image12, alt: 'HAIER'},
 ];
 
 const Customer = () => {
   return (
-    <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
       {logos.map((logo) => (
         <div
           key={logo.id}
-          className={` hover:scale-125 flex items-center justify-center p-4 bg-white rounded-lg shadow-md ${
-            logo.type === 'landscape' ? 'aspect-landscape' : 'aspect-square'
-          }`}>
+          className="flex items-center justify-center p-2 bg-white rounded-lg shadow-md aspect-[3/2]"
+          >
           <img
             src={logo.src}
             alt={`Logo ${logo.alt}`}
