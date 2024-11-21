@@ -68,8 +68,7 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Inovation</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Kami selalu berada di garis depan perubahan, menciptakan
-											solusi baru yang mengubah tantangan menjadi peluang.
+                    We are always at the forefront of change, pioneering innovative solutions that transform challenges into opportunities.
 										</p>
 									</div>
 								</div>
@@ -83,9 +82,7 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Optimization</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Dengan keahlian dan dedikasi, kami menghadirkan solusi
-											terbaik dalam setiap tantangan, memastikan hasil yang
-											optimal bagi setiap proyek.
+                    With our expertise and dedication, we consistently deliver optimal solutions to every challenge, ensuring the best possible outcomes for each project.
 										</p>
 									</div>
 								</div>
@@ -99,9 +96,7 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Efficiency</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-											Kami memaksimalkan hasil dengan mengelola sumber daya
-											secara cerdas, menghadirkan nilai tertinggi bagi klien
-											tanpa kompromi pada kualitas.
+                    By strategically managing our resources, we ensure that we deliver maximum value to our clients while upholding the highest standards of quality.
 										</p>
 									</div>
 								</div>

@@ -114,5 +114,9 @@
   .aspect-landscape {
     aspect-ratio: 3/2;
   }
+
+  .scale-125 {
+    transform: scale(1.25);
+  }
   
 }

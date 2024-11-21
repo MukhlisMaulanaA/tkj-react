@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image1 from "assets/img/client/daewong.png";
+import image1 from "assets/img/client/daewoong-remake.png";
 import image2 from "assets/img/client/district8-landscape.png";
 import image3 from "assets/img/client/yptt.png";
 import image4 from "assets/img/client/trimitra-jayapersada.png";
@@ -36,7 +36,7 @@ const Customer = () => {
           key={logo.id}
           className={`flex items-center justify-center p-4 bg-white rounded-lg shadow-md ${
             logo.type === 'landscape' ? 'aspect-landscape' : 'aspect-square'
-          }`}
+          } hover:scale-125`}
         >
           <img
             src={logo.src}
