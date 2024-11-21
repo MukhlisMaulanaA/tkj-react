@@ -49,32 +49,32 @@ import product9f from "assets/img/products/product-rpund-duct6.jpg";
 const products = [
   {
     id: 1,
-    name: "BJLS Duct",
-    shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
+    name: "BJLS DUCT",
+    shortDescription: "Ducting BJLS or zinc-coated steel outer insulation...",
     fullDescription:
-      "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting. Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan. Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24kg/m3 dengan ketebalan 25mm.",
-    images: [product1a, product1b], 
+      "Ducting BJLS or zinc coated steel outer insulation one of which uses glass wool material. This type of glass wool is used as an outer insulation to cover the ducting. This insulation can be adjusted to the temperature of the air to be channeled. The smaller the air temperature (cold), the thicker the glass wool insulation required. Generally, the type of glass wool that is often used is 24kg/m3 with a thickness of 25mm.",
+    images: [product1a, product1b],
   },
   {
     id: 2,
-    name: "Square Galvanized Iron Duct",
-    shortDescription: "Square ducting digunakan untuk memindahkan material...",
+    name: "SQUARE GALVANIZED IRON DUCT",
+    shortDescription: "Square ducting is used to move materials...",
     fullDescription:
-      "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
-    images: [product2a, product2b, product2c],
+      "Square ducting is used to move materials or production waste, especially fine dust, from production machines to the next stage of production. This ducting can be made of various materials such as BJLS, Stainless Steel, Zincalume, Galvalume and Polyurethane, with varying thicknesses depending on the ducting size and usage requirements. Reinforcements are installed on large square ducting for strength and stability.",
+    images: [product2a, product2b],
   },
   {
     id: 3,
-    name: "Air Grille",
-    shortDescription: "Return Air Grille terhubung ke saluran ducting...",
+    name: "AIR GRILLIE",
+    shortDescription: "The Return Air Grille is connected to the ducting...",
     fullDescription:
-      "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
-    images: [product3a, product3b, product3c, product3d, product3e, product3f], 
-  },
+      "Return Air Grille connected to ducting allows air to return to the cooling or heating system. Openings to ducts and other spaces are usually covered with a grille. The system will push air into the room through the duct, increasing the air pressure in the conditioned area. Return ducts allow air to be recirculated or exhausted to the outside, with filters to keep the air clean.",
+      images: [product3a, product3b, product3c, product3d, product3e, product3f],
+    },
   {
     id: 4,
     name: "Air Damper",
-    shortDescription: "Air Damper adalah komponen dalam sistem ventilasi...",
+    shortDescription: "Air Damper is a component in the ventilation system...",
     fullDescription:
       "Air Damper adalah komponen dalam sistem ventilasi yang mengontrol aliran udara melalui pintu atau pelat yang dapat dibuka dan ditutup. Fungsinya adalah mengatur suhu, kelambaban dan sirkulasi udara dalam bangunan atau ruangan. Damper dapat dioperasikan secara manual atau otomatis dengan sensor-sensor untuk pengaturan yang lebih efisien.",
     images: [product4a, product4b, product4c, product4d],
@@ -82,41 +82,41 @@ const products = [
   {
     id: 5,
     name: "BJLS Duct Insulation",
-    shortDescription: "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi...",
+    shortDescription: "BJLS DUCT INSULATION is a high quality insulation solution...",
     fullDescription:
-      "BJLS DUCT INSULATION adalah solusi isolasi berkualitas tinggi yang dirancang khusus untuk sistem saluran udara (ducting) dalam berbagai aplikasi HVAC. Produk ini menawarkan performa termal yang unggul, membantu mencegah kondensasi, dan mengurangi kehilangan energi secara signifikan. Dengan kemampuan meredam suara yang efektif, BJLS DUCT INSULATION juga berkontribusi pada pengurangan kebisingan sistem. Terbuat dari bahan yang tahan api dan mudah dipasang, produk ini menjadi pilihan ideal untuk proyek-proyek komersial, industri, maupun residensial yang mengedepankan efisiensi energi dan kenyamanan.",
+      "BJLS DUCT INSULATION is a high-quality insulation solution specifically designed for ducting systems in various HVAC applications. It offers superior thermal performance, helps prevent condensation, and significantly reduces energy loss. With effective sound dampening capabilities, BJLS DUCT INSULATION also contributes to system noise reduction. Made of fire-resistant materials and easy to install, this product is an ideal choice for commercial, industrial, and residential projects that emphasize energy efficiency and comfort.",
     images: [product5a, product5b, product5c, product5d],
   },
   {
     id: 6,
     name: "Equipment HVAC",
-    shortDescription: "Equipment HVAC merupakan serangkaian peralatan dan sistem yang...",
+    shortDescription: "HVAC equipment is a series of equipment and systems that...",
     fullDescription:
-      "Equipment HVAC (Heating, Ventilation, and Air Conditioning) merupakan serangkaian peralatan dan sistem yang dirancang untuk mengatur suhu, kelembaban, dan kualitas udara di dalam ruangan atau bangunan. Sistem ini mencakup berbagai komponen seperti unit pengkondisi udara, pemanas, ventilasi, filter udara, dan kontrol otomatis yang bekerja bersama untuk menciptakan lingkungan dalam ruangan yang nyaman dan sehat.",
+      "HVAC (Heating, Ventilation, and Air Conditioning) equipment is a series of equipment and systems designed to regulate the temperature, humidity, and air quality inside a room or building. The system includes various components such as air conditioning units, heaters, ventilation, air filters, and automated controls that work together to create a comfortable and healthy indoor environment.",
     images: [product6a, product6b, product6c],
   },
   {
     id: 7,
     name: "PU Duct",
-    shortDescription: "PU Duct adalah sistem saluran udara inovatif yang terbuat dari bahan...",
+    shortDescription: "PU Duct is an innovative air duct system made of...",
     fullDescription:
-      "PU Duct, atau Polyurethane Duct, adalah sistem saluran udara inovatif yang terbuat dari bahan polyurethane berkualitas tinggi. Produk ini menawarkan kombinasi unik antara bobot ringan dan kekuatan struktural yang luar biasa, menjadikannya pilihan ideal untuk berbagai aplikasi HVAC modern. PU Duct memiliki sifat isolasi termal yang sangat baik, membantu meminimalkan kehilangan energi dan meningkatkan efisiensi sistem secara keseluruhan.",
+      "PU Duct, or Polyurethane Duct, is an innovative air duct system made from high-quality polyurethane material. It offers a unique combination of light weight and exceptional structural strength, making it an ideal choice for a wide range of modern HVAC applications. PU Duct has excellent thermal insulation properties, helping to minimize energy loss and improve overall system efficiency.",
     images: [product7a, product7b, product7c],
   },
   {
     id: 8,
     name: "Spiral Duct",
-    shortDescription: "Spiral Duct adalah siste msaluran udara yang dirancang dengan bentuk..",
+    shortDescription: "Spiral Duct is an air duct system designed with the shape of...",
     fullDescription:
-      "Spiral Duct adalah sistem saluran udara yang dirancang dengan bentuk spiral atau heliks, terbuat dari logam berkualitas tinggi seperti baja galvanis atau aluminium. Konstruksi uniknya memberikan kekuatan struktural yang superior dengan bobot yang relatif ringan, memungkinkan penggunaan material yang lebih tipis tanpa mengorbankan kinerja. Desain spiral ini menciptakan aliran udara yang lebih efisien dan mengurangi turbulensi, menghasilkan operasi yang lebih senyap dan hemat energi dibandingkan dengan saluran udara konvensional.",
+      "Spiral Duct is an air duct system designed with a spiral or helical shape, made of high quality metals such as galvanized steel or aluminum. Its unique construction provides superior structural strength with relatively light weight, allowing the use of thinner materials without compromising performance. This spiral design creates more efficient airflow and reduces turbulence, resulting in quieter and more energy-efficient operation compared to conventional air ducts.",
     images: [product8a, product8b, product8c, product8d],
   },
   {
     id: 9,
-    name: "RPUND Duct",
-    shortDescription: "RPUND Duct adalah komponen penting dalam sistem HVAC yang dirancang dengan...",
+    name: "ROUND Duct",
+    shortDescription: "ROUND Duct is a critical component in HVAC systems that is designed with...",
     fullDescription:
-      "RPUND Duct, atau saluran udara berbentuk bulat, adalah komponen penting dalam sistem HVAC yang dirancang dengan penampang melintang berbentuk lingkaran. Desain ini menawarkan efisiensi aliran udara yang optimal, memungkinkan distribusi udara yang merata dengan resistensi minimal. RPUND Duct umumnya terbuat dari baja galvanis, aluminium, atau bahan tahan karat lainnya, menjamin ketahanan dan umur pakai yang panjang. Bentuknya yang aerodinamis tidak hanya mengurangi kebisingan aliran udara tetapi juga memudahkan perawatan dan pembersihan.",
+      "ROUND Duct, or round air duct, is an essential component in HVAC systems designed with a circular cross-section. This design offers optimal airflow efficiency, allowing for even air distribution with minimal resistance. RPUND Duct is generally made of galvanized steel, aluminum, or other rust-resistant materials, guaranteeing durability and long service life. Its aerodynamic shape not only reduces airflow noise but also facilitates maintenance and cleaning.",
     images: [product9a, product9b, product9c, product9d, product9e, product9f],
   },
 ];
