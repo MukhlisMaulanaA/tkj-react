@@ -43,51 +43,51 @@ const App = () => {
 			title: "Mechanical Work",
 			content: [
         'Elevator Installation Work', 
-        'Supplay dan Pemasangan Pompa'
+        'Pump Supply and Installation'
       ]
 		},
 		{
 			id: 2,
 			title: "Electrical",
 			content: [
-        'Supplay dan Pemasangan Lampu', 
-        'Supplay dan Pemasangan Tiang PJU', 
-        'Supplay Kabel dan Penarikan Kabel',
-        'Supplay Panel dan Setting',
-        'Supplay Trafo dan Setting',
-        'Supplay dan Pemasangan Penangkal Petir'
+        'Light Supply and Installation', 
+        'Supply and Installation of PJU Poles', 
+        'Cable Supply and Cable Pulling',
+        'Panel Supply and Setting',
+        'Transformer Supply and Setup',
+        'Lightning rod supply and installation'
       ]
 		},
 		{
 			id: 3,
 			title: "Plumbing",
 			content: [
-        'Pekerjaan Pipa Hidrant, Sprinkle (Fire Fighter)',
-        'Pekerjaan Pipa Air Bersih dan Air Kotor', 
-        'Pekerjaan Pipa Gas'
+        'Hydrant Pipe Work, Sprinkle (Fire Fighter)',
+        'Clean and Dirty Water Pipe Work', 
+        'Gas Pipeline Work'
       ]
 		},
 		{
 			id: 4,
 			title: "Pekerjaan HVAC",
 			content: [
-        'Pekerjaan Ducting BJLS', 
-        'Pekerjaan Ducting V.U', 
-        'Supplay dan Install AC',
-        'Supplay dan Install AHU',
-        'Supplay dan Install Cooling Tower',
-        'Supplay dan Install Fan'
+        'BJLS Ducting Work', 
+        'V.U Ducting Work', 
+        'Supply and Install AC',
+        'Supply and Install AHU',
+        'Supply and Install Cooling Tower',
+        'Supply and Install Fan'
       ]
 		},
 		{
 			id: 5,
 			title: "Electronics Work",
 			content: [
-        'Supplay dan Install CCTV', 
-        'Supplay dan Install Audio System', 
-        'Supplay dan Install System BMS',
-        'Pekerjaan Telephone dan Kabel Data',
-        'Supplay dan Install Fire Alarm'
+        'CCTV Supply and Install', 
+        'Supply and Install Audio System', 
+        'Supply and Install BMS System',
+        'Telephone and Data Cabling Work',
+        'Fire Alarm Supply and Install'
       ]
 		},
 	];
