@@ -14,18 +14,18 @@ import image11 from "assets/img/client/dci-indo.png";
 import image12 from "assets/img/client/haier.png";
 
 const logos = [
-  { id: 1, src: image1, type: 'landscape' },
-  { id: 2, src: image2, type: 'landscape' },
-  { id: 3, src: image3, type: 'landscape' },
-  { id: 4, src: image4, type: 'landscape' },
-  { id: 5, src: image5, type: 'landscape' },
-  { id: 6, src: image6, type: 'landscape' },
-  { id: 7, src: image7, type: 'landscape' },
-  { id: 8, src: image8, type: 'landscape' },
-  { id: 9, src: image9, type: 'landscape' },
-  { id: 10, src: image10, type: 'landscape' },
-  { id: 11, src: image11, type: 'landscape' },
-  { id: 12, src: image12, type: 'landscape' },
+  { id: 1, src: image1, type: 'landscape', alt: 'Daewoong Indonesia'},
+  { id: 2, src: image2, type: 'landscape', alt: 'District8'},
+  { id: 3, src: image3, type: 'landscape', alt: 'PT. YPTT Solutions Indonesia'},
+  { id: 4, src: image4, type: 'landscape', alt: 'Trimitra Jaya Persada'},
+  { id: 5, src: image5, type: 'landscape', alt: 'Pakuwon Group'},
+  { id: 6, src: image6, type: 'landscape', alt: 'RSPI'},
+  { id: 7, src: image7, type: 'landscape', alt: 'Koyorad'},
+  { id: 8, src: image8, type: 'landscape', alt: 'Siloam Hospital'},
+  { id: 9, src: image9, type: 'landscape', alt: 'Maison Dekorindo'},
+  { id: 10, src: image10, type: 'landscape', alt: 'SY Technology'},
+  { id: 11, src: image11, type: 'landscape', alt: 'DCI Indonesia'},
+  { id: 12, src: image12, type: 'landscape', alt: 'HAIER'},
 ];
 
 const Customer = () => {
@@ -39,7 +39,7 @@ const Customer = () => {
           }`}>
           <img
             src={logo.src}
-            alt={`Logo ${logo.id}`}
+            alt={`Logo ${logo.alt}`}
             className="h-full w-auto object-contain"
           />
         </div>
