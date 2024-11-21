@@ -84,7 +84,7 @@
   }
 
   .grid-rows-5 {
-    grid-template-rows: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repe  at(5, minmax(0, 1fr));
   }
 
   .w-200 {
@@ -105,6 +105,14 @@
 
   .w-32 {
     width: 8rem /* 128px */;
+  }
+
+  .aspect-square {
+    aspect-ratio: 1/1;
+  }
+
+  .aspect-landscape {
+    aspect-ratio: 3/2;
   }
   
 }
