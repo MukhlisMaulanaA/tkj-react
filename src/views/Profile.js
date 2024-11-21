@@ -117,7 +117,7 @@ export default function Profile() {
 									<div className="w-full lg:w-4/12 px-4 flex justify-center">
 										<img
 											alt="..."
-											src={require("assets/img/profile-visi-misi.jpg")}
+											src={require("assets/img/profile-visi-misi2.jpg")}
 											className="max-w-full rounded-lg shadow-lg bg-cover"
 										/>
 									</div>
