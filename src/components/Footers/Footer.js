@@ -40,7 +40,7 @@ export default function Footer() {
 								</span>
 							</a>
 							<h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                Inovasi untuk Lingkungan Optimal. Solusi terdepan dalam aliran udara dan teknologi listrik pintar untuk kenyamanan dan efisiensi.
+                Innovation for Optimal Environment. Leading solutions in airflow and smart electrical technology for comfort and efficiency.
 							</h5>
 							<div className="mt-6 lg:mb-0 mb-6">
                 <a href="https://wa.me/6282146279008" target="_blank">
