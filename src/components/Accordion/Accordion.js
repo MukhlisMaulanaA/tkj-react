@@ -90,6 +90,34 @@ const App = () => {
         'Fire Alarm Supply and Install'
       ]
 		},
+    {
+      id: 6,
+      title: "Telecommunication",
+      content: [
+        'Install BTS',
+        'Install Microwave',
+        'Dismantle Hardware',
+        'FTTH',
+        'Install Fiber Optic',
+        'Battery',
+      ]
+    },
+    {
+      id: 7,
+      title: "CME Work",
+      content: [
+        'Tower rectification',
+        'Install Pole',
+      ]
+    },
+    {
+      id: 8,
+      title: "Warehousing",
+      content: [
+        'Wave housing management',
+        'Inventory Warehousing'
+      ]
+    },
 	];
 
 	return <AccordionMenu menuItems={menuItems} />;

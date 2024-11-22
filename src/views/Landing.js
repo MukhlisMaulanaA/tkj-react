@@ -268,7 +268,7 @@ export default function Landing() {
 							<div className="w-full lg:w-4/12 px-4 flex justify-center">
 								<img
 									alt="..."
-									src={require("assets/img/division.png")}
+									src={require("assets/img/services.jpg")}
 									className="max-w-full rounded-lg shadow-lg bg-cover"
 								/>
 							</div>
