@@ -12,6 +12,14 @@ import image9 from "assets/img/client/maison-dekorindo.png";
 import image10 from "assets/img/client/sy-tech.png";
 import image11 from "assets/img/client/dci-indo.png";
 import image12 from "assets/img/client/haier.png";
+import image13 from "assets/img/client/pt-algyp-sarana-graha.png";
+import image14 from "assets/img/client/pt-erajaya-group-companies.png";
+import image15 from "assets/img/client/pt-krisan-ciptakreasi-unggul.png";
+import image16 from "assets/img/client/pt-land-studio.png";
+import image17 from "assets/img/client/pt-okamaru-chitose-indonesia.png";
+import image18 from "assets/img/client/pt-volopay-indonesia.png";
+
+
 
 const logos = [
   { id: 1, src: image1, alt: 'Daewoong Indonesia'},
@@ -26,6 +34,12 @@ const logos = [
   { id: 10, src: image10, alt: 'SY Technology'},
   { id: 11, src: image11, alt: 'DCI Indonesia'},
   { id: 12, src: image12, alt: 'HAIER'},
+  { id: 13, src: image13, alt: 'PT. Algyp Sarana Graha'},
+  { id: 14, src: image14, alt: 'PT. Erajaya Group Companies'},
+  { id: 15, src: image15, alt: 'PT. Krisan Ciptakreasi Unggul'},
+  { id: 16, src: image16, alt: 'PT. Land Studio'},
+  { id: 17, src: image17, alt: 'PT. Okamaru Chitose Indonesia'},
+  { id: 18, src: image18, alt: 'PT. Volopay Indonesia'},
 ];
 
 const Customer = () => {
@@ -34,12 +48,12 @@ const Customer = () => {
       {logos.map((logo) => (
         <div
           key={logo.id}
-          className="flex items-center justify-center p-2 bg-white rounded-lg shadow-md aspect-[3/2]"
+          className="flex items-center justify-center p-2 bg-white rounded-lg shadow-md aspect-[3/2] w-32"
           >
           <img
             src={logo.src}
             alt={`Logo ${logo.alt}`}
-            className="h-full w-auto object-contain"
+            className="object-contain"
           />
         </div>
       ))}
