@@ -48,7 +48,7 @@ const Customer = () => {
       {logos.map((logo) => (
         <div
           key={logo.id}
-          className="flex items-center justify-center p-2 bg-white rounded-lg shadow-md aspect-[3/2] w-32"
+          className="flex items-center justify-center p-2 bg-white rounded-lg shadow-md aspect-[3/2]"
           >
           <img
             src={logo.src}
