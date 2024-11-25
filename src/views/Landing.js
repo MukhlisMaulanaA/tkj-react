@@ -390,7 +390,7 @@ export default function Landing() {
 						<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
 							<div class="mb-4">
 								<div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-									<h2 class="font-heading mb-4 font-bold tracking-tight text-white dark:text-white text-4xl sm:text-5xl">
+									<h2 class="font-heading mb-4 font-bold tracking-tight text-white text-4xl sm:text-5xl">
 										Contact
 									</h2>
 									<p class="mx-auto mt-4 max-w-3xl text-xl text-white">
@@ -405,7 +405,7 @@ export default function Landing() {
                       Thank you for visiting our website! We value your feedback and are here to assist you. Whether you have questions, need support, or wish to share your thoughts, please don’t hesitate to reach out.
 										</p>
 										<ul class="mb-6 md:mb-0">
-											<li class="flex ">
+											<li class="flex">
 												<div class="flex h-10 w-10 items-center justify-center rounded text-blueGray-50">
 													<i class="fas fa-map-marker-alt text-white text-2xl"></i>
 												</div>
@@ -431,14 +431,14 @@ export default function Landing() {
 													<h3 class="mb-2 text-lg font-medium leading-6 text-white">
 														Contact
 													</h3>
-													<p class="text-white dark:text-slate-400">
+													<p class="text-white">
 														Mobile:{" "}
 														<a href="https://wa.me/6282146279008" target="_blank">
 															{" "}
 															+62 821-4627-9008
 														</a>
 													</p>
-													<p class="text-white dark:text-slate-400">
+													<p class="text-white">
 														Mail:
 														<a href="mailto:Tanjungkaryajaya@yahoo.com" target="_blank">
                               {" "}
@@ -455,10 +455,10 @@ export default function Landing() {
 													<h3 class="mb-2 text-lg font-medium leading-6 text-white">
 														Working hours
 													</h3>
-													<p class="text-white dark:text-slate-400">
+													<p class="text-white">
 														Monday - Friday: 08:00 - 17:00
 													</p>
-													<p class="text-white dark:text-slate-400">
+													<p class="text-white">
 														Saturday &amp; Sunday: 08:00 - 12:00
 													</p>
 												</div>
