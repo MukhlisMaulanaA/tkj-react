@@ -195,7 +195,7 @@ export default function Landing() {
 						<div className="flex flex-wrap items-center">
 							<div className="w-full lg:w-4/12 px-4 flex justify-center">
 								<img
-									alt="..."
+									alt="Division Picture"
 									src={require("assets/img/division.png")}
 									className="max-w-full rounded-lg shadow-lg bg-cover"
 								/>
