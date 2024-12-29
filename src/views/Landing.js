@@ -12,6 +12,8 @@ import Customer from "components/Customers/Customer.js";
 import ContactForm from "components/ContactForm/ContactForm.js";
 import Video from "components/Video/Video.js";
 
+import profilePDF from "assets/pdf/company-profile-tanjung-karya-jaya.pdf";
+
 export default function Landing() {
 	return (
 		<>
@@ -127,6 +129,14 @@ export default function Landing() {
 								>
 									Read More..
 								</Link>
+                <a
+                  href={profilePDF}
+                  className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+                  type="button"
+                  download={profilePDF}
+                >
+                  Download PDF Profile
+                </a>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
