@@ -5,6 +5,9 @@ import background from "assets/img/carousel2.jpg";
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+import profilePDF from "assets/pdf/company-profile-tanjung-karya-jaya.pdf";
+
+
 export default function Profile() {
 	return (
 		<>
@@ -72,14 +75,20 @@ export default function Profile() {
 									<div className="flex flex-row flex-wrap justify-center gap-4">
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a href="mailto:Tanjungkaryajaya@yahoo.com" target="_blank">
+											<a
+												href="mailto:Tanjungkaryajaya@yahoo.com"
+												target="_blank"
+											>
 												Tanjungkaryajaya@yahoo.com
 											</a>
 										</div>
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a href="mailto:pttanjungkaryajaya.office@gmail.com" target="_blank">
-                      pttanjungkaryajaya.office@gmail.com
+											<a
+												href="mailto:pttanjungkaryajaya.office@gmail.com"
+												target="_blank"
+											>
+												pttanjungkaryajaya.office@gmail.com
 											</a>
 										</div>
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
@@ -92,21 +101,39 @@ export default function Profile() {
 									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
 										<a href="https://wa.me/6282146279008" target="_blank">
-                      +62 821-4627-9008
+											+62 821-4627-9008
 										</a>
 									</div>
+									<a
+										href={profilePDF}
+										className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+										type="button"
+										download={profilePDF}
+									>
+										Download PDF Profile
+									</a>
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
 									<div className="flex flex-wrap justify-center">
 										<div className="w-full lg:w-9/12 px-4">
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        PT. Tanjung Karya Jaya (TKJ) is a leading provider of Mechanical, Electrical, Plumbing, and HVAC (MEP) construction services. Since our establishment in 2019, we have consistently delivered exceptional projects, built on a foundation of quality, reliability, and customer satisfaction.
+												PT. Tanjung Karya Jaya (TKJ) is a leading provider of
+												Mechanical, Electrical, Plumbing, and HVAC (MEP)
+												construction services. Since our establishment in 2019,
+												we have consistently delivered exceptional projects,
+												built on a foundation of quality, reliability, and
+												customer satisfaction.
 											</p>
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        Thanks to the trust of our clients, we have consistently delivered exceptional results in a variety of construction projects, spanning office buildings, commercial properties, and industrial facilities.
+												Thanks to the trust of our clients, we have consistently
+												delivered exceptional results in a variety of
+												construction projects, spanning office buildings,
+												commercial properties, and industrial facilities.
 											</p>
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        We have achieved significant growth through successful collaborations with our material vendors, subcontractors, and other business partners.
+												We have achieved significant growth through successful
+												collaborations with our material vendors,
+												subcontractors, and other business partners.
 											</p>
 										</div>
 									</div>
@@ -129,7 +156,12 @@ export default function Profile() {
 													Vision
 												</h1>
 												<p className="text-blueGray-800 text-lg font-regular">
-                          Our vision is to be Indonesia's premier construction company, committed to sustainable growth, customer satisfaction, and the well-being of all stakeholders. We will achieve this through sound corporate governance and a strong commitment to social responsibility.
+													Our vision is to be Indonesia's premier construction
+													company, committed to sustainable growth, customer
+													satisfaction, and the well-being of all stakeholders.
+													We will achieve this through sound corporate
+													governance and a strong commitment to social
+													responsibility.
 												</p>
 											</div>
 
@@ -139,10 +171,15 @@ export default function Profile() {
 												</h1>
 												<ul className="px-4 list-disc">
 													<li className="text-blueGray-800 text-lg font-regular">
-                            To foster synergy between management and employees in maintaining company values and pursuing common goals.
+														To foster synergy between management and employees
+														in maintaining company values and pursuing common
+														goals.
 													</li>
 													<li className="text-blueGray-800 text-lg font-regular">
-                            By providing targeted training and implementing a robust recruitment process, we aim to build a high-performing workforce that is committed to our company's success.
+														By providing targeted training and implementing a
+														robust recruitment process, we aim to build a
+														high-performing workforce that is committed to our
+														company's success.
 													</li>
 												</ul>
 											</div>
