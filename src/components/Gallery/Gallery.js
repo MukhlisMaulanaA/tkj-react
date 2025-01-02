@@ -6,6 +6,11 @@ import image3 from "assets/img/gallery3.png";
 import image4 from "assets/img/gallery4.png";
 import image5 from "assets/img/gallery5-resize.png";
 import image6 from "assets/img/gallery6.png";
+import image7 from "assets/img/gallery7.jpg";
+import image8 from "assets/img/gallery8.jpg";
+import image9 from "assets/img/gallery9.jpg";
+import image10 from "assets/img/gallery10.jpg";
+
 
 const MasonryGridGallery = () => {
 	return (
@@ -116,6 +121,74 @@ const MasonryGridGallery = () => {
 								</h3>
 								<p>Interlock</p>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="relative group">
+				<div>
+					<img
+						className="h-auto max-w-full rounded-lg object-cover object-center"
+						src={image7}
+						alt="gallery-photo"
+					/>
+					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+						<div className="w-full text-sm absolute text-white bottom-0 p-4">
+							<h3 className="font-bold bottom-0 text-left">
+								Data Center Indonesia
+							</h3>
+							<p>Pemasangan dan Instalasi AHU LT</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="relative group">
+				<div>
+					<img
+						className="h-auto max-w-full rounded-lg object-cover object-center"
+						src={image8}
+						alt="gallery-photo"
+					/>
+					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+						<div className="w-full text-sm absolute text-white bottom-0 p-4">
+							<h3 className="font-bold bottom-0 text-left">
+								Data Center Indonesia
+							</h3>
+							<p>Pemasangan dan Instalasi AHU LT</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="relative group">
+				<div>
+					<img
+						className="h-auto max-w-full rounded-lg object-cover object-center"
+						src={image9}
+						alt="gallery-photo"
+					/>
+					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+						<div className="w-full text-sm absolute text-white bottom-0 p-4">
+							<h3 className="font-bold bottom-0 text-left">
+								Data Center Indonesia
+							</h3>
+							<p>Pemasangan dan Instalasi AHU LT</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="relative group">
+				<div>
+					<img
+						className="h-auto max-w-full rounded-lg object-cover object-center"
+						src={image10}
+						alt="gallery-photo"
+					/>
+					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+						<div className="w-full text-sm absolute text-white bottom-0 p-4">
+							<h3 className="font-bold bottom-0 text-left">
+								Data Center Indonesia
+							</h3>
+							<p>Pemasangan dan Instalasi AHU LT</p>
 						</div>
 					</div>
 				</div>
