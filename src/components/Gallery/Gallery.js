@@ -137,7 +137,7 @@ const MasonryGridGallery = () => {
 							<h3 className="font-bold bottom-0 text-left">
 								Data Center Indonesia
 							</h3>
-							<p>Pemasangan dan Instalasi AHU LT</p>
+							<p>Pemasangan dan Instalasi AHU LT - 8</p>
 						</div>
 					</div>
 				</div>
@@ -154,7 +154,7 @@ const MasonryGridGallery = () => {
 							<h3 className="font-bold bottom-0 text-left">
 								Data Center Indonesia
 							</h3>
-							<p>Pemasangan dan Instalasi AHU LT</p>
+							<p>Pemasangan dan Instalasi AHU LT - 8</p>
 						</div>
 					</div>
 				</div>
@@ -171,7 +171,7 @@ const MasonryGridGallery = () => {
 							<h3 className="font-bold bottom-0 text-left">
 								Data Center Indonesia
 							</h3>
-							<p>Pemasangan dan Instalasi AHU LT</p>
+							<p>Pemasangan dan Instalasi AHU LT - 8</p>
 						</div>
 					</div>
 				</div>
@@ -188,7 +188,7 @@ const MasonryGridGallery = () => {
 							<h3 className="font-bold bottom-0 text-left">
 								Data Center Indonesia
 							</h3>
-							<p>Pemasangan dan Instalasi AHU LT</p>
+							<p>Pemasangan dan Instalasi AHU LT - 8</p>
 						</div>
 					</div>
 				</div>
