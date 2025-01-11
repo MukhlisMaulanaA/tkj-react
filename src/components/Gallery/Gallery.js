@@ -6,10 +6,13 @@ import image3 from "assets/img/gallery3.png";
 import image4 from "assets/img/gallery4.png";
 import image5 from "assets/img/gallery5-resize.png";
 import image6 from "assets/img/gallery6.png";
-import image7 from "assets/img/gallery7.jpg";
+import image7 from "assets/img/gallery7.png";
 import image8 from "assets/img/gallery8.jpg";
 import image9 from "assets/img/gallery9.jpg";
 import image10 from "assets/img/gallery10.jpg";
+import image11 from "assets/img/gallery11.jpg";
+import image12 from "assets/img/gallery12.jpg";
+import image13 from "assets/img/gallery13.jpg";
 
 
 const MasonryGridGallery = () => {
@@ -132,15 +135,15 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image5}
+							src={image11}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Daewong Biologic Indonesia
+									Telkomsel
 								</h3>
-								<p>Pas Box</p>
+								<p>Pemasangan Baterai Lithium</p>
 							</div>
 						</div>
 					</div>
@@ -151,15 +154,15 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image1}
+							src={image12}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Honda Precision Parts Manufacturing
+									Telkomsel
 								</h3>
-								<p>Pembuatan Akrilik</p>
+								<p>Pemasangan Baterai Lithium</p>
 							</div>
 						</div>
 					</div>
@@ -168,15 +171,15 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image2}
+							src={image13}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Honda Precision Parts Manufacturing
+									Telkomsel
 								</h3>
-								<p>Pembuatan Akrilik</p>
+								<p>Pemasangan Baterai Lithium</p>
 							</div>
 						</div>
 					</div>
@@ -188,15 +191,15 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image6}
+							src={image7}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Daewong Biologic Indonesia
+									Data Center Indonesia
 								</h3>
-								<p>Interlock</p>
+								<p>Pemasangan dan Instalasi AHU LT - 8</p>
 							</div>
 						</div>
 					</div>
@@ -207,15 +210,15 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image4}
+							src={image8}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Daewong Biologic Indonesia
+									Data Center Indonesia
 								</h3>
-								<p>AHU</p>
+								<p>Pemasangan dan Instalasi AHU LT - 8</p>
 							</div>
 						</div>
 					</div>
@@ -224,88 +227,22 @@ const MasonryGridGallery = () => {
 					<div>
 						<img
 							className="h-auto max-w-full rounded-lg object-cover object-center"
-							src={image3}
+							src={image10}
 							alt="gallery-photo"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
 								<h3 className="font-bold bottom-0 text-left">
-									PT. Daewong Biologic Indonesia
+									Data Center Indonesia
 								</h3>
-								<p>Clean Booth</p>
+								<p>Pemasangan dan Instalasi AHU LT - 8</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="relative group">
-				<div>
-					<img
-						className="h-auto max-w-full rounded-lg object-cover object-center"
-						src={image7}
-						alt="gallery-photo"
-					/>
-					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-						<div className="w-full text-sm absolute text-white bottom-0 p-4">
-							<h3 className="font-bold bottom-0 text-left">
-								Data Center Indonesia
-							</h3>
-							<p>Pemasangan dan Instalasi AHU LT - 8</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="relative group">
-				<div>
-					<img
-						className="h-auto max-w-full rounded-lg object-cover object-center"
-						src={image8}
-						alt="gallery-photo"
-					/>
-					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-						<div className="w-full text-sm absolute text-white bottom-0 p-4">
-							<h3 className="font-bold bottom-0 text-left">
-								Data Center Indonesia
-							</h3>
-							<p>Pemasangan dan Instalasi AHU LT - 8</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="relative group">
-				<div>
-					<img
-						className="h-auto max-w-full rounded-lg object-cover object-center"
-						src={image9}
-						alt="gallery-photo"
-					/>
-					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-						<div className="w-full text-sm absolute text-white bottom-0 p-4">
-							<h3 className="font-bold bottom-0 text-left">
-								Data Center Indonesia
-							</h3>
-							<p>Pemasangan dan Instalasi AHU LT - 8</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="relative group">
-				<div>
-					<img
-						className="h-auto max-w-full rounded-lg object-cover object-center"
-						src={image10}
-						alt="gallery-photo"
-					/>
-					<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-						<div className="w-full text-sm absolute text-white bottom-0 p-4">
-							<h3 className="font-bold bottom-0 text-left">
-								Data Center Indonesia
-							</h3>
-							<p>Pemasangan dan Instalasi AHU LT - 8</p>
-						</div>
-					</div>
-				</div>
-			</div>
+
+			
       
 		</div>
 	);
