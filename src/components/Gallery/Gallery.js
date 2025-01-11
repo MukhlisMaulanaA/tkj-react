@@ -8,7 +8,6 @@ import image5 from "assets/img/gallery5-resize.png";
 import image6 from "assets/img/gallery6.png";
 import image7 from "assets/img/gallery7.png";
 import image8 from "assets/img/gallery8.jpg";
-import image9 from "assets/img/gallery9.jpg";
 import image10 from "assets/img/gallery10.jpg";
 import image11 from "assets/img/gallery11.jpg";
 import image12 from "assets/img/gallery12.jpg";
