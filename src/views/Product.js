@@ -1,11 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 // components
 
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
-import ProductCarousel from "components/Products/Products";
 import ProductPage from "components/Products/ProductPage";
 
 export default function Product() {

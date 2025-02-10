@@ -43,14 +43,14 @@ export default function Footer() {
                 Innovation for Optimal Environment. Leading solutions in airflow and smart electrical technology for comfort and efficiency.
 							</h5>
 							<div className="mt-6 lg:mb-0 mb-6">
-                <a href="https://wa.me/6282146279008" target="_blank">
+                <a href="https://wa.me/6282146279008" rel="noopener">
                   <button
                     className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button">
                       <i class="fab fa-whatsapp-square"></i>
                   </button>
                 </a>
-                <a href="mailto:tanjungkaryajaya@yahoo.com" target="_blank">
+                <a href="mailto:tanjungkaryajaya@yahoo.com" rel="noopener">
                   <button
                     className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button">

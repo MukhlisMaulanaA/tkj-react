@@ -76,31 +76,31 @@ export default function Profile() {
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
 											<a
-												href="mailto:Tanjungkaryajaya@yahoo.com"
-												target="_blank"
+												href="mailto:officetkj@tanjungkaryajaya.co.id"
+												rel="noopener"
 											>
-												Tanjungkaryajaya@yahoo.com
+												officetkj@tanjungkaryajaya.co.id
 											</a>
 										</div>
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
 											<a
-												href="mailto:pttanjungkaryajaya.office@gmail.com"
-												target="_blank"
+												href="mailto:infotkj@tanjungkaryajaya.co.id"
+												rel="noopener"
 											>
-												pttanjungkaryajaya.office@gmail.com
+												infotkj@tanjungkaryajaya.co.id
 											</a>
 										</div>
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a href="mailto:bagioh88@gmail.com" target="_blank">
+											<a href="mailto:bagioh88@gmail.com" rel="noopener">
 												bagioh88@gmail.com
 											</a>
 										</div>
 									</div>
 									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-										<a href="https://wa.me/6282146279008" target="_blank">
+										<a href="https://wa.me/6282146279008" rel="noopener">
 											+62 821-4627-9008
 										</a>
 									</div>

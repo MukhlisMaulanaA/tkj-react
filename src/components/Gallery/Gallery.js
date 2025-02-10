@@ -24,6 +24,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image1}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -41,6 +42,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image2}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -60,6 +62,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image5}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -79,6 +82,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image4}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -96,6 +100,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image3}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -115,6 +120,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image6}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -136,6 +142,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image11}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -155,6 +162,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image12}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -172,6 +180,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image13}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -192,6 +201,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image7}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -211,6 +221,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image8}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">
@@ -228,6 +239,7 @@ const MasonryGridGallery = () => {
 							className="h-auto max-w-full rounded-lg object-cover object-center"
 							src={image10}
 							alt="gallery-photo"
+              loading="lazy"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 							<div className="w-full text-sm absolute text-white bottom-0 p-4">

@@ -5,7 +5,6 @@ import product1b from "assets/img/products/product-bjls2.jpg";
 
 import product2a from "assets/img/products/square-duct.jpg";
 import product2b from "assets/img/products/square-duct2.jpg";
-import product2c from "assets/img/products/square-duct3.jpg";
 
 import product3a from "assets/img/products/air-grillie.jpg";
 import product3b from "assets/img/products/air-grillie2.jpg";
