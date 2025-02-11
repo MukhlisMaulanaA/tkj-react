@@ -91,12 +91,6 @@ export default function Profile() {
 												infotkj@tanjungkaryajaya.co.id
 											</a>
 										</div>
-										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
-											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a href="mailto:bagioh88@gmail.com" rel="noopener">
-												bagioh88@gmail.com
-											</a>
-										</div>
 									</div>
 									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
