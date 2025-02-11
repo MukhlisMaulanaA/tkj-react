@@ -27,13 +27,12 @@ const YouTubeVideoCarousel = () => {
         }}>
           <iframe
             src={`https://www.youtube.com/embed/${youtubeVideoId}?${youtubeParams}`}
-            className="absolute top-1/2 left-1/2 w-screen h-screen"
+            className="absolute top-0 left-0 w-[277.77%] h-[277.77%] -translate-x-1/3 -translate-y-1/3"
             style={{
-              transform: 'translate(-50%, -50%) scale(1.2)',
-              minWidth: '100%',
-              minHeight: '100%',
+              minWidth: '100vw',
+              minHeight: '100vh',
               objectFit: 'cover',
-              aspectRatio: '16/9'
+              transform: 'scale(3.000)'
             }}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -50,7 +50,7 @@ export default function Footer() {
                       <i class="fab fa-whatsapp-square"></i>
                   </button>
                 </a>
-                <a href="mailto:tanjungkaryajaya@yahoo.com" rel="noopener">
+                <a href="mailto:officetkj@tanjungkaryajaya.co.id	" rel="noopener">
                   <button
                     className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button">
