@@ -108,7 +108,7 @@ export default function Profile() {
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
 									<div className="flex flex-wrap justify-center">
-										<div className="w-full lg:w-9/12 px-4">
+										<div className="w-full lg:w-9/12">
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
 												PT. Tanjung Karya Jaya (TKJ) adalah perusahaan yang
 												bergerak di bidang jasa konstruksi, khususnya di bidang
@@ -133,7 +133,7 @@ export default function Profile() {
 									</div>
 								</div>
 							</div>
-							<div className="px-6">
+							<div className="px-2">
 								<div className="flex flex-wrap items-center border-t">
 									<div className="w-full lg:w-4/12 px-4 flex justify-center">
 										<img
