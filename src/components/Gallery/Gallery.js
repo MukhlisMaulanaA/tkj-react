@@ -12,8 +12,10 @@ import image10 from "assets/img/gallery10.jpg";
 import image11 from "assets/img/gallery11.jpg";
 import image12 from "assets/img/gallery12.jpg";
 import image13 from "assets/img/gallery13.jpg";
-
-
+import image14 from "assets/img/tower-protelindo1.jpg";
+import image15 from "assets/img/tower-protelindo2.jpg";
+import image16 from "assets/img/tower-protelindo3.jpg";
+import image17 from "assets/img/tower-protelindo4.jpg";
 const MasonryGridGallery = () => {
 	return (
 		<div className="grid grid-cols-2 gap-4 md:grid-cols-4">
@@ -252,7 +254,87 @@ const MasonryGridGallery = () => {
 					</div>
 				</div>
 			</div>
-
+      <div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image14}
+							alt="gallery-photo"
+              loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									Tower Protelindo
+								</h3>
+								<p>Installasi Tower Communication</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image15}
+							alt="gallery-photo"
+              loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									Tower Protelindo
+								</h3>
+								<p>Installasi Tower Communication</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image16}
+							alt="gallery-photo"
+              loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									Tower Protelindo
+								</h3>
+								<p>Installasi Tower Communication</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      <div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image17}
+							alt="gallery-photo"
+              loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									Tower Protelindo
+								</h3>
+								<p>Installasi Tower Communication</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      
 			
       
 		</div>
