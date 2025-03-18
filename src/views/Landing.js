@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 // components
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
-// import ImageCarousel from "components/Carousel/Carousel.js";
-import YouTubeVideoCarousel from "components/Carousel/CarouselVid.js";
+import ImageCarousel from "components/Carousel/Carousel.js";
+// import YouTubeVideoCarousel from "components/Carousel/CarouselVid.js";
 import Products from "components/Products/Products.js";
 import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
@@ -24,7 +24,7 @@ export default function Landing() {
 					className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
 					id="home"
 				>
-					<YouTubeVideoCarousel />
+					<ImageCarousel />
 					<div className="container relative mx-auto px-4 z-30">
 						<div className="items-center flex flex-wrap">
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">

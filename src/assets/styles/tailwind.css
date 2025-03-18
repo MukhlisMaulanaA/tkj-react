@@ -1902,6 +1902,10 @@ select {
   min-width: 140px;
 }
 
+.opacity-30 {
+  opacity: 0.3;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
