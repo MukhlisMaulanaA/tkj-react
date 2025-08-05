@@ -19,10 +19,9 @@ import image15 from "assets/img/client/pt-krisan-ciptakreasi-unggul.png";
 import image16 from "assets/img/client/pt-land-studio.png";
 import image17 from "assets/img/client/pt-okamaru-chitose-indonesia.png";
 import image18 from "assets/img/client/pt-volopay-indonesia.png";
-import image20 from "assets/img/client/pt-volopay-indonesia.png";
-import image21 from "assets/img/client/pt-volopay-indonesia.png";
-import image22 from "assets/img/client/pt-volopay-indonesia.png";
-import image23 from "assets/img/client/pt-volopay-indonesia.png";
+import image19 from "assets/img/client/pt-fiber-media-indo.png";
+import image20 from "assets/img/client/pt-remala-abadi-tbk.png";
+
 
 const logos = [
 	{ id: 1, src: image1, alt: "Daewoong Indonesia" },
@@ -43,33 +42,32 @@ const logos = [
 	{ id: 16, src: image16, alt: "PT. Land Studio" },
 	{ id: 17, src: image17, alt: "PT. Okamaru Chitose Indonesia" },
 	{ id: 18, src: image18, alt: "PT. Volopay Indonesia" },
-	// { id: 19, src: nullImage, alt: "PT. Volopay Indonesia" },
-	// { id: 20, src: image20, alt: "PT. Volopay Indonesia" },
-	// { id: 21, src: image21, alt: "PT. Volopay Indonesia" },
-	// { id: 22, src: image22, alt: "PT. Volopay Indonesia" },
-	// { id: 23, src: image23, alt: "PT. Volopay Indonesia" },
-	// { id: 24, src: nullImage, alt: "PT. Volopay Indonesia" },
+	{ id: 19, src: image19, alt: "PT. Fiber Media Indonesia" },
+	{ id: 20, src: image20, alt: "PT. Remala Abadi Tbk." },
 ];
 
 const Customer = () => {
-	return (
-		<div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
-			{logos.map((logo) => (
-				<div
-					key={logo.id}
-					className={`flex items-center justify-center p-2 rounded-lg shadow-md aspect-[3/2] ${
-						logo.src === nullImage ? "bg-transparent" : "bg-white"
-					}`}
-				>
-					<img
-						src={logo.src}
-						alt={`Logo ${logo.alt}`}
-						className="object-contain"
-					/>
-				</div>
-			))}
-		</div>
-	);
+  return (
+    <div className="flex flex-wrap gap-4 justify-center">
+      {logos.map((logo) => (
+        <div
+          key={logo.id}
+          className={`flex items-center justify-center p-2 rounded-lg shadow-md aspect-[3/2] bg-white`}
+          style={{
+            flex: "1 1 120px",
+            maxWidth: "200px",
+            minWidth: "180px",
+          }}
+        >
+          <img
+            src={logo.src}
+            alt={`Logo ${logo.alt}`}
+            className="object-contain w-full h-full"
+          />
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Customer;
