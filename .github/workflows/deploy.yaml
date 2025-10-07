@@ -25,6 +25,11 @@ jobs:
         run: npm install
         working-directory: ./public  # ganti sesuai lokasi package.json kamu
 
+      # 3️⃣ Install dependencies
+      - name: Install serve to build
+        run: npm install -g serve
+        working-directory: ./public  # ganti sesuai lokasi package.json kamu
+
       # 4️⃣ Build React project
       - name: Build project
         run: serve -s build
