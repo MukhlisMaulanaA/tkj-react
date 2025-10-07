@@ -14,23 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
         working-directory: ./public  # ganti sesuai lokasi package.json kamu
 
-      # 3️⃣ Install dependencies
-      - name: Install serve to build
-        run: npm install -g serve
-        working-directory: ./public  # ganti sesuai lokasi package.json kamu
-
       # 4️⃣ Build React project
       - name: Build project
-        run: serve -s build
+        run: npm run build
         working-directory: ./public
