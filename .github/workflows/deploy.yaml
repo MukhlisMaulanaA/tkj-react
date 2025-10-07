@@ -27,5 +27,5 @@ jobs:
 
       # 4️⃣ Build React project
       - name: Build project
-        run: npm run build
+        run: serve -s build
         working-directory: ./public
