@@ -22,6 +22,10 @@ import image20 from "assets/img/ducting-pt-sy-tech1.jpg";
 import image21 from "assets/img/pipa-pt-kaneta3.jpg";
 import image22 from "assets/img/pipa-pt-kaneta4.jpg";
 import image23 from "assets/img/ducting-pt-sy-tech2.jpg";
+import image24 from "assets/img/jacketing-pt-hppm1.jpg";
+import image25 from "assets/img/jacketing-pt-hppm2.jpg";
+import image26 from "assets/img/jacketing-pt-hppm3.jpg";
+import image27 from "assets/img/jacketing-pt-hppm4.jpg";
 
 
 const MasonryGridGallery = () => {
@@ -443,6 +447,86 @@ const MasonryGridGallery = () => {
 				</div>
 			</div>
 
+      <div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image24}
+							alt="gallery"
+							loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									PT. HPPM
+								</h3>
+								<p>Jacketing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image25}
+							alt="gallery"
+							loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									PT. HPPM
+								</h3>
+								<p>Jacketing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image26}
+							alt="gallery"
+							loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									PT. HPPM
+								</h3>
+								<p>Jacketing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="grid gap-4">
+				<div className="relative group">
+					<div>
+						<img
+							className="h-auto max-w-full rounded-lg object-cover object-center"
+							src={image27}
+							alt="gallery"
+							loading="lazy"
+						/>
+						<div className="absolute inset-0 bg-gradient-to-t-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+							<div className="w-full text-sm absolute text-white bottom-0 p-4">
+								<h3 className="font-bold bottom-0 text-left">
+									PT. HPPM
+								</h3>
+								<p>Jacketing</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
       
 		</div>
 	);
