@@ -25,6 +25,7 @@
     "tailwindcss": "2.0.4"
   },
   "scripts": {
+    "dev" : "react-scripts start",
     "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "CI=false && DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "serve": "npm run build && node server.js",
