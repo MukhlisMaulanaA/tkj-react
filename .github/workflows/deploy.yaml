@@ -3,7 +3,7 @@ name: 🚀 Auto Deploy React Website
 on:
   push:
     branches:
-      - production 
+      - production
 
 jobs:
   build-and-deploy:
