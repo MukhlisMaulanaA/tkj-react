@@ -30,7 +30,7 @@ export default function Landing() {
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 								<div className="">
 									<h1 className="text-white font-semibold text-3xl">
-										KONTRAKTOR DAN KONSULTAN HVAC DAN DUCTING BERKUALITAS
+										KONTRAKTOR HVAC, MEKANIKAL, PLUMBING DAN TELEKOMUNIKASI
 									</h1>
 									<p className="mt-4 text-lg text-blueGray-200">
 										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal,
