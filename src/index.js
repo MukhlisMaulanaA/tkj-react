@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react"
-import "@fortawesome/fontawesome-free/css/all.min.css";
 
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/index.css";
 
 import Landing from "views/Landing.js"; 
