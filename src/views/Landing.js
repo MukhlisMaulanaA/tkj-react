@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Navbar from "components/Navbars/CustomNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import ImageCarousel from "components/Carousel/Carousel.js";
+// import YouTubeVideoCarousel from "components/Carousel/CarouselVid.js";
 import Products from "components/Products/Products.js";
 import AccordionMenu from "components/Accordion/Accordion.js";
 import Gallery from "components/Gallery/Gallery.js";
@@ -21,17 +22,19 @@ export default function Landing() {
 			<main>
 				<div
 					className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
-					id="home">
+					id="home"
+				>
 					<ImageCarousel />
-					<div className="container relative mx-auto">
+					<div className="container relative mx-auto px-4 z-30">
 						<div className="items-center flex flex-wrap">
 							<div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 								<div className="">
-									<h1 className="text-white font-semibold text-5xl">
-										Building Credibility
+									<h1 className="text-white font-semibold text-3xl">
+										KONTRAKTOR HVAC, MEKANIKAL, PLUMBING DAN TELEKOMUNIKASI
 									</h1>
 									<p className="mt-4 text-lg text-blueGray-200">
-                    PT. Tanjung Karya Jaya, Your Partner in Mechanical, Electrical, Plumbing, and HVAC.
+										PT. Tanjung Karya Jaya, Mitra Anda dalam Mekanikal,
+										Elektrikal, Plumbing, dan HVAC.
 									</p>
 								</div>
 							</div>
@@ -69,7 +72,8 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Inovation</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-                    We are always at the forefront of change, pioneering innovative solutions that transform challenges into opportunities.
+											Kami selalu berada di garis depan perubahan, menciptakan
+											solusi baru yang mengubah tantangan menjadi peluang.
 										</p>
 									</div>
 								</div>
@@ -83,7 +87,9 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Optimization</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-                    With our expertise and dedication, we consistently deliver optimal solutions to every challenge, ensuring the best possible outcomes for each project.
+											Dengan keahlian dan dedikasi, kami menghadirkan solusi
+											terbaik dalam setiap tantangan, memastikan hasil yang
+											optimal bagi setiap proyek.
 										</p>
 									</div>
 								</div>
@@ -97,7 +103,9 @@ export default function Landing() {
 										</div>
 										<h6 className="text-xl font-semibold">Efficiency</h6>
 										<p className="mt-2 mb-4 text-blueGray-500">
-                    By strategically managing our resources, we ensure that we deliver maximum value to our clients while upholding the highest standards of quality.
+											Kami memaksimalkan hasil dengan mengelola sumber daya
+											secara cerdas, menghadirkan nilai tertinggi bagi klien
+											tanpa kompromi pada kualitas.
 										</p>
 									</div>
 								</div>
@@ -117,10 +125,19 @@ export default function Landing() {
 									About Us
 								</h3>
 								<p className="text-lg font-medium leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  PT. Tanjung Karya Jaya (TKJ) is a leading provider of Mechanical, Electrical, Plumbing, and HVAC (MEP) construction services. Since our establishment in 2019, we have consistently delivered exceptional projects, built on a foundation of quality, reliability, and customer satisfaction.
+									PT. TANJUNG KARYA JAYA merupakan perusahaan yang bergerak di
+									bidang produksi Ducting dan juga desain tata udara. Kami
+									tangan pertama dalam pembuatan Ducting PU, BJLS, Spiral Duct,
+									dan Round Duct. Kami telah mengerjakan beberapa proyek di
+									JABODETABEK dan di luar JABODETABEK sejak 2019. Dengan tenaga
+									yang berpengalaman dan juga material yang berkualitas.
 								</p>
 								<p className="text-lg font-medium leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  Thanks to the trust of our clients, we have consistently delivered exceptional results in a variety of construction projects, spanning office buildings, commercial properties, and industrial facilities.
+									Selain mengerjakan pekerjaan Ducting dan tata udara, kami juga
+									merupakan Konsultan Arsitektur dan juga Kontraktor Mechanical
+									dan Electrical. Kami terus berinovasi memberikan yang terbaik
+									untuk Client kami dan selalu menjadi Pionir yang terus menjadi
+									kontraktor dan konsultan yang dapat diandalkan.
 								</p>
 								<Link
 									to="/profile"
@@ -129,14 +146,14 @@ export default function Landing() {
 								>
 									Read More..
 								</Link>
-                <a
-                  href={profilePDF}
-                  className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
-                  type="button"
-                  download={profilePDF}
-                >
-                  Download PDF Profile
-                </a>
+								<a
+									href={profilePDF}
+									className="bg-blueGray-800 text-white active:bg-blueGray-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-4 ease-linear transition-all duration-200"
+									type="button"
+									download={profilePDF}
+								>
+									Download PDF Profile
+								</a>
 							</div>
 
 							<div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -162,7 +179,9 @@ export default function Landing() {
 											PT. Tanjung Karya Jaya
 										</h4>
 										<p className="text-md font-light mt-2 text-white">
-                      Innovation for Optimal Environments. Leading solutions in smart airflow and electrical technology for comfort and efficiency.
+											Inovasi untuk Lingkungan Optimal. Solusi terdepan dalam
+											aliran udara dan teknologi listrik pintar untuk kenyamanan
+											dan efisiensi.
 										</p>
 									</blockquote>
 								</div>
@@ -174,7 +193,8 @@ export default function Landing() {
 				<section className="relative py-20">
 					<div
 						className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-						style={{ transform: "translateZ(0)" }}>
+						style={{ transform: "translateZ(0)" }}
+					>
 						<svg
 							className="absolute bottom-0 overflow-hidden"
 							xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +225,7 @@ export default function Landing() {
 						<div className="flex flex-wrap items-center">
 							<div className="w-full lg:w-4/12 px-4 flex justify-center">
 								<img
-									alt="Division Picture"
+									alt="Division"
 									src={require("assets/img/division.png")}
 									className="max-w-full rounded-lg shadow-lg bg-cover"
 								/>
@@ -221,7 +241,9 @@ export default function Landing() {
 											Production
 										</h1>
 										<p className="px-4 text-white font-light">
-                      Our commitment to quality is reflected in our premium products, which are the result of rigorous quality assurance, rapid innovation, advanced technology, and a highly skilled team.
+											Kami hanya menyediakan produk premium melalui proses
+											penjaminan mutu, percepatan inovasi, teknologi modern dan
+											sumber daya manusia yang unggul.
 										</p>
 									</div>
 
@@ -233,7 +255,9 @@ export default function Landing() {
 											Engineering
 										</h1>
 										<p className="px-4 text-white font-light">
-                      Our creative team is skilled at turning our customers' unique requirements into products that meet exact specifications, are precisely constructed, cost-effective, and prioritize safety.
+											Tim kreatif yang mengubah kebutuhan pelanggan kami menjadi
+											produk dengan spesifikasi sempurna, konstruksi presisi,
+											ekonomis, dan fungsi keselamatan.
 										</p>
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -244,7 +268,10 @@ export default function Landing() {
 											HSE <br /> (Health, Safety, and Environment)
 										</h1>
 										<p className="px-4 text-white font-light">
-                      We are dedicated to implementing best practices in health, safety, and environmental management to ensure zero harm to our employees, the environment, and assets.
+											Komitmen untuk mencapai nol bahaya bagi karyawan,
+											lingkungan dan properti untuk praktik kesehatan,
+											keselamatan, dan lingkungan kerja yang efektif dan
+											ditingkatkan di setiap aktivitas.
 										</p>
 									</div>
 									<div className="rounded-lg bg-blueGray-700 p-6 text-center shadow-xl mb-4">
@@ -255,7 +282,11 @@ export default function Landing() {
 											Financial
 										</h1>
 										<p className="px-4 text-white font-light">
-                      Providing exceptional financial services to the company and its customers by conducting business with integrity, accuracy, and sustainability, safeguarding assets, and establishing robust accounting policies and procedures.
+											Menjalankan aktivitas keuangan Perusahaan dengan
+											integritas, akurasi dan keberlanjutan, menjaga aset
+											keuangan, menetapkan kebijakan dan prosedur akuntansi
+											serta memberikan layanan terbaik kepada perusahaan dan
+											pelanggan.
 										</p>
 									</div>
 								</div>
@@ -287,7 +318,7 @@ export default function Landing() {
 							<h3 className="text-4xl font-semibold ml-2">Gallery</h3>
 						</div>
 						<Gallery />
-            <Video />
+						<Video />
 					</div>
 				</section>
 
@@ -319,8 +350,8 @@ export default function Landing() {
 									Our Customers
 								</h2>
 								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-									Has completed projects in several companies including large
-									companies and various industries.
+									Telah menyelesaikan proyek di beberapa perusahaan termasuk
+									perusahaan besar dan berbagai industri.
 								</p>
 							</div>
 						</div>
@@ -338,8 +369,8 @@ export default function Landing() {
 									Performance Index
 								</h2>
 								<p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-									Has completed projects in several companies including large
-									companies and various industries.
+									Telah menyelesaikan proyek di beberapa perusahaan termasuk
+									perusahaan besar dan berbagai industri.
 								</p>
 							</div>
 							<div className="w-full flex flex-wrap lg:flex-row gap-4 justify-center">
@@ -401,7 +432,10 @@ export default function Landing() {
 								<div class="grid md:grid-cols-2">
 									<div class="h-full pr-6">
 										<p class="mt-3 mb-12 text-lg text-white">
-                      Thank you for visiting our website! We value your feedback and are here to assist you. Whether you have questions, need support, or wish to share your thoughts, please don’t hesitate to reach out.
+											Terima kasih telah mengunjungi situs web kami! Kami
+											menghargai umpan balik Anda dan siap membantu Anda. Jika
+											Anda memiliki pertanyaan, membutuhkan dukungan, atau ingin
+											berbagi pemikiran, jangan ragu untuk menghubungi kami.
 										</p>
 										<ul class="mb-6 md:mb-0">
 											<li class="flex">
@@ -432,16 +466,22 @@ export default function Landing() {
 													</h3>
 													<p class="text-white">
 														Mobile:{" "}
-														<a href="https://wa.me/6282146279008" target="_blank">
+														<a
+															href="https://wa.me/6282146279008"
+															rel="noopener"
+														>
 															{" "}
 															+62 821-4627-9008
 														</a>
 													</p>
 													<p class="text-white">
 														Mail:
-														<a href="mailto:Tanjungkaryajaya@yahoo.com" target="_blank">
-                              {" "}
-															Tanjungkaryajaya@yahoo.com
+														<a
+															href="mailto:officetkj@tanjungkaryajaya.co.id"
+															rel="noopener"
+														>
+															{" "}
+															officetkj@tanjungkaryajaya.co.id
 														</a>
 													</p>
 												</div>

@@ -7,7 +7,6 @@ import Footer from "components/Footers/Footer.js";
 
 import profilePDF from "assets/pdf/company-profile-tanjung-karya-jaya.pdf";
 
-
 export default function Profile() {
 	return (
 		<>
@@ -76,31 +75,25 @@ export default function Profile() {
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
 											<a
-												href="mailto:Tanjungkaryajaya@yahoo.com"
-												target="_blank"
+												href="mailto:officetkj@tanjungkaryajaya.co.id"
+												rel="noopener"
 											>
-												Tanjungkaryajaya@yahoo.com
+												officetkj@tanjungkaryajaya.co.id
 											</a>
 										</div>
 										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
 											<a
-												href="mailto:pttanjungkaryajaya.office@gmail.com"
-												target="_blank"
+												href="mailto:infotkj@tanjungkaryajaya.co.id"
+												rel="noopener"
 											>
-												pttanjungkaryajaya.office@gmail.com
-											</a>
-										</div>
-										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
-											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a href="mailto:bagioh88@gmail.com" target="_blank">
-												bagioh88@gmail.com
+												infotkj@tanjungkaryajaya.co.id
 											</a>
 										</div>
 									</div>
 									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
 										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-										<a href="https://wa.me/6282146279008" target="_blank">
+										<a href="https://wa.me/6282146279008" rel="noopener">
 											+62 821-4627-9008
 										</a>
 									</div>
@@ -115,31 +108,32 @@ export default function Profile() {
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
 									<div className="flex flex-wrap justify-center">
-										<div className="w-full lg:w-9/12 px-4">
+										<div className="w-full lg:w-9/12">
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-												PT. Tanjung Karya Jaya (TKJ) is a leading provider of
-												Mechanical, Electrical, Plumbing, and HVAC (MEP)
-												construction services. Since our establishment in 2019,
-												we have consistently delivered exceptional projects,
-												built on a foundation of quality, reliability, and
-												customer satisfaction.
+												PT. Tanjung Karya Jaya (TKJ) adalah perusahaan yang
+												bergerak di bidang jasa konstruksi, khususnya di bidang
+												Mekanikal Elektrikal Plumbing dan HVAC. Kami merupakan
+												perusahaan jasa swasta yang berdiri pada tahun 2019, PT.
+												TKJ telah memiliki banyak pengalaman dan pelajaran
+												berharga sehingga tangguh dan dipercaya.
 											</p>
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-												Thanks to the trust of our clients, we have consistently
-												delivered exceptional results in a variety of
-												construction projects, spanning office buildings,
-												commercial properties, and industrial facilities.
+												Kepercayaan yang diberikan oleh customer kami telah
+												menghasilkan karya-karya konstruksi dan hasil yang
+												memuaskan diberbagai sektor seperti gedung perkantoran,
+												gedung komersial, dan pabrik di kawasan industri.
 											</p>
 											<p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-												We have achieved significant growth through successful
-												collaborations with our material vendors,
-												subcontractors, and other business partners.
+												Berkembangnya perusahaan kami tidak luput juga dari
+												kerja sama dan baik dengan seluruh mitra kerja
+												perusahaan mulai dari vendor material, sub-kontraktor
+												dan pihak lainnya.
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="px-6">
+							<div className="px-2">
 								<div className="flex flex-wrap items-center border-t">
 									<div className="w-full lg:w-4/12 px-4 flex justify-center">
 										<img
@@ -156,12 +150,11 @@ export default function Profile() {
 													Vision
 												</h1>
 												<p className="text-blueGray-800 text-lg font-regular">
-													Our vision is to be Indonesia's premier construction
-													company, committed to sustainable growth, customer
-													satisfaction, and the well-being of all stakeholders.
-													We will achieve this through sound corporate
-													governance and a strong commitment to social
-													responsibility.
+													Menjadi perusahaan kontruksi terbaik di Indonesia yang
+													menekan pada perkembangan yang berkesinambungan,
+													kepuasan pelanggan dan kesejahteraan pada pemangku
+													kepentingan melalui penerapan tata kelola yang baik
+													dan komitmen terhadap tanggungjawab sosial.
 												</p>
 											</div>
 
@@ -171,15 +164,16 @@ export default function Profile() {
 												</h1>
 												<ul className="px-4 list-disc">
 													<li className="text-blueGray-800 text-lg font-regular">
-														To foster synergy between management and employees
-														in maintaining company values and pursuing common
-														goals.
+														Menyeragamkan pandangan antara pihak manajemen dan
+														karyawan dalam mempertahankan nilai perusahaan dan
+														mencapai tujuan bersama.
 													</li>
 													<li className="text-blueGray-800 text-lg font-regular">
-														By providing targeted training and implementing a
-														robust recruitment process, we aim to build a
-														high-performing workforce that is committed to our
-														company's success.
+														Memberikan pelatihan dan melaksanakan proses
+														recruitment sumber daya manusia yang tepat untuk
+														menghasilkan tenaga kerja yang kompeten dibidangnya,
+														berdedikasi dan bersemangat tinggi sesuai budaya
+														perusahaan guna mencapai tujuan bersama.
 													</li>
 												</ul>
 											</div>

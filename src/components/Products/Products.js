@@ -19,25 +19,25 @@ const products = [
   {
     id: 1,
     name: "BJLS DUCT",
-    shortDescription: "Ducting BJLS or zinc-coated steel outer insulation...",
+    shortDescription: "Ducting BJLS atau baja lapis seng isolasi luar...",
     fullDescription:
-      "Ducting BJLS or zinc coated steel outer insulation one of which uses glass wool material. This type of glass wool is used as an outer insulation to cover the ducting. This insulation can be adjusted to the temperature of the air to be channeled. The smaller the air temperature (cold), the thicker the glass wool insulation required. Generally, the type of glass wool that is often used is 24kg/m3 with a thickness of 25mm.",
+      "Ducting BJLS atau baja lapis seng isolasi luar salah satunya menggunakan material glass wool. Jenis glass wool digunakan sebagai isolasi luar untuk menyelimuti ducting. Isolasi ini dapat disesuaikan dengan suhu udara yang akan disalurkan. Semakin kecil temperatur udara (dingin) maka, semakin tebal pula isolasi glass wool yang diperlukan. Umumnya, jenis glass wool yang kerap digunakan ialah ukuran 24kg/m3 dengan ketebalan 25mm.",
     images: [product1a, product1b],
   },
   {
     id: 2,
     name: "SQUARE GALVANIZED IRON DUCT",
-    shortDescription: "Square ducting is used to move materials...",
+    shortDescription: "Square ducting digunakan untuk memindahkan material...",
     fullDescription:
-      "Square ducting is used to move materials or production waste, especially fine dust, from production machines to the next stage of production. This ducting can be made of various materials such as BJLS, Stainless Steel, Zincalume, Galvalume and Polyurethane, with varying thicknesses depending on the ducting size and usage requirements. Reinforcements are installed on large square ducting for strength and stability.",
+      "Square ducting digunakan untuk memindahkan material atau limbah produksi, terutama debu halus, dari mesin produksi ke tahap produksi selanjutnya. Ducting ini dapat dibuat dari berbagai bahan seperti BJLS, Stainless Steel, Zincalume, Galvalum dan Poliuretan, dengan ketebalan yang bervariasi tergantung pada ukuran ducting dan kebutuhan penggunaan. Bala bantuan dipasang pada ducting persegi besar untuk kekuatan dan stabilitas.",
     images: [product2a, product2b],
   },
   {
     id: 3,
     name: "AIR GRILLIE",
-    shortDescription: "The Return Air Grille is connected to the ducting...",
+    shortDescription: "Return Air Grille terhubung ke saluran ducting...",
     fullDescription:
-      "Return Air Grille connected to ducting allows air to return to the cooling or heating system. Openings to ducts and other spaces are usually covered with a grille. The system will push air into the room through the duct, increasing the air pressure in the conditioned area. Return ducts allow air to be recirculated or exhausted to the outside, with filters to keep the air clean.",
+      "Return Air Grille terhubung ke saluran ducting memungkinkan udara kembali ke sistem pendinginan atau pemanas. Bukaan menuju saluran dan ruang lain biasanya ditutup dengan grille. Sistem akan mendorong udara ke ruangan melalui saluran, meningkatkan tekanan udara di area yang dikondisikan. Saluran balik memungkinkan udara disirkulasikan ulang atau di buang ke luar, dengan filter untuk menjaga kebersihan udara.",
       images: [product3a, product3b, product3c, product3d, product3e, product3f],
     },
 ];

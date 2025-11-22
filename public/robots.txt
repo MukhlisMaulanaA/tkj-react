@@ -2,4 +2,8 @@
 User-agent: *
 Allow: /
 
+<<<<<<< HEAD
 Sitemap: https://www.tanjungkaryajaya.co.id/sitemap.xml
+=======
+Sitemap: https://tanjungkaryajaya.co.id/sitemap.xml
+>>>>>>> 233efc2d326427d287c40067d540a06202df92f4

@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>https://www.tanjungkaryajaya.co.id/</loc>
+=======
+    <loc>https://tanjungkaryajaya.co.id/</loc>
+>>>>>>> 233efc2d326427d287c40067d540a06202df92f4
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://www.tanjungkaryajaya.co.id/profile</loc>
+=======
+    <loc>https://tanjungkaryajaya.co.id/profile</loc>
+>>>>>>> 233efc2d326427d287c40067d540a06202df92f4
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://www.tanjungkaryajaya.co.id/products</loc>
+=======
+    <loc>https://tanjungkaryajaya.co.id/products</loc>
+>>>>>>> 233efc2d326427d287c40067d540a06202df92f4
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

@@ -9,10 +9,10 @@ const ContactForm = () => {
 
 		emailjs
 			.sendForm(
-				"service_bwo4gco",
-				"template_h96bexo",
+				"service_6d92m1n",
+				"template_imj0ijw",
 				form.current,
-				"Zmpny9s7UBa-MlKLk"
+				"GkpEKzx1ndK0SURLa"
 			)
 			.then((result) => {
 				console.log("Success!", result.status, result.text);

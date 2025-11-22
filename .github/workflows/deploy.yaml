@@ -1,0 +1,25 @@
+name: 🚀 Auto Deploy React Website
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Clone repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./public  # ganti sesuai lokasi package.json kamu
+
+      # 4️⃣ Build React project
+      - name: Build project
+        run: npm run build
+        working-directory: ./public

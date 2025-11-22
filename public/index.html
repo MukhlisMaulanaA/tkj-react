@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
   <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Company Profile PT. Tanjung Karya Jaya" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>PT. Tanjung Karya Jaya</title>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
   <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon-tkj.ico" />
-  <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/tkj-icon.png" />
+  <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" sizes="48x48"/>
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" sizes="48x48"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -30,8 +31,6 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <title>PT. Tanjung Karya Jaya</title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
@@ -46,21 +45,6 @@
   <div id="root"></div>
   <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
   <script src="https://unpkg.com/alpinejs" defer></script>
-  <script>
-    function sendEmail() {
-      const messageParams = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        message: document.getElementById('message').value
-      };
-      emailjs.send('service_bwo4gco', 'template_h96bexo', messageParams)
-        .then(function (response) {
-          console.log('Success!', response.status, response.text);
-          document.getElementById('form').reset();
-          alert('Email sent successfully!');
-        });
-    }
-  </script>
 </body>
 
 </html>

@@ -46,7 +46,7 @@ const ImageCarousel = () => {
         className="absolute top-0 w-full h-full bg-center bg-cover transition-all duration-1000 ease-in-out"
         style={{ backgroundImage: `url('${images[currentImage]}')` }}
       >
-        <span id="blackOverlay" className="w-full h-full absolute opacity-50 bg-black"></span>
+        <span id="blackOverlay" className="w-full h-full absolute opacity-30 bg-black"></span>
       </div>
 
       {/* Left and Right Navigation Buttons */}
