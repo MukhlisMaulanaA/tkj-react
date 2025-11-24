@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
   "name": "tanjung-karya-jaya",
   "version": "1.1.0",
   "description": "PT. Tanjung Karya Jaya, Your Partner in Mechanical, Electrical, Plumbing, and HVAC.",
   "repository": "https://github.com/MukhlisMaulanaA/tkj-react.git",
-=======
-  "name": "pt.tanjung-karya-jaya",
-  "version": "1.1.0",
-  "description": "PT. Tanjung Karya Jaya, Your Partner in Mechanical, Electrical, Plumbing, and HVAC.",
-  "repository": "https://github.com/MukhlisMaulanaA/tkj-react",
->>>>>>> 233efc2d326427d287c40067d540a06202df92f4
   "license": "MIT",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
