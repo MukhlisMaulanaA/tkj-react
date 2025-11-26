@@ -91,11 +91,19 @@ export default function Profile() {
 											</a>
 										</div>
 									</div>
-									<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
-										<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-										<a href="https://wa.me/6282146279008" rel="noopener">
-											+62 821-4627-9008
-										</a>
+									<div className="flex flex-row flex-wrap justify-center gap-4 mb-2 text-blueGray-600 hover:text-blueGray-800">
+										<div>
+											<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
+											<a href="https://wa.me/6282146279008" rel="noopener">
+												+62 821-4627-9008
+											</a>
+										</div>
+										<div>
+											<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
+											<a href="https://wa.me/6282125982221" rel="noopener">
+												+62 821-2598-2221
+											</a>
+										</div>
 									</div>
 									<a
 										href={profilePDF}
