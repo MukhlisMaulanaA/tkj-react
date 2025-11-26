@@ -59,50 +59,75 @@ export default function Profile() {
 										</div>
 									</div>
 								</div>
-								<div className="text-center mt-32">
+								<div className="text-center mt-32 px-4">
+									{/* --- HEADER --- */}
 									<h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700">
 										PT. Tanjung Karya Jaya
 									</h3>
+
 									<div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
 										<i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
 										Kabupaten Bekasi, Jawa Barat
 									</div>
-									<div className="mb-2 text-blueGray-600 mt-10">
-										<i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-										Kontraktor Mechanical - Electrical - Plumbing dan HVAC
-									</div>
-									<div className="flex flex-row flex-wrap justify-center gap-4">
-										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
-											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a
-												href="mailto:officetkj@tanjungkaryajaya.co.id"
-												rel="noopener"
-											>
-												officetkj@tanjungkaryajaya.co.id
-											</a>
-										</div>
-										<div className="mb-2 text-blueGray-600 hover:text-blueGray-800">
-											<i className="fas fa-envelope mr-2 text-lg text-blueGray-400"></i>
-											<a
-												href="mailto:infotkj@tanjungkaryajaya.co.id"
-												rel="noopener"
-											>
-												infotkj@tanjungkaryajaya.co.id
-											</a>
+
+									{/* --- BIDANG USAHA (Ditebalkan & Diperbesar) --- */}
+									{/* Menambahkan font-bold, text-lg, dan warna yang lebih gelap */}
+									<div className="mt-5 mb-8">
+										<div className="text-xl font-bold text-blueGray-700 uppercase tracking-wide">
+											<i className="fas fa-briefcase mr-2 text-blueGray-500"></i>
+											Kontraktor Mechanical - Electrical - Plumbing dan HVAC
 										</div>
 									</div>
-									<div className="flex flex-row flex-wrap justify-center gap-4 mb-2 text-blueGray-600 hover:text-blueGray-800">
-										<div>
-											<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-											<a href="https://wa.me/6282146279008" rel="noopener">
-												+62 821-4627-9008
-											</a>
+
+									{/* --- KONTAK (GRID SYSTEM) --- */}
+									{/* Menggunakan Grid: 1 kolom di Mobile, 2 kolom di Layar Besar (md) */}
+									<div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+										{/* Kolom Kiri: Email */}
+										<div className="flex flex-col items-center justify-start">
+											<h6 className="text-blueGray-400 text-xs uppercase font-bold mb-2">
+												Email & Korespondensi
+											</h6>
+
+											<div className="mb-2 text-blueGray-700 hover:text-blueGray-900 transition-colors">
+												<i className="fas fa-envelope mr-2 text-blueGray-400"></i>
+												<a
+													href="mailto:officetkj@tanjungkaryajaya.co.id"
+													rel="noopener"
+												>
+													officetkj@tanjungkaryajaya.co.id
+												</a>
+											</div>
+
+											<div className="mb-2 text-blueGray-700 hover:text-blueGray-900 transition-colors">
+												<i className="fas fa-envelope mr-2 text-blueGray-400"></i>
+												<a
+													href="mailto:infotkj@tanjungkaryajaya.co.id"
+													rel="noopener"
+												>
+													infotkj@tanjungkaryajaya.co.id
+												</a>
+											</div>
 										</div>
-										<div>
-											<i className="fas fa-phone mr-2 text-lg text-blueGray-400"></i>
-											<a href="https://wa.me/6282125982221" rel="noopener">
-												+62 821-2598-2221
-											</a>
+
+										{/* Kolom Kanan: Telepon */}
+										<div className="flex flex-col items-center justify-start">
+											<h6 className="text-blueGray-400 text-xs uppercase font-bold mb-2">
+												Telepon & WhatsApp
+											</h6>
+
+											<div className="mb-2 text-blueGray-700 hover:text-blueGray-900 transition-colors">
+												<i className="fas fa-phone mr-2 text-blueGray-400"></i>
+												<a href="https://wa.me/6282146279008" rel="noopener">
+													+62 821-4627-9008
+												</a>
+											</div>
+
+											<div className="mb-2 text-blueGray-700 hover:text-blueGray-900 transition-colors">
+												<i className="fas fa-phone mr-2 text-blueGray-400"></i>
+												<a href="https://wa.me/6282125982221" rel="noopener">
+													+62 821-2598-2221
+												</a>
+											</div>
 										</div>
 									</div>
 									<a
@@ -111,7 +136,7 @@ export default function Profile() {
 										type="button"
 										download={profilePDF}
 									>
-										Download PDF Profile
+										<i className="fas fa-file-download mr-2"></i>Download PDF Profile
 									</a>
 								</div>
 								<div className="mt-10 py-10 border-t border-blueGray-200 text-center">
