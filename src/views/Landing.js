@@ -475,6 +475,16 @@ export default function Landing() {
 														</a>
 													</p>
 													<p class="text-white">
+														Mobile:{" "}
+														<a
+															href="https://wa.me/6282125982221"
+															rel="noopener"
+														>
+															{" "}
+															+62 821-2598-2221
+														</a>
+													</p>
+													<p class="text-white">
 														Mail:
 														<a
 															href="mailto:officetkj@tanjungkaryajaya.co.id"
