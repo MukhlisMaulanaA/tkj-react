@@ -467,21 +467,21 @@ export default function Landing() {
 													<p class="text-white">
 														Mobile:{" "}
 														<a
-															href="https://wa.me/6282146279008"
-															rel="noopener"
-														>
-															{" "}
-															+62 821-4627-9008
-														</a>
-													</p>
-													<p class="text-white">
-														Mobile:{" "}
-														<a
 															href="https://wa.me/6282125982221"
 															rel="noopener"
 														>
 															{" "}
 															+62 821-2598-2221
+														</a>
+													</p>
+													<p class="text-white">
+														Mobile:{" "}
+														<a
+															href="https://wa.me/6282146279008"
+															rel="noopener"
+														>
+															{" "}
+															+62 821-4627-9008
 														</a>
 													</p>
 													<p class="text-white">
